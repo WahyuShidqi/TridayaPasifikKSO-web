@@ -1,0 +1,114 @@
+.languageswitchersection {
+  display: flex;
+  flex-direction: row-reverse !important;
+  align-items: center;
+}
+
+.countryName {
+  color: white;
+}
+
+.translation-icon {
+  font-size: 2rem;
+  color: #0095cf;
+  border: none;
+}
+.translation-icon:hover {
+  color: orange;
+}
+.translation-icon:focus {
+  color: orange;
+}
+/* Button to toggle the language switcher */
+.language-btn {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+  border: none;
+  width: 4rem; /* 64px */
+  padding: 0.75rem; /* 12px */
+  color: white !important;
+  cursor: pointer;
+  /* box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2); 4px 6px */
+  /* border-radius: 15%; */
+  height: fit-content;
+}
+
+.language-btn:focus {
+  outline-color: #00b3f9;
+}
+
+/* Language switcher panel (initially off-screen) */
+.language-panel {
+  bottom: 5rem; /* 80px */
+  right: 1.25rem; /* 20px */
+  background-color: #00b3f9;
+  /* Dark but not pure black with transparency */
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.3); /* 4px 6px */
+  padding: 0.5rem 0.75rem; /* 8px 12px */
+  border-top-left-radius: 0.5rem; /* 8px */
+  border-bottom-left-radius: 0.5rem; /* 8px */
+  display: flex;
+  flex-direction: row; /* Arrange buttons in column */
+  align-items: center;
+  z-index: 999;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+  transform: translateX(0.3125rem); /* 5% */
+  opacity: 0; /* Initially hidden */
+  height: 3.5rem;
+}
+
+/* Fade-up effect when the panel is shown */
+.language-panel.show {
+  transform: translateY(0); /* Slide into view */
+  opacity: 1; /* Make visible */
+}
+
+/* Language switcher buttons */
+.language-panel button {
+  background-color: transparent;
+  border: none;
+  margin: 0.25rem 0; /* 4px 0 */
+  font-size: 1rem; /* 16px */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Flag icons */
+.flag-icon {
+  width: 1.5rem; /* 24px */
+  height: 1rem; /* 16px */
+  object-fit: cover;
+  border-radius: 0.25rem; /* 4px */
+  margin-right: 0.5rem; /* 8px */
+}
+
+/* Responsive behavior */
+@media (max-width: 48rem) {
+  /* 768px */
+  .language-btn {
+    padding: 0.625rem; /* 10px */
+    font-size: 1rem; /* 16px */
+  }
+
+  .language-panel {
+    bottom: 3.75rem; /* 60px */
+    right: 0.625rem; /* 10px */
+    padding: 0.375rem 0.625rem; /* 6px 10px */
+  }
+
+  .language-panel button {
+    font-size: 0.875rem; /* 14px */
+  }
+}
+
+@media (max-width: 36rem) {
+  /* 576px */
+  .language-panel {
+    bottom: 3.125rem; /* 50px */
+    right: 0.3125rem; /* 5px */
+  }
+
+  .language-panel button {
+    margin: 0.25rem 0; /* 4px 0 */
+  }
+}

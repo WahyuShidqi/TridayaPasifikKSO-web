@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multilingual Website</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+    />
+    <link rel="stylesheet" href="./css/languagebutton.css" />
+    <script
+      src="https://kit.fontawesome.com/800d03b5f4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <h1 data-translate="header.welcome"></h1>
+      <p data-translate="header.description"></p>
+    </header>
+
+    <footer>
+      <p data-translate="footer.copyright"></p>
+      <p data-translate="footer.contact"></p>
+    </footer>
+
+    <!-- Toggle Language Button (Google Translate-like icon) -->
+
+    <div class="languageswitchersection">
+      <button class="language-btn" onclick="toggleLanguagePanel()">
+        <i class="translation-icon fa-solid fa-language"></i>
+      </button>
+
+      <!-- Language Switcher Panel -->
+      <div class="language-panel" id="languagePanel">
+        <button onclick="setLanguage('en')" class="btn btn-link">
+          <span class="flag-icon flag-icon-us"></span> <span>English</span>
+        </button>
+        <button onclick="setLanguage('id')" class="btn btn-link">
+          <span class="flag-icon flag-icon-id"></span> <span>Indonesian</span>
+        </button>
+      </div>
+    </div>
+    <!-- END -->
+
+    <script src="./Localization/index.translation.js"></script>
+    <script src="./Localization/translationFunction.js"></script>
+    <script>
+      let userName = prompt("What is your name?");
+
+      function alertdelay() {
+        alert("Wait! you are not him!");
+        alert("Try again next time!");
+        window.location.href = "about:blank";
+      }
+
+      if (userName.toLowerCase() !== "wahyu") {
+        setTimeout(alertdelay(), 3000);
+      } else {
+        alert("Welcome " + userName + "!");
+      }
+    </script>
+  </body>
+</html>
