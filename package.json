@@ -1,0 +1,19 @@
+{
+  "name": "tridayapasifikkso",
+  "version": "1.0.0",
+  "description": "Website project made for Tridaya Pasifik KSO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WahyuShidqi/TridayaPasifikKSO-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WahyuShidqi/TridayaPasifikKSO-web/issues"
+  },
+  "homepage": "https://github.com/WahyuShidqi/TridayaPasifikKSO-web#readme"
+}

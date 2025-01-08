@@ -61,9 +61,16 @@
       }
 
       if (userName.toLowerCase() !== "wahyu") {
-        setTimeout(alertdelay(), 3000);
+        setTimeout(alertdelay(), 100);
       } else {
         alert("Welcome " + userName + "!");
+      }
+      const passWord = prompt("What is your password?");
+      if (passWord !== "14532905Ws!") {
+        alert("Who are you!");
+        setTimeout(alertdelay(), 100);
+      } else {
+        alert("Welcome " + userName + "! You are truly him!");
       }
     </script>
   </body>

@@ -100,10 +100,10 @@
                       >Call us</span
                     ><a
                       class="phonenumber"
-                      href="tel:+6285175111586"
+                      href="tel:tel:+626513612327"
                       target="_blank"
                       style="color: white"
-                      >(+62) 6513612327</a
+                      >(+62) 651 3612 327</a
                     >
                   </div>
                 </div>
@@ -171,11 +171,7 @@
         <!-- Toggle Language Button (Google Translate-like icon) -->
 
         <div class="languageswitchersection order-lg-last">
-          <button
-            class="language-btn"
-            onclick="toggleLanguagePanel()"
-            style="background-color: transparent"
-          >
+          <button class="language-btn" onclick="toggleLanguagePanel()">
             <i class="translation-icon fa-solid fa-language"></i>
           </button>
 
@@ -271,7 +267,10 @@
           </div>
         </div>
 
-        <div class="slider-item" style="background-image: url(images/bg_2.jpg)">
+        <div
+          class="slider-item"
+          style="background-image: url(images/bg_2_upscaled.webp)"
+        >
           <div class="overlay"></div>
           <div class="container">
             <div
@@ -313,11 +312,11 @@
             "
           >
             <div class="intro-box d-flex align-items-center">
-              <div
+              <!-- <div
                 class="icon d-flex align-items-center justify-content-center"
               >
                 <i class="fa-solid fa-fish-fins"></i>
-              </div>
+              </div> -->
               <h2 class="mb-0" data-translate="homepage.likeourproduct">
                 Do you like our product?
               </h2>
@@ -334,15 +333,18 @@
         </div>
       </div>
     </section>
-
+    <!-- Bagian pengenalan perusahaan -->
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading" data-translate="homepage.weofferservice"
-              >We offer Services</span
+            <!-- <span class="subheading" data-translate=""></span> -->
+            <h2
+              data-translate="homepage.whyus.whyusTitle"
+              style="font-size: 3rem"
             >
-            <h2 data-translate="homepage.ourservices">Our factory services</h2>
+              Why us?
+            </h2>
           </div>
         </div>
         <div class="row">
@@ -351,30 +353,34 @@
               <div
                 class="icon d-flex justify-content-center align-items-center"
               >
-                <span class="flaticon-car-service"></span>
+                <span class="fas fa-fish"></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Oil change</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
+                <h3 class="heading" data-translate="homepage.whyus.icon1title">
+                  Fresh Fish Supply
+                </h3>
+                <p data-translate="homepage.whyus.icon1text">
+                  We guarantee the freshest fish for local and export markets,
+                  meeting the highest standards of quality and sustainability
                 </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                <!-- <p><a href="#" class="btn-custom">Read more</a></p> -->
               </div>
             </div>
             <div class="d-block d-flex">
               <div
                 class="icon d-flex justify-content-center align-items-center"
               >
-                <span class="flaticon-tyre"></span>
+                <span class="fas fa-snowflake"></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Tire Change</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
+                <h3 class="heading" data-translate="homepage.whyus.icon2title">
+                  Cold Storage Solutions
+                </h3>
+                <p data-translate="homepage.whyus.icon2text">
+                  Our modern facilities ensure your fish remains fresh and
+                  preserved for longer durations
                 </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                <!-- <p><a href="#" class="btn-custom">Read more</a></p> -->
               </div>
             </div>
           </div>
@@ -383,30 +389,34 @@
               <div
                 class="icon d-flex justify-content-center align-items-center"
               >
-                <span class="flaticon-battery"></span>
+                <span class="fas fa-globe"></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Batteries</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
+                <h3 class="heading" data-translate="homepage.whyus.icon3title">
+                  Export Expertise
+                </h3>
+                <p data-translate="homepage.whyus.icon3text">
+                  With years of experience in international trade, we handle the
+                  logistics to deliver your products worldwide
                 </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                <!-- <p><a href="#" class="btn-custom">Read more</a></p> -->
               </div>
             </div>
             <div class="d-block d-flex">
               <div
                 class="icon d-flex justify-content-center align-items-center"
               >
-                <span class="flaticon-car-engine"></span>
+                <span class="fas fa-industry"></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Engine Repair</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
+                <h3 class="heading" data-translate="homepage.whyus.icon4title">
+                  Fish Processing
+                </h3>
+                <p data-translate="homepage.whyus.icon4text">
+                  From cleaning to packaging, we provide comprehensive fish
+                  processing services tailored to your needs
                 </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                <!-- <p><a href="#" class="btn-custom">Read more</a></p> -->
               </div>
             </div>
           </div>
@@ -416,36 +426,41 @@
               <div
                 class="icon d-flex justify-content-center align-items-center"
               >
-                <span class="flaticon-tow-truck"></span>
+                <span class="fas fa-leaf"></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Tow Truck</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
+                <h3 class="heading" data-translate="homepage.whyus.icon5title">
+                  Sustainable Practices
+                </h3>
+                <p data-translate="homepage.whyus.icon5text">
+                  We are committed to eco-friendly methods, ensuring minimal
+                  impact on the environment while maximizing productivity
                 </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                <!-- <p><a href="#" class="btn-custom">Read more</a></p> -->
               </div>
             </div>
             <div class="d-block d-flex">
               <div
                 class="icon d-flex justify-content-center align-items-center"
               >
-                <span class="flaticon-repair"></span>
+                <span class="fas fa-headset"></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Car Maintenance</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
+                <h3 class="heading" data-translate="homepage.whyus.icon6title">
+                  Customer Support
+                </h3>
+                <p data-translate="homepage.whyus.icon6text">
+                  Our dedicated team is always ready to assist you, ensuring
+                  smooth operations and excellent service
                 </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                <!-- <p><a href="#" class="btn-custom">Read more</a></p> -->
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Pengenalan perusahaan end -->
 
     <section class="ftco-section ftco-no-pt ftco-no-pb bg-light">
       <div class="container">
@@ -500,11 +515,16 @@
                         class="nav-link active py-2"
                         data-toggle="tab"
                         href="#home1"
+                        data-translate="homepage.visimisi.buttonSection.misi"
                         >Our Mission</a
                       >
                     </li>
                     <li class="nav-item px-lg-2 mb-md-0 mb-2">
-                      <a class="nav-link py-2" data-toggle="tab" href="#home2"
+                      <a
+                        class="nav-link py-2"
+                        data-toggle="tab"
+                        href="#home2"
+                        data-translate="homepage.visimisi.buttonSection.visi"
                         >Our Vision</a
                       >
                     </li>
@@ -525,56 +545,66 @@
                     >
                       <ul>
                         <li>
-                          <span class="font-weight-bold" style="display: block"
-                            >Meningkatkan Produksi Perikanan
-                            Berkelanjutan:</span
+                          <span
+                            class="font-weight-bold"
+                            style="display: block"
+                            data-translate="homepage.visimisi.misi.poin1title"
+                          ></span>
+                          <span
+                            data-translate="homepage.visimisi.misi.poin1text"
                           >
-                          Mengembangkan dan menerapkan praktik perikanan yang
-                          berkelanjutan, mengutamakan konservasi sumber daya
-                          laut dan pemeliharaan ekosistem agar dapat memenuhi
-                          kebutuhan pasar jangka panjang
-                        </li>
-                        <li>
-                          <span class="font-weight-bold" style="display: block">
-                            Inovasi dalam Teknologi Perikanan:</span
-                          >
-                          Menggunakan teknologi terkini dalam proses budidaya,
-                          pengolahan, dan distribusi untuk meningkatkan
-                          efisiensi, kualitas produk, dan daya saing
-                        </li>
-                        <li>
-                          <span class="font-weight-bold" style="display: block">
-                            Pemberdayaan Masyarakat Pesisir:</span
-                          >
-                          Memberdayakan komunitas nelayan dan petani ikan dengan
-                          pelatihan, pendampingan, dan akses ke pasar, sehingga
-                          dapat meningkatkan kesejahteraan mereka serta
-                          menciptakan lapangan pekerjaan
-                        </li>
-                        <li>
-                          <span class="font-weight-bold" style="display: block">
-                            Kepedulian terhadap Kualitas dan Keamanan Produk:
                           </span>
-                          Menjamin produk perikanan yang dihasilkan memiliki
-                          kualitas tinggi dan memenuhi standar keamanan pangan
-                          yang ketat, dengan mengutamakan kebersihan dan
-                          kehalalan
                         </li>
                         <li>
-                          <span class="font-weight-bold" style="display: block">
-                            Edukasi dan Kesadaran Lingkungan:
+                          <span
+                            class="font-weight-bold"
+                            style="display: block"
+                            data-translate="homepage.visimisi.misi.poin2title"
+                          ></span>
+                          <span
+                            data-translate="homepage.visimisi.misi.poin2text"
+                          >
                           </span>
-                          Mengedukasi konsumen dan masyarakat tentang pentingnya
-                          menjaga kelestarian sumber daya alam laut, serta
-                          mempromosikan pola konsumsi yang bertanggung jawab
-                          terhadap keberlanjutan sumber daya perikanan
+                        </li>
+                        <li>
+                          <span
+                            class="font-weight-bold"
+                            style="display: block"
+                            data-translate="homepage.visimisi.misi.poin3title"
+                          ></span>
+                          <span
+                            data-translate="homepage.visimisi.misi.poin3text"
+                          >
+                          </span>
+                        </li>
+                        <li>
+                          <span
+                            class="font-weight-bold"
+                            style="display: block"
+                            data-translate="homepage.visimisi.misi.poin4title"
+                          ></span>
+                          <span
+                            data-translate="homepage.visimisi.misi.poin4text"
+                          >
+                          </span>
+                        </li>
+                        <li>
+                          <span
+                            class="font-weight-bold"
+                            style="display: block"
+                            data-translate="homepage.visimisi.misi.poin5title"
+                          ></span>
+                          <span
+                            data-translate="homepage.visimisi.misi.poin5text"
+                          >
+                          </span>
                         </li>
                       </ul>
                     </div>
                     <div
                       class="tab-pane container p-0 fade"
                       id="home2"
-                      data-translate="homepage.vision"
+                      data-translate="homepage.visimisi.visi"
                     >
                       <p>
                         Menjadi perusahaan terkemuka yang berkontribusi pada
@@ -656,8 +686,14 @@
     </section> -->
 
     <section
-      class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img"
-      style="background-image: url(images/bg_3.jpg)"
+      class="ftco-section ftco-no-pt ftco-no-pb img"
+      style="
+        background-image: url(images/FrozenSlicedTunaCropped.jpg);
+        background-color: orange;
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+      "
     >
       <div class="overlay"></div>
       <div class="container">
@@ -681,12 +717,53 @@
                           <span class="fa fa-chevron-down"></span>
                         </div>
                         <select name="" id="" class="form-control">
-                          <option value="">Select services</option>
-                          <option value="">Jasa Proses</option>
-                          <option value="">Jasa Simpan</option>
-                          <!-- <option value="">Battery Replace</option>
-                          <option value="">Change Tire</option>
-                          <option value="">Tow Truck</option> -->
+                          <option value="">Select product</option>
+                          <option value="" class="font-weight-bold">
+                            --- Frozen Tuna ---
+                          </option>
+                          <option value="">
+                            Tuna Sirip Kuning Beku\Frozen Yellowfin Tuna
+                          </option>
+                          <option value="">
+                            Tuna Mata Besar Beku\Frozen Big eye Tuna
+                          </option>
+                          <option value="" class="font-weight-bold">
+                            --- Fresh Tuna ---
+                          </option>
+                          <option value="">
+                            Tuna Sirip Kuning Segar\Fresh Yellowfin Tuna
+                          </option>
+                          <option value="">
+                            Tuna Mata Besar Segar\Fresh Big Eye Tuna
+                          </option>
+                          <option value="" class="font-weight-bold">
+                            --- Demersal Beku\Frozen Demersal ---
+                          </option>
+                          <option value="">Layur</option>
+                          <option value="">Kerapu Merah</option>
+                          <option value="">Kakap</option>
+                          <option value="">Bawal</option>
+                          <option value="">Kurisi</option>
+                          <option value="">Buntal</option>
+                          <option value="">Kambing-Kambing</option>
+                          <option value="">Bandeng</option>
+                          <option value="" class="font-weight-bold">
+                            --- Pelagis Frozen\Frozen Pelagic Fish ---
+                          </option>
+                          <option value="">Cakalang</option>
+                          <option value="">Layang</option>
+                          <option value="">Marlin</option>
+                          <option value="">Layaran</option>
+                          <option value="">Selar Kuning</option>
+                          <option value="">Kembung</option>
+                          <option value="">Cencaru</option>
+                          <option value="">Lemuru</option>
+                          <option value="" class="font-weight-bold">
+                            --- Sefalopoda Beku\Frozen Cephalopoda ---
+                          </option>
+                          <option value="">Gurita</option>
+                          <option value="">Cumi</option>
+                          <option value="">Sotong</option>
                         </select>
                       </div>
                     </div>
@@ -706,7 +783,7 @@
                     <input
                       type="text"
                       class="form-control"
-                      placeholder="Vehicle number"
+                      placeholder="Your Location"
                     />
                   </div>
                 </div>
@@ -796,7 +873,7 @@
                     <div class="card" style="width: 18rem">
                       <img
                         class="card-img-top"
-                        src="..."
+                        src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
                         alt="Card image cap"
                       />
                       <div class="card-body">
@@ -829,7 +906,22 @@
                     <span class="fa fa-quote-left"></span>
                   </div>
                   <div class="text">
-                    <p class="mb-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        class="card-img-top"
+                        src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+                        alt="Card image cap"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                    <!-- <p class="mb-4">
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
                       texts.
@@ -843,7 +935,7 @@
                         <p class="name">Roger Scott</p>
                         <span class="position">Marketing Manager</span>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -855,7 +947,22 @@
                     <span class="fa fa-quote-left"></span>
                   </div>
                   <div class="text">
-                    <p class="mb-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        class="card-img-top"
+                        src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+                        alt="Card image cap"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                    <!-- <p class="mb-4">
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
                       texts.
@@ -869,7 +976,7 @@
                         <p class="name">Roger Scott</p>
                         <span class="position">Marketing Manager</span>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -881,7 +988,22 @@
                     <span class="fa fa-quote-left"></span>
                   </div>
                   <div class="text">
-                    <p class="mb-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        class="card-img-top"
+                        src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+                        alt="Card image cap"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                    <!-- <p class="mb-4">
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
                       texts.
@@ -895,7 +1017,7 @@
                         <p class="name">Roger Scott</p>
                         <span class="position">Marketing Manager</span>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -907,7 +1029,22 @@
                     <span class="fa fa-quote-left"></span>
                   </div>
                   <div class="text">
-                    <p class="mb-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        class="card-img-top"
+                        src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+                        alt="Card image cap"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                    <!-- <p class="mb-4">
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
                       texts.
@@ -921,7 +1058,7 @@
                         <p class="name">Roger Scott</p>
                         <span class="position">Marketing Manager</span>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -935,8 +1072,14 @@
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">News &amp; Blog</span>
-            <h2>Latest news from our blog</h2>
+            <span
+              class="subheading"
+              data-translate="homepage.newsPage.newsHeader"
+              >News &amp; Blog</span
+            >
+            <h2 data-translate="homepage.newsPage.newsSubheader">
+              Latest news from our blog
+            </h2>
           </div>
         </div>
         <div class="row d-flex">
@@ -960,7 +1103,7 @@
                   </div>
                 </div>
                 <h3 class="heading">
-                  <a href="#">Best wheel alignment &amp; air conditioning</a>
+                  <a href="#">WE LOVE TUNA</a>
                 </h3>
               </div>
             </div>
@@ -985,7 +1128,7 @@
                   </div>
                 </div>
                 <h3 class="heading">
-                  <a href="#">Best wheel alignment &amp; air conditioning</a>
+                  <a href="#">WE LOVE TUNA</a>
                 </h3>
               </div>
             </div>
@@ -1010,7 +1153,7 @@
                   </div>
                 </div>
                 <h3 class="heading">
-                  <a href="#">Best wheel alignment &amp; air conditioning</a>
+                  <a href="#">WE LOVE TUNA</a>
                 </h3>
               </div>
             </div>
@@ -1023,15 +1166,29 @@
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Price &amp; Plans</span>
-            <h2>Pricing</h2>
+            <span class="subheading" data-translate="homepage.socialMedia.title"
+              >SOCIAL MEDIA</span
+            >
+            <h2 data-translate="homepage.socialMedia.subtitle">
+              Follow our social media
+            </h2>
+            <div class="SocMedIcon">
+              <a href="#" class="myIcon"><span class="fa fa-twitter"></span></a>
+              <a href="#" class="myIcon"
+                ><span class="fa fa-facebook"></span
+              ></a>
+              <a href="#" class="myIcon"
+                ><span class="fa fa-instagram"></span
+              ></a>
+            </div>
+            <h4>⬇️Ganti card dibawah dengan carousel gallery⬇️</h4>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 col-lg-3 ftco-animate">
             <div class="block-7">
               <div class="text-center">
-                <span class="excerpt d-block">First PMS</span>
+                <span class="excerpt d-block">We love Tuna</span>
                 <span class="price"
                   ><sup>$</sup> <span class="number">78.98</span></span
                 >
@@ -1052,7 +1209,7 @@
           <div class="col-md-6 col-lg-3 ftco-animate">
             <div class="block-7">
               <div class="text-center">
-                <span class="excerpt d-block">Engine Diagnostics</span>
+                <span class="excerpt d-block">We love Tuna</span>
                 <span class="price"
                   ><sup>$</sup> <span class="number">83.75</span></span
                 >
@@ -1073,7 +1230,7 @@
           <div class="col-md-6 col-lg-3 ftco-animate">
             <div class="block-7">
               <div class="text-center">
-                <span class="excerpt d-block">Tow Truck</span>
+                <span class="excerpt d-block">We love Tuna</span>
                 <span class="price"
                   ><sup>$</sup> <span class="number">85.00</span></span
                 >
@@ -1094,7 +1251,7 @@
           <div class="col-md-6 col-lg-3 ftco-animate">
             <div class="block-7">
               <div class="text-center">
-                <span class="excerpt d-block">Car Wash</span>
+                <span class="excerpt d-block">We love Tuna</span>
                 <span class="price"
                   ><sup>$</sup> <span class="number">30.50</span></span
                 >
@@ -1116,7 +1273,7 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-no-pb">
+    <!-- <section class="ftco-section ftco-no-pb">
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -1208,7 +1365,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer class="footer ftco-section">
       <div class="container">
@@ -1239,7 +1396,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-6 col-lg">
+          <!-- <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
@@ -1270,33 +1427,42 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> -->
           <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Contact information</h2>
+              <h2
+                class="ftco-heading-2"
+                data-translate="footer.contactInformation"
+              >
+                Contact information
+              </h2>
               <div class="block-23 mb-3">
                 <ul>
                   <li>
-                    <span class="icon fa fa-map-marker"></span
-                    ><span class="text"
-                      >203 Fake St. Mountain View, San Francisco, California,
-                      USA</span
+                    <a
+                      href="https://maps.app.goo.gl/1dZTmQGPtquEExcA6"
+                      target="_blank"
+                      ><span class="icon fa fa-map-marker"></span
+                      ><span class="text"
+                        >Komp. PPS Jalan Sisingamangaraja No.Ujung, Lampulo,
+                        Kec. Kuta Alam, Kota Banda Aceh, Aceh</span
+                      ></a
                     >
                   </li>
                   <li>
-                    <a href="#"
+                    <a href="tel:+626513612327" target="_blank"
                       ><span class="icon fa fa-phone"></span
-                      ><span class="text">+2 392 3929 210</span></a
+                      ><span class="text">(+62) 651 3612 327</span></a
                     >
                   </li>
                   <li>
-                    <a href="#"
+                    <a
+                      href="mailto:mkt.tridayapasifikkso@gmail.com"
+                      target="_blank"
                       ><span class="icon fa fa-paper-plane"></span
                       ><span class="text"
-                        ><span
-                          class="__cf_email__"
-                          data-cfemail="4f262129200f36203a3d2b20222e2621612c2022"
-                          >[email&#160;protected]</span
+                        ><span class="__cf_email__"
+                          >mkt.tridayapasifikkso@gmail.com</span
                         ></span
                       ></a
                     >
@@ -1307,17 +1473,29 @@
           </div>
           <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Business Hours</h2>
+              <h2
+                class="ftco-heading-2"
+                data-translate="footer.businessHours.title"
+              >
+                Business Hours
+              </h2>
               <div class="opening-hours">
-                <h4>Opening Days:</h4>
+                <h4 data-translate="footer.businessHours.openingDays.title">
+                  Opening Days:
+                </h4>
                 <p class="pl-3">
-                  <span>Monday – Friday : 9am to 20 pm</span>
-                  <span>Saturday : 9am to 17 pm</span>
+                  <span data-translate="footer.businessHours.openingDays.text"
+                    >Monday – Friday : 9:00am to 17:00 pm</span
+                  >
+                  <!-- <span>Saturday : 9am to 17 pm</span> -->
                 </p>
-                <h4>Vacations:</h4>
+                <h4 data-translate="footer.businessHours.vacation.title">
+                  Vacations:
+                </h4>
                 <p class="pl-3">
-                  <span>All Sunday Days</span>
-                  <span>All Official Holidays</span>
+                  <span data-translate="footer.businessHours.vacation.text"
+                    >Saturday and Sunday, as well as all official Holidays
+                  </span>
                 </p>
               </div>
             </div>

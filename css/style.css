@@ -8,6 +8,24 @@
 /* body {
   background: #d5f2ff !important;
 } */
+.SocMedIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.myIcon {
+  color: black;
+}
+
+.myIcon:hover {
+  color: orange;
+  transform: scale(1.2);
+  transition: transform 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
 .productlist-subheading {
   color: #1ec0ff;
   font-size: medium;
