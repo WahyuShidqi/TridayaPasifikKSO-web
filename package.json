@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WahyuShidqi/TridayaPasifikKSO-web/issues"
   },
-  "homepage": "https://github.com/WahyuShidqi/TridayaPasifikKSO-web#readme"
+  "homepage": "https://github.com/WahyuShidqi/TridayaPasifikKSO-web#readme",
+  "dependencies": {
+    "swiper": "^11.2.0"
+  }
 }
