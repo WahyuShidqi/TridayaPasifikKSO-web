@@ -1,0 +1,54 @@
+section > .container > .row > .ftco-animate > div.card {
+  box-sizing: border-box;
+  box-shadow: 12px 10px grey;
+  border-radius: 5%;
+  animation: reverseShadow 0.5s ease-in-out forwards; /* Reverse animation */
+}
+
+section > .container > .row > .ftco-animate > div.card > img {
+  border-radius: 5% 5% 0 0;
+}
+
+section > .container > .row > .ftco-animate > div.card > div.card-body {
+  padding: 1rem;
+  border: 2px solid black;
+  border-top: none;
+  border-radius: 0 0 5% 5%;
+}
+
+section > .container > .row > .ftco-animate > div.card:hover {
+  animation: movingShadow 0.5s ease-in-out forwards; /* Forward animation */
+}
+
+@keyframes movingShadow {
+  from {
+    box-shadow: 12px 10px grey;
+  }
+  to {
+    box-shadow: 20px 15px rgb(183, 183, 183);
+  }
+}
+
+@keyframes reverseShadow {
+  from {
+    box-shadow: 20px 15px rgb(183, 183, 183);
+  }
+  to {
+    box-shadow: 12px 10px grey;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section > .container > .row > .ftco-animate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section > .container > .row > .ftco-animate > div.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+}
