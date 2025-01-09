@@ -15,6 +15,8 @@ const translations = {
       blog: "BLOG",
       contact: "CONTACT",
       address: "Address",
+      addresslink:
+        "Lampulo, Kuta Alam District, Banda Aceh City, Aceh, Indonesia",
       callus: "Call us",
     },
     // Translation data for homepage
@@ -125,6 +127,7 @@ const translations = {
       blog: "BERITA",
       contact: "KONTAK",
       address: "Alamat",
+      addresslink: "Lampulo, Kec. Kuta Alam, Kota Banda Aceh, Aceh, Indonesia",
       callus: "Hubungi kami",
     },
     // Translation data for homepage
