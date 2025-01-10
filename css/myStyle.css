@@ -1,0 +1,119 @@
+.myContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.myCard {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.myImg {
+  max-width: 24rem;
+  max-height: 16rem;
+  border-radius: 10px;
+}
+
+/* Custom Styles */
+
+.myContainer > div h1 {
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.experienceIcon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(3, 1fr); /* 2 equal rows */
+  gap: 0 0.5rem; /* Optional: to add space between items */
+}
+
+.experienceIcon > div .fas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 2px solid blue;
+  background-color: blue;
+  color: white;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.WhyUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.WhyUs > div h2 {
+  font-weight: bold;
+}
+
+.card-flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-horizontal {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.myText {
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  padding-left: 1rem;
+  text-align: center;
+}
+
+.card-horizontal-reverse {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  flex-direction: row-reverse;
+}
+
+.myTextReverse {
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.experienceIcon > div > h5 {
+  font-weight: bold;
+  font-size: medium;
+  padding-left: 1.2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .myContainer,
+  .card-horizontal {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myText,
+  .myTextReverse {
+    border: none;
+  }
+  .card-horizontal-reverse {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

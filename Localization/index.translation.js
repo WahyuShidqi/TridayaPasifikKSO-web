@@ -6,10 +6,16 @@ const translations = {
     button: {
       seeproduct: "SEE PRODUCT",
     },
+
+    breadCrumb: {
+      home: "Home",
+      aboutUs: "About us",
+    },
     //Translation data for navbar
     navbar: {
       home: "HOME",
       about: "ABOUT",
+      team: "Team",
       services: "SERVICES",
       product: "PRODUCT",
       blog: "BLOG",
@@ -97,6 +103,11 @@ const translations = {
         subtitle: "Follow our social media",
       },
     },
+
+    aboutUs: {
+      mainTitle: "About Us",
+    },
+
     footer: {
       contactInformation: "Contact information",
       businessHours: {
@@ -118,10 +129,15 @@ const translations = {
     button: {
       seeproduct: "LIHAT PRODUK",
     },
+    breadCrumb: {
+      home: "Beranda",
+      aboutUs: "Tentang kami",
+    },
     //Translation data for navbar
     navbar: {
       home: "BERANDA",
       about: "TENTANG",
+      team: "ANGGOTA",
       services: "PELAYANAN",
       product: "PRODUK",
       blog: "BERITA",
@@ -211,6 +227,10 @@ const translations = {
         title: "MEDIA SOSIAL",
         subtitle: "Ikuti media sosial kami",
       },
+    },
+
+    aboutUs: {
+      mainTitle: "Tentang Kami",
     },
 
     footer: {
