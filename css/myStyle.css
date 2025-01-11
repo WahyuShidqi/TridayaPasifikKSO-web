@@ -137,12 +137,46 @@ figcaption {
   flex-direction: column;
 }
 
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .myContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .mygrid-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
-  .myContainer,
   .card-horizontal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .myImg {
+    max-width: 18rem;
+    max-height: 10rem;
+    border-radius: 10px;
+  }
+
+  .card-flex-row {
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: center;
+    width: 12rem;
+  }
+
+  .experienceIcon > div > h5 {
+    padding: 0 0 0 0;
   }
 
   .myText,
