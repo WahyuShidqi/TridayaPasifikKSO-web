@@ -80,6 +80,7 @@ figcaption {
 
 .WhyUs > div h2 {
   font-weight: bold;
+  width: fit-content;
 }
 
 .card-flex-row {
@@ -125,7 +126,7 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 2rem 2rem;
+  gap: 0rem 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -141,6 +142,7 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
 }
 
 @media only screen and (max-width: 750px) {
@@ -172,7 +174,7 @@ figcaption {
     flex-direction: column;
     row-gap: 1rem;
     text-align: center;
-    width: 12rem;
+    width: 10rem;
   }
 
   .experienceIcon > div > h5 {
