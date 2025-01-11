@@ -4,6 +4,13 @@
   justify-content: center;
 }
 
+.centralize-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .myCard {
   margin: 20px auto;
   padding: 20px;
@@ -34,6 +41,21 @@
   grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
   grid-template-rows: repeat(3, 1fr); /* 2 equal rows */
   gap: 0 0.5rem; /* Optional: to add space between items */
+}
+
+figure h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+figure {
+  height: fit-content;
+}
+
+figcaption {
+  overflow-wrap: break-word;
+  max-width: 24rem;
 }
 
 .experienceIcon > div .fas {
@@ -97,6 +119,22 @@
   font-weight: bold;
   font-size: medium;
   padding-left: 1.2rem;
+}
+
+.mygrid-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.facilitiesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 1000px) {
