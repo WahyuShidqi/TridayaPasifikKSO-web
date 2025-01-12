@@ -36,6 +36,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
     />
+    <!-- Swiper Style -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+    <!-- <link rel="stylesheet" href="./css/swiperEffectCreative.css" /> -->
+
     <!-- myHeaderScript -->
     <script
       src="https://kit.fontawesome.com/800d03b5f4.js"
@@ -279,11 +286,11 @@
                 >About</a
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="team.html" class="nav-link" data-translate="navbar.team"
                 >Team</a
               >
-            </li>
+            </li> -->
             <li class="nav-item">
               <a
                 href="services.html"
@@ -515,7 +522,10 @@
     <!-- Processing Factory ends here! -->
 
     <!-- Our Facilities Starts -->
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    <section
+      class="ftco-section bg-light"
+      style="padding-top: 0.5rem; padding-bottom: 0.5rem"
+    >
       <div class="container">
         <div class="myCard facilitiesContainer">
           <div class="centralize-col">
@@ -608,7 +618,7 @@
       <div class="container myCard">
         <div class="">
           <div class="freezertitle">
-            <h2 class="font-weight-bold text-center">REFRIGATION SYSTEM</h2>
+            <h2 class="font-weight-bold text-center">REFRIGERATION SYSTEM</h2>
           </div>
           <div class="freezersubtitle">
             <h7 class="font-weight-bold font-italic">
@@ -628,15 +638,54 @@
               throughout the entire process
             </p>
           </div>
-          <div class="galleryCarousel"></div>
+          <div class="galleryCarousel myCard-blue">
+            <!-- <div class="swiper mySwiper3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/FrozenSlicedTuna.jpg" alt="" />
+                </div>
+              </div>
+            </div> -->
+          </div>
         </div>
       </div>
     </section>
     <!-- Refrigeration system ends! -->
 
+    <!-- Email product start -->
     <section
-      class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img"
-      style="background-image: url(images/bg_3.jpg)"
+      class="ftco-section ftco-no-pt ftco-no-pb img"
+      style="
+        background-image: url(images/FrozenSlicedTunaCropped.jpg);
+        background-color: orange;
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+      "
     >
       <div class="overlay"></div>
       <div class="container">
@@ -644,8 +693,12 @@
           <div
             class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate heading-section heading-section-white"
           >
-            <span class="subheading">Booking an Appointment</span>
-            <h2 class="mb-4">Free Consultation</h2>
+            <span class="subheading" data-translate="homepage.emailusHeader"
+              >Email us!</span
+            >
+            <h2 class="mb-4" data-translate="homepage.orderfish">
+              Order your fish now!
+            </h2>
             <form action="#" class="appointment">
               <div class="row">
                 <div class="col-md-12">
@@ -656,12 +709,88 @@
                           <span class="fa fa-chevron-down"></span>
                         </div>
                         <select name="" id="" class="form-control">
-                          <option value="">Select services</option>
-                          <option value="">Change Oil</option>
-                          <option value="">Engine Repair</option>
-                          <option value="">Battery Replace</option>
-                          <option value="">Change Tire</option>
-                          <option value="">Tow Truck</option>
+                          <option value="">Select product</option>
+                          <option value="" class="font-weight-bold">
+                            --- Frozen Tuna ---
+                          </option>
+                          <option value="">
+                            [Frozen]Tuna Sirip Kuning\[Frozen]Yellowfin Tuna
+                          </option>
+                          <option value="">
+                            [Frozen]Tuna Mata Besar\[Frozen]Big eye Tuna
+                          </option>
+                          <option value="" class="font-weight-bold">
+                            --- Fresh Tuna ---
+                          </option>
+                          <option value="">
+                            [Fresh]Tuna Sirip Kuning Segar\[Fresh]Yellowfin Tuna
+                          </option>
+                          <option value="">
+                            [Fresh]Tuna Mata Besar Segar\[Fresh]Big Eye Tuna
+                          </option>
+                          <option value="" class="font-weight-bold">
+                            --- Demersal Beku\Frozen Demersal ---
+                          </option>
+                          <option value="">
+                            [Frozen]Layur\[Frozen]Largehead Hairtail
+                          </option>
+                          <option value="">
+                            [Frozen]Kerapu Merah\[Frozen]Leopard Coral Grouper
+                          </option>
+                          <option value="">
+                            [Frozen]Kakap\[Frozen]Snappers
+                          </option>
+                          <option value="">
+                            [Frozen]Bawal\[Frozen]Pomfret
+                          </option>
+                          <option value="">[Frozen]Kurisi\[Frozen]Bream</option>
+                          <option value="">
+                            [Frozen]Buntal\[Frozen]Blowfish
+                          </option>
+                          <option value="">
+                            [Frozen]Kambing-Kambing\[Frozen]Flat-tailed
+                            Triggerfish???
+                          </option>
+                          <option value="">
+                            [Frozen]Bandeng\[Frozen]Milkfish
+                          </option>
+                          <option value="" class="font-weight-bold">
+                            --- Pelagis Beku\Frozen Pelagic Fish ---
+                          </option>
+                          <option value="">
+                            [Frozen]Cakalang\[Frozen]Skipjack Tuna
+                          </option>
+                          <option value="">
+                            [Frozen]Layang\[Frozen]Mackerel Scads
+                          </option>
+                          <option value="">
+                            [Frozen]Marlin\[Frozen]Marlin
+                          </option>
+                          <option value="">
+                            [Frozen]Layaran\[Frozen]Sailfish
+                          </option>
+                          <option value="">
+                            [Frozen]Selar Kuning\[Frozen]Yellowstripe Scad
+                          </option>
+                          <option value="">
+                            [Frozen]Kembung\[Frozen]Long Jawed Macekerel
+                          </option>
+                          <option value="">
+                            [Frozen]Cencaru\[Frozen]Torpedo Scad
+                          </option>
+                          <option value="">
+                            [Frozen]Lemuru\[Frozen]Indian Oil Sardine
+                          </option>
+                          <option value="" class="font-weight-bold">
+                            --- Sefalopoda Beku\Frozen Cephalopoda ---
+                          </option>
+                          <option value="">
+                            [Frozen]Gurita\[Frozen]Octopus
+                          </option>
+                          <option value="">[Frozen]Cumi\[Frozen]Squid</option>
+                          <option value="">
+                            [Frozen]Sotong\[Frozen]Cuttlefish
+                          </option>
                         </select>
                       </div>
                     </div>
@@ -681,7 +810,7 @@
                     <input
                       type="text"
                       class="form-control"
-                      placeholder="Vehicle number"
+                      placeholder="Your Location"
                     />
                   </div>
                 </div>
@@ -740,6 +869,7 @@
         </div>
       </div>
     </section>
+    <!-- Email product ends -->
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -1089,6 +1219,8 @@
     <!-- my Added script -->
     <script src="./Localization/index.translation.js"></script>
     <script src="./Localization/translationFunction.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiperEffectCreative.js"></script> -->
     <!-- my Added Script ends here! -->
   </body>
 </html>

@@ -19,6 +19,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.myCard-blue {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(22, 138, 253, 0.4);
+}
+
 .halfWidth {
   width: 50%;
 }
@@ -158,6 +166,14 @@ figcaption {
   .mygrid-gallery {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .WhyUs {
+    width: fit-content;
+  }
+
+  .card-flex-row {
+    width: 8rem !important;
   }
 }
 
