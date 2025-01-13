@@ -157,6 +157,17 @@ figcaption {
   margin-top: 5rem;
 }
 
+.freezerImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freezerImg img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 750px) {
   .myContainer {
     flex-wrap: wrap;
