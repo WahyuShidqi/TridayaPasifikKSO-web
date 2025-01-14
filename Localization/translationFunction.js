@@ -43,17 +43,11 @@ function setLanguage(lang) {
     const translation = getTranslation(key, lang);
 
     if (translation) {
-      // Preserve child elements if they exist
-      if (el.children.length > 0) {
-        // Replace only the text content, leaving children intact
-        el.childNodes.forEach((node) => {
-          if (node.nodeType === Node.TEXT_NODE) {
-            node.textContent = translation; // Update text content
-          }
-        });
-      } else {
-        el.textContent = translation; // Replace full content if no children
-      }
+      // Set the translated content, interpreting any HTML tags (e.g., <b>, <i>, etc.)
+      el.innerHTML = translation; // Use innerHTML to render HTML tags like <b>, <i>, etc.
+    } else {
+      // If no translation is found, fallback to the original content
+      el.innerHTML = el.innerHTML; // Preserve the original HTML content
     }
   });
 
