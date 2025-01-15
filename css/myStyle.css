@@ -4,6 +4,15 @@
   justify-content: center;
 }
 
+.wave {
+  background-image: url("../images/wave (6).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(50% - 200px) center;
+  width: 100%;
+  height: auto;
+}
+
 .centralize-col {
   display: flex;
   justify-content: center;
@@ -14,6 +23,13 @@
 .myCard {
   margin: 20px auto;
   padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.myCard-nop-nom {
+  margin: 0px;
+  padding: 0px;
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
