@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Auto Repair - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Tridaya Pasifik KSO</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -29,6 +29,25 @@
 
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- My added link! -->
+    <link rel="stylesheet" href="./css/myStyle.css" />
+    <link rel="stylesheet" href="./css/languagebutton.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/swiperSlide.css" />
+    <script
+      src="https://kit.fontawesome.com/800d03b5f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my added link ends -->
     <style>
       #alertBox {
         position: absolute;
@@ -53,25 +72,42 @@
     </style>
   </head>
   <body>
-    <div class="wrap">
+    <!-- header -->
+    <div class="wrap" style="background-color: #0095cf">
       <div class="container">
         <div class="row justify-content-between">
+          <!-- judul -->
           <div class="col-md-3 d-flex align-items-center">
             <a class="navbar-brand" href="index.html"
-              >Autorepair<span>.</span></a
+              >Tridaya Pasifik KSO<span>.</span></a
             >
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 mt-4">
             <div class="row">
               <div class="col">
                 <div class="top-wrap d-flex">
                   <div
                     class="icon d-flex align-items-center justify-content-center"
+                    style="border: 1px solid white"
                   >
-                    <span class="fa fa-location-arrow"></span>
+                    <span
+                      class="fa fa-location-arrow"
+                      style="color: white"
+                    ></span>
                   </div>
                   <div class="text">
-                    <span>Address</span><span>721 New York NY 10016</span>
+                    <span
+                      data-translate="navbar.address"
+                      style="color: white; font-weight: bold"
+                      >Address</span
+                    ><a
+                      class="alamat"
+                      href="https://maps.app.goo.gl/1dZTmQGPtquEExcA6"
+                      target="_blank"
+                      style="color: white"
+                      data-translate="navbar.addresslink"
+                      >Lampulo, Kec. Kuta Alam, Kota Banda Aceh, Aceh</a
+                    >
                   </div>
                 </div>
               </div>
@@ -79,11 +115,22 @@
                 <div class="top-wrap d-flex">
                   <div
                     class="icon d-flex align-items-center justify-content-center"
+                    style="border: 1px solid white"
                   >
-                    <span class="fa fa-location-arrow"></span>
+                    <span class="fa fa-phone" style="color: white"></span>
                   </div>
                   <div class="text">
-                    <span>Call us</span><span>(+01) 123 456 7890</span>
+                    <span
+                      data-translate="navbar.callus"
+                      style="color: white; font-weight: bold"
+                      >Call us</span
+                    ><a
+                      class="phonenumber"
+                      href="tel:tel:+626513612327"
+                      target="_blank"
+                      style="color: white"
+                      >(+62) 651 3612 327</a
+                    >
                   </div>
                 </div>
               </div>
@@ -93,31 +140,31 @@
                 <div class="social-media">
                   <p class="mb-0 d-flex">
                     <a
-                      href="#"
+                      href="https://www.facebook.com/profile.php?id=61570836929906"
                       class="d-flex align-items-center justify-content-center"
                       ><span class="fa fa-facebook"
                         ><i class="sr-only">Facebook</i></span
                       ></a
                     >
                     <a
-                      href="#"
+                      href="https://x.com/TridayaKSO"
                       class="d-flex align-items-center justify-content-center"
                       ><span class="fa fa-twitter"
                         ><i class="sr-only">Twitter</i></span
                       ></a
                     >
                     <a
-                      href="#"
+                      href="https://www.instagram.com/tridayapasifik.kso/"
                       class="d-flex align-items-center justify-content-center"
                       ><span class="fa fa-instagram"
                         ><i class="sr-only">Instagram</i></span
                       ></a
                     >
                     <a
-                      href="#"
+                      href="mailto:mkt.tridayapasifikkso@gmail.com"
                       class="d-flex align-items-center justify-content-center"
-                      ><span class="fa fa-dribbble"
-                        ><i class="sr-only">Dribbble</i></span
+                      ><span class="fa fa-paper-plane"
+                        ><i class="sr-only">Mail</i></span
                       ></a
                     >
                   </p>
@@ -128,6 +175,9 @@
         </div>
       </div>
     </div>
+    <!-- header end -->
+
+    <!-- nav start -->
     <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
       id="ftco-navbar"
@@ -144,42 +194,88 @@
         >
           <span class="fa fa-bars"></span> Menu
         </button>
-        <form action="#" class="searchform order-lg-last">
-          <div class="form-group d-flex">
-            <input type="text" class="form-control pl-3" placeholder="Search" />
-            <button type="submit" placeholder="" class="form-control search">
-              <span class="fa fa-search"></span>
+        <!-- <form action="#" class="searchform order-lg-last">
+		<div class="form-group d-flex">
+		  <input type="text" class="form-control pl-3" placeholder="Search" />
+		  <button type="submit" placeholder="" class="form-control search">
+			<span class="fa fa-search"></span>
+		  </button>
+		</div>
+	  </form> -->
+        <!-- Toggle Language Button (Google Translate-like icon) -->
+
+        <div class="languageswitchersection order-lg-last">
+          <button class="language-btn" onclick="toggleLanguagePanel()">
+            <i class="translation-icon fa-solid fa-language"></i>
+          </button>
+
+          <!-- Language Switcher Panel -->
+          <div class="language-panel" id="languagePanel">
+            <button onclick="setLanguage('en')" class="btn btn-link">
+              <span class="flag-icon flag-icon-gb"></span>
+              <span class="countryName"></span>
+            </button>
+            <button onclick="setLanguage('id')" class="btn btn-link">
+              <span class="flag-icon flag-icon-id"></span>
+              <span class="countryName"></span>
             </button>
           </div>
-        </form>
+        </div>
+        <!-- END -->
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="index.html" class="nav-link" data-translate="navbar.home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
+              <a
+                href="about.html"
+                class="nav-link"
+                data-translate="navbar.about"
+                >About</a
+              >
             </li>
+            <!-- <li class="nav-item">
+			<a href="team.html" class="nav-link" data-translate="navbar.team"
+			  >Team</a
+			>
+		  </li> -->
             <li class="nav-item">
-              <a href="team.html" class="nav-link">Team</a>
-            </li>
-            <li class="nav-item">
-              <a href="services.html" class="nav-link">Services</a>
+              <a
+                href="services.html"
+                class="nav-link"
+                data-translate="navbar.services"
+                >Services</a
+              >
             </li>
             <li class="nav-item active">
-              <a href="project.html" class="nav-link">Project</a>
+              <a
+                href="product.html"
+                class="nav-link"
+                data-translate="navbar.product"
+                >Product</a
+              >
             </li>
             <li class="nav-item">
-              <a href="blog.html" class="nav-link">Blog</a>
+              <a href="blog.html" class="nav-link" data-translate="navbar.blog"
+                >Blog</a
+              >
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a
+                href="contact.html"
+                class="nav-link"
+                data-translate="navbar.contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- END nav -->
+    <!-- nav ends -->
     <section
       class="hero-wrap hero-wrap-2"
       style="background-image: url('images/bg_2.jpg')"
@@ -191,12 +287,16 @@
           <div class="col-md-9 ftco-animate pb-5">
             <p class="breadcrumbs mb-2">
               <span class="mr-2"
-                ><a href="index.html"
+                ><a href="index.html" data-translate="breadCrumb.home"
                   >Home <i class="fa fa-chevron-right"></i></a
               ></span>
-              <span>Projects <i class="fa fa-chevron-right"></i></span>
+              <span data-translate="breadCrumb.product"
+                >Products <i class="fa fa-chevron-right"></i
+              ></span>
             </p>
-            <h1 class="mb-0 bread">Our Works</h1>
+            <h1 class="mb-0 bread" data-translate="ourProduct.title">
+              Our Products
+            </h1>
           </div>
         </div>
       </div>
@@ -206,8 +306,10 @@
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Projects</span>
-            <h2>Done Projects</h2>
+            <span class="subheading" data-translate="ourProduct.title"
+              >Our Products</span
+            >
+            <h2 data-translate="ourProduct.subtitle">Our Fish Products</h2>
           </div>
         </div>
       </div>
@@ -216,10 +318,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-1.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-1.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -237,10 +339,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-2.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-2.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -256,10 +358,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-3.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-3.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -276,10 +378,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-4.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-4.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -295,10 +397,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-5.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-5.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -314,10 +416,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-6.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-6.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -334,10 +436,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-7.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-7.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -353,10 +455,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-8.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-8.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -372,10 +474,10 @@
           <div class="col-md-4 ftco-animate">
             <div
               class="work mb-4 img d-flex align-items-end"
-              style="background-image: url(images/work-9.jpg)"
+              style="background-image: url(./images/FrozenSlicedTuna.jpg)"
             >
               <a
-                href="images/work-9.jpg"
+                href="./images/FrozenSlicedTuna.jpg"
                 class="icon image-popup d-flex justify-content-center align-items-center"
               >
                 <span class="fa fa-expand"></span>
@@ -407,91 +509,78 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4">
               <h2 class="logo">
-                <a href="#">Autorepair<span>.</span></a>
+                <a href="#" class="navbar-brand"
+                  >Tridaya pasifik KSO<span>.</span></a
+                >
               </h2>
-              <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+              <p data-translate="homepage.subtitle">
+                Providing fresh and high-quality fish for your needs
               </p>
               <ul
                 class="ftco-footer-social list-unstyled float-md-left float-lft mt-4"
               >
                 <li class="ftco-animate">
-                  <a href="#"><span class="fa fa-twitter"></span></a>
+                  <a href="https://x.com/TridayaKSO"
+                    ><span class="fa fa-twitter"></span
+                  ></a>
                 </li>
                 <li class="ftco-animate">
-                  <a href="#"><span class="fa fa-facebook"></span></a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61570836929906"
+                    ><span class="fa fa-facebook"></span
+                  ></a>
                 </li>
                 <li class="ftco-animate">
-                  <a href="#"><span class="fa fa-instagram"></span></a>
+                  <a href="https://www.instagram.com/tridayapasifik.kso/"
+                    ><span class="fa fa-instagram"></span
+                  ></a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-md-6 col-lg">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#" class="py-1 d-block"
-                    ><span class="fa fa-check mr-3"></span>Oil Change</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="py-1 d-block"
-                    ><span class="fa fa-check mr-3"></span>Batteries</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="py-1 d-block"
-                    ><span class="fa fa-check mr-3"></span>Tow Truck</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="py-1 d-block"
-                    ><span class="fa fa-check mr-3"></span>Tire Change</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="py-1 d-block"
-                    ><span class="fa fa-check mr-3"></span>Engine Repair</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
+
           <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Contact information</h2>
+              <h2
+                class="ftco-heading-2"
+                data-translate="footer.contactInformation"
+              >
+                Contact information
+              </h2>
               <div class="block-23 mb-3">
                 <ul>
                   <li>
-                    <span class="icon fa fa-map-marker"></span
-                    ><span class="text"
-                      >203 Fake St. Mountain View, San Francisco, California,
-                      USA</span
+                    <a
+                      href="https://maps.app.goo.gl/1dZTmQGPtquEExcA6"
+                      target="_blank"
+                      ><span class="icon fa fa-map-marker"></span
+                      ><span class="text" data-translate="navbar.addresslink"
+                        >Komp. PPS Jalan Sisingamangaraja No.Ujung, Lampulo,
+                        Kec. Kuta Alam, Kota Banda Aceh, Aceh</span
+                      ></a
                     >
                   </li>
                   <li>
-                    <a href="#"
+                    <a href="tel:+626513612327" target="_blank"
                       ><span class="icon fa fa-phone"></span
-                      ><span class="text">+2 392 3929 210</span></a
+                      ><span class="text">(+62) 651 3612 327</span></a
                     >
                   </li>
                   <li>
-                    <a href="#"
+                    <a
+                      href="mailto:mkt.tridayapasifikkso@gmail.com"
+                      target="_blank"
                       ><span class="icon fa fa-paper-plane"></span
                       ><span class="text"
-                        ><span
-                          class="__cf_email__"
-                          data-cfemail="670e090108271e08121503080a060e094904080a"
-                          >[email&#160;protected]</span
+                        ><span class="__cf_email__"
+                          >mkt.tridayapasifikkso@gmail.com</span
                         ></span
                       ></a
                     >
@@ -502,17 +591,29 @@
           </div>
           <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Business Hours</h2>
+              <h2
+                class="ftco-heading-2"
+                data-translate="footer.businessHours.title"
+              >
+                Business Hours
+              </h2>
               <div class="opening-hours">
-                <h4>Opening Days:</h4>
+                <h4 data-translate="footer.businessHours.openingDays.title">
+                  Opening Days:
+                </h4>
                 <p class="pl-3">
-                  <span>Monday – Friday : 9am to 20 pm</span>
-                  <span>Saturday : 9am to 17 pm</span>
+                  <span data-translate="footer.businessHours.openingDays.text"
+                    >Monday – Friday : 9:00am to 17:00 pm</span
+                  >
+                  <!-- <span>Saturday : 9am to 17 pm</span> -->
                 </p>
-                <h4>Vacations:</h4>
+                <h4 data-translate="footer.businessHours.vacation.title">
+                  Vacations:
+                </h4>
                 <p class="pl-3">
-                  <span>All Sunday Days</span>
-                  <span>All Official Holidays</span>
+                  <span data-translate="footer.businessHours.vacation.text"
+                    >Saturday and Sunday, as well as all official Holidays
+                  </span>
                 </p>
               </div>
             </div>
@@ -530,8 +631,8 @@
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | This template is made with
-              <i class="fa fa-heart" aria-hidden="true"></i> by
+              All rights reserved | Tridaya Pasifik KSO
+              <i class="fa fa-fish" aria-hidden="true"></i> | Made with
               <a href="https://colorlib.com" target="_blank">Colorlib</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
@@ -539,6 +640,7 @@
         </div>
       </div>
     </footer>
+    <!-- Footer ends -->
 
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen">
@@ -604,5 +706,11 @@
       data-cf-beacon='{"rayId":"8fab3ab1c92c5cde","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"cd0b4b3a733644fc843ef0b185f98241"}'
       crossorigin="anonymous"
     ></script>
+
+    <!-- my Added script -->
+    <script src="./Localization/index.translation.js"></script>
+    <script src="./Localization/translationFunction.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiperSlide.js"></script>
   </body>
 </html>
