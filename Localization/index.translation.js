@@ -11,6 +11,8 @@ const translations = {
       home: 'Home <i class="fa fa-chevron-right"></i>',
       aboutUs: 'About us <i class="fa fa-chevron-right">',
       contactUs: 'Contact us <i class="fa fa-chevron-right"></i>',
+      product: 'Products <i class="fa fa-chevron-right"></i>',
+      service: "",
     },
     //Translation data for navbar
     navbar: {
@@ -212,6 +214,10 @@ const translations = {
         location: "Location:",
       },
     },
+    ourProduct: {
+      title: "Our Products",
+      subtitle: "Our Fish Products",
+    },
 
     footer: {
       contactInformation: "Contact information",
@@ -238,6 +244,7 @@ const translations = {
       home: 'Beranda <i class="fa fa-chevron-right"></i>',
       aboutUs: 'Tentang kami <i class="fa fa-chevron-right"></i>',
       contactUs: 'Kontak <i class="fa fa-chevron-right"></i>',
+      product: 'Produk <i class="fa fa-chevron-right"></i>',
     },
     //Translation data for navbar
     navbar: {
@@ -444,6 +451,11 @@ const translations = {
       map: {
         location: "Lokasi:",
       },
+    },
+
+    ourProduct: {
+      title: "Produk Kami",
+      subtitle: "Produk Ikan Kami",
     },
 
     footer: {
