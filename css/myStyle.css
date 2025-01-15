@@ -5,7 +5,7 @@
 }
 
 .wave {
-  background-image: url("../images/wave (6).svg");
+  background-image: url("../images/wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(50% - 200px) center;
