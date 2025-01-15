@@ -10,6 +10,7 @@ const translations = {
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
       aboutUs: 'About us <i class="fa fa-chevron-right">',
+      contactUs: 'Contact us <i class="fa fa-chevron-right"></i>',
     },
     //Translation data for navbar
     navbar: {
@@ -195,6 +196,22 @@ const translations = {
         title: "CERTIFICATIONS",
       },
     },
+    contact: {
+      title: "Contact us",
+      emailSection: {
+        title: "Get in touch",
+      },
+      address: {
+        title: "Contact us",
+        address:
+          "<span>Address:</span> Lampulo, Kuta Alam District, Banda Aceh City, Aceh, Indonesia",
+        phone: "Phone:",
+        phoneNumber: "(+62) 651 3612 327",
+      },
+      map: {
+        location: "Location:",
+      },
+    },
 
     footer: {
       contactInformation: "Contact information",
@@ -218,8 +235,9 @@ const translations = {
       seeproduct: "LIHAT PRODUK",
     },
     breadCrumb: {
-      home: "Beranda",
-      aboutUs: "Tentang kami",
+      home: 'Beranda <i class="fa fa-chevron-right"></i>',
+      aboutUs: 'Tentang kami <i class="fa fa-chevron-right"></i>',
+      contactUs: 'Kontak <i class="fa fa-chevron-right"></i>',
     },
     //Translation data for navbar
     navbar: {
@@ -408,6 +426,23 @@ const translations = {
 
       eighthSection: {
         title: "SERTIFIKASI",
+      },
+    },
+
+    contact: {
+      title: "Kontak",
+      emailSection: {
+        title: "Hubungi Kami!",
+      },
+      address: {
+        title: "Kontak",
+        address:
+          "<span>Alamat:</span> 	Lampulo, Kec. Kuta Alam, Kota Banda Aceh, Aceh, Indonesia",
+        phone: "Telepon",
+        phoneNumber: "(+62) 651 3612 327",
+      },
+      map: {
+        location: "Lokasi:",
       },
     },
 
