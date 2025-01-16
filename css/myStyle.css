@@ -65,10 +65,6 @@
   padding-top: 1rem;
 }
 
-.catalog-downloadbtn {
-  margin-top: 1rem;
-}
-
 .experienceIcon {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
@@ -241,11 +237,42 @@ figcaption {
   margin-top: 7rem;
 }
 
+.catalogTitle {
+  margin-bottom: 5rem;
+}
+
 .catalogItem {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation: translate-down 0.5s ease-in-out forwards;
+}
+
+.catalogItem:hover {
+  animation: translate-up 0.5s ease-in-out forwards;
+}
+
+@keyframes translate-up {
+  100% {
+    translate: 0px -36px;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes translate-down {
+  from {
+    translate: 0px -36px;
+    transform: scale(1.2);
+  }
+  to {
+    translate: 0px 0px;
+    transform: scale(1);
+  }
+}
+
+.catalog-downloadbtn {
+  margin-top: 2rem;
 }
 
 .catalogImg {

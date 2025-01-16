@@ -197,6 +197,10 @@ const translations = {
       eighthSection: {
         title: "CERTIFICATIONS",
       },
+      ninthSection: {
+        title: "Our Catalog",
+        downloadBtn: "Download catalog",
+      },
     },
     contact: {
       title: "Contact us",
@@ -433,6 +437,11 @@ const translations = {
 
       eighthSection: {
         title: "SERTIFIKASI",
+      },
+
+      ninthSection: {
+        title: "Katalog Kami",
+        downloadBtn: "Unduh katalog",
       },
     },
 
