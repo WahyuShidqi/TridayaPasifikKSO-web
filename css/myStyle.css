@@ -31,6 +31,7 @@
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .myCard-nop-nom {
   margin: 0px;
   padding: 0px;
@@ -62,6 +63,10 @@
 .myContainer > div h1 {
   font-weight: bold;
   padding-top: 1rem;
+}
+
+.catalog-downloadbtn {
+  margin-top: 1rem;
 }
 
 .experienceIcon {
@@ -234,6 +239,39 @@ figcaption {
   align-items: center;
   gap: 1rem;
   margin-top: 7rem;
+}
+
+.catalogItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.catalogImg {
+  width: fit-content;
+  height: fit-content;
+}
+
+.catalogImg > img {
+  width: 12rem;
+  height: 16rem;
+}
+
+.bookshelf {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/BookShelf.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bookshelfitem-transparent {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (max-width: 750px) {
