@@ -200,6 +200,7 @@ const translations = {
       ninthSection: {
         title: "Our Catalog",
         downloadBtn: "Download catalog",
+        viewBtn: "View catalog",
       },
     },
     contact: {
@@ -442,6 +443,7 @@ const translations = {
       ninthSection: {
         title: "Katalog Kami",
         downloadBtn: "Unduh katalog",
+        viewBtn: "Lihat katalog",
       },
     },
 
