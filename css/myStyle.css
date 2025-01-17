@@ -246,12 +246,12 @@ figcaption {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  animation: translate-down 0.5s ease-in-out forwards;
+  /* animation: translate-down 0.2s ease-in-out forwards; */
 }
 
-.catalogItem:hover {
-  animation: translate-up 0.5s ease-in-out forwards;
-}
+/* .catalogItem:hover {
+  animation: translate-up 0.2s ease-in-out forwards;
+} */
 
 @keyframes translate-up {
   100% {
@@ -272,7 +272,11 @@ figcaption {
 }
 
 .catalog-downloadbtn {
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.catalog-viewbtn {
+  margin-top: 0.2rem;
 }
 
 .catalogImg {
