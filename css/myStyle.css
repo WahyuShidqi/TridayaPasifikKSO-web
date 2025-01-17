@@ -424,6 +424,25 @@ figcaption {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.my-grid-container-small {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: auto auto; /* Auto row height */
+  gap: 16px;
+  justify-items: center; /* Center items horizontally in their cell */
+  align-items: center; /* Center items vertically in their cell */
+  height: 100%; /* Optional: Ensures full-height if needed */
+  padding: 0px;
+}
+
+.my-grid-card {
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Responsive Styles */
 @media only screen and (max-width: 1000px) {
   .my-grid-container {
@@ -440,5 +459,13 @@ figcaption {
   }
   .my-grid-container > :only-child {
     grid-column: 1 / 2; /* Default to the single column */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .my-grid-container-small {
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    grid-template-rows: auto auto; /* Auto row height */
+    gap: 0px 5px;
   }
 }
