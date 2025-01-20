@@ -108,7 +108,7 @@
     $(".carousel-productlist-auto").owlCarousel({
       center: true,
       autoplay: true,
-      autoplayTimeout: 3500,
+      autoplayTimeout: 5000,
       loop: true,
       items: 1,
       margin: 30,
