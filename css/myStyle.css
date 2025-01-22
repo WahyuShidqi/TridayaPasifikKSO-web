@@ -1,6 +1,33 @@
 /* testing aja */
 
+.rounded-sm {
+  border-radius: 5px;
+}
+
+.myImg-h-fit {
+  height: 100%;
+}
+.myImg-w-fit {
+  width: 100%;
+}
+
+.max-width-half {
+  max-width: 50%;
+}
+
+/* #yellowfintuna {
+  display: flex;
+  justify-content: center;
+} */
+
 /* testing aja */
+
+.mybtn {
+  padding: 0.3rem 0.5rem;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: deepskyblue;
+}
 
 ul.no-bullets {
   list-style-type: none;
@@ -59,6 +86,15 @@ ul.no-bullets {
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(22, 138, 253, 0.4);
+}
+
+.myCard-w-fitcontent {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: fit-content;
 }
 
 .halfWidth {
@@ -143,6 +179,24 @@ figcaption {
   border-left: 2px solid rgba(0, 0, 0, 0.1);
   padding-left: 1rem;
   text-align: center;
+}
+
+.myText-left {
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.myText-left-reverse {
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  padding-right: 1rem;
+  text-align: left;
+}
+
+.myText-right {
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  padding-left: 1rem;
+  text-align: right;
 }
 
 .card-horizontal-reverse {
@@ -318,6 +372,34 @@ figcaption {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* product page style */
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigation-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.product-container {
+  margin-top: 8rem;
+}
+
+#yellowfintuna,
+#skipjacktuna,
+#tuna,
+#octopus {
+  scroll-margin-top: 25vh; /* Adjust this value to set the offset */
+}
+
 @media only screen and (max-width: 750px) {
   .myContainer {
     flex-wrap: wrap;
@@ -355,6 +437,10 @@ figcaption {
     align-items: center;
   }
 
+  .product-container {
+    margin-top: 5rem;
+  }
+
   .myImg {
     max-width: 18rem;
     max-height: 10rem;
@@ -373,8 +459,12 @@ figcaption {
   }
 
   .myText,
-  .myTextReverse {
+  .myTextReverse,
+  .myText-left,
+  .myText-left-reverse,
+  .myText-right {
     border: none;
+    max-width: 100% !important;
   }
   .card-horizontal-reverse {
     flex-wrap: wrap;
