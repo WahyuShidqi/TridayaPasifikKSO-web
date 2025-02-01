@@ -235,11 +235,11 @@
                 >Product</a
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="blog.html" class="nav-link" data-translate="navbar.blog"
                 >Blog</a
               >
-            </li>
+            </li> -->
             <li class="nav-item">
               <a
                 href="contact.html"
@@ -257,7 +257,6 @@
     <section
       class="hero-wrap hero-wrap-2"
       style="background-image: url('images/bg_2.jpg')"
-      data-stellar-background-ratio="0.5"
     >
       <div class="overlay"></div>
       <div class="container">
@@ -265,12 +264,16 @@
           <div class="col-md-9 ftco-animate pb-5">
             <p class="breadcrumbs mb-2">
               <span class="mr-2"
-                ><a href="index.html"
+                ><a href="index.html" data-translate="breadCrumb.home"
                   >Home <i class="fa fa-chevron-right"></i></a
               ></span>
-              <span>Services <i class="fa fa-chevron-right"></i></span>
+              <span data-translate="breadCrumb.service"
+                >Services <i class="fa fa-chevron-right"></i
+              ></span>
             </p>
-            <h1 class="mb-0 bread">Services</h1>
+            <h1 class="mb-0 bread" data-translate="service.maintitle">
+              Services
+            </h1>
           </div>
         </div>
       </div>
@@ -278,186 +281,155 @@
 
     <section class="ftco-section bg-light">
       <div class="container myCard">
-        <h1 class="font-weight-bold text-center">OUR SERVICES</h1>
-        <div class="titleImg">
-          <img src="./images/FrozenSlicedTuna.jpg" alt="" />
-        </div>
-        <div style="margin-top: 3rem">
-          <p>
-            Our fishery processing services encompass several critical stages to
-            ensure that every catch remains fresh, high-quality, and safe for
-            consumption. These stages include:
+        <h1 class="font-weight-bold text-center" data-translate="service.title">
+          OUR SERVICES
+        </h1>
+
+        <div class="mt-5">
+          <p data-translate="service.text1">
+            Our fishery processing services follow a meticulously designed
+            workflow, ensuring that every catch retains its freshness, premium
+            quality, and safety for consumption. These essential stages include:
           </p>
+        </div>
+        <div>
+          <img
+            src="./images/ourservice.png"
+            alt="our-service.png"
+            class="myImg-w-fit mt-5"
+          />
+        </div>
+        <div class="mt-5">
           <ul>
-            <li>
+            <li data-translate="service.text2">
               Collecting the Catch: We begin by gathering freshly caught fish
               directly from the sea to initiate the processing process.
             </li>
-            <li>
-              Sorting and Grading: The fish are carefully sorted by size and
-              quality, ensuring efficient handling and optimal processing.
+            <li data-translate="service.text3">
+              <b>Sorting and Grading:</b> The fish are carefully sorted by size
+              and quality, ensuring efficient handling and optimal processing.
             </li>
-            <li>
-              Bleeding, Gutting, and Washing: Each fish undergoes a thorough
-              cleaning process, including bleeding, gutting, and washing, to
-              maintain hygiene and quality.
+            <li data-translate="service.text4">
+              After sorting and grading, we meticulously <b>process</b> incoming
+              products to meet each customer's unique specifications and
+              requirements, ensuring the highest level of satisfaction and
+              quality.
             </li>
-            <li>
-              Cooling the Fish: After cleaning, the fish are cooled using ice or
-              freezing methods to preserve their freshness.
+            <li data-translate="service.text5">
+              <b>Freezing:</b> We utilize advanced freezing technologies,
+              including <b>Air Blast Freezers (ABF)</b>,
+              <b>Semi-Contact Freezers (SCF)</b>, and <b>Proton Freezer</b>, to
+              ensure optimal preservation of freshness, texture, and quality.
             </li>
-            <li>
-              Storing in Cold Conditions: We store the cooled fish at low
+            <li data-translate="service.text6">
+              <b>Packing:</b> Products are carefully packed following industry
+              standards to maintain their integrity and quality during
+              transportation. Packaging is done using plastic and boxes,
+              customized according to the specific requests and requirements of
+              our customers, ensuring optimal protection and satisfaction.
+            </li>
+            <li data-translate="service.text7">
+              <b>Cold Room Storing:</b> We store the frozen product at low
               temperatures to maintain their quality until they reach their
-              destination.
+              destination. Export product use-45C, local product use -25C.
             </li>
-            <li>
-              Removing the Fish at Port: Upon arrival at the beach or port, the
-              fish are unloaded for further processing or distribution to the
-              market.
+            <li data-translate="service.text8">
+              <b>Stuffing:</b> The final step involves efficiently loading the
+              fish for transport, adhering to stringent cold chain protocols to
+              ensure they arrive at their destination in peak condition.
             </li>
           </ul>
+
+          <p data-translate="service.text9">
+            This carefully managed process guarantees that every fish delivered
+            to our customers meets the highest standards of quality—ensuring
+            freshness, safety, and readiness for consumption.
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- <section class="ftco-section">
+    <!-- follow us section -->
+    <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">We offer Services</span>
-            <h2>Our car services</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 services ftco-animate">
-            <div class="d-block d-flex">
-              <div
-                class="icon d-flex justify-content-center align-items-center"
-              >
-                <span class="flaticon-car-service"></span>
-              </div>
-              <div class="media-body pl-3">
-                <h3 class="heading">Oil change</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
-                </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
-              </div>
-            </div>
-            <div class="d-block d-flex">
-              <div
-                class="icon d-flex justify-content-center align-items-center"
-              >
-                <span class="flaticon-tyre"></span>
-              </div>
-              <div class="media-body pl-3">
-                <h3 class="heading">Tire Change</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
-                </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 services ftco-animate">
-            <div class="d-block d-flex">
-              <div
-                class="icon d-flex justify-content-center align-items-center"
-              >
-                <span class="flaticon-battery"></span>
-              </div>
-              <div class="media-body pl-3">
-                <h3 class="heading">Batteries</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
-                </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
-              </div>
-            </div>
-            <div class="d-block d-flex">
-              <div
-                class="icon d-flex justify-content-center align-items-center"
-              >
-                <span class="flaticon-car-engine"></span>
-              </div>
-              <div class="media-body pl-3">
-                <h3 class="heading">Engine Repair</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
-                </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 services ftco-animate">
-            <div class="d-block d-flex">
-              <div
-                class="icon d-flex justify-content-center align-items-center"
-              >
-                <span class="flaticon-tow-truck"></span>
-              </div>
-              <div class="media-body pl-3">
-                <h3 class="heading">Tow Truck</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
-                </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
-              </div>
-            </div>
-            <div class="d-block d-flex">
-              <div
-                class="icon d-flex justify-content-center align-items-center"
-              >
-                <span class="flaticon-repair"></span>
-              </div>
-              <div class="media-body pl-3">
-                <h3 class="heading">Car Maintenance</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic.
-                </p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
-              </div>
+            <span class="subheading" data-translate="homepage.socialMedia.title"
+              >SOCIAL MEDIA</span
+            >
+            <h2 data-translate="homepage.socialMedia.subtitle">
+              Follow our social media
+            </h2>
+            <div class="SocMedIcon">
+              <a href="https://x.com/TridayaKSO" class="myIcon"
+                ><span class="fa fa-twitter"></span
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61570836929906"
+                class="myIcon"
+                ><span class="fa fa-facebook"></span
+              ></a>
+              <a
+                href="https://www.instagram.com/tridayapasifik.kso/"
+                class="myIcon"
+                ><span class="fa fa-instagram"></span
+              ></a>
             </div>
           </div>
         </div>
-        <div class="row mt-4 mt-md-5 justify-content-between">
-          <div class="col-md-7 ftco-animate">
-            <p>
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country, in
-              which roasted parts of sentences fly into your mouth. Far far
-              away, behind the word mountains, far from the countries Vokalia
-              and Consonantia, there live the blind texts. Separated they live
-              in Bookmarksgrove right at the coast of the Semantics, a large
-              language ocean.
-            </p>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
+              />
+            </div>
           </div>
-          <div class="col-md-4 ftco-animate">
-            <h5 class="font-weight-bold">Our Advantages</h5>
-            <ul class="services-2">
-              <li>
-                <span class="fa fa-check"></span>Free Diagnostics &amp; Brake
-                Check
-              </li>
-              <li><span class="fa fa-check"></span>Certified Repair Service</li>
-              <li><span class="fa fa-check"></span>Repair Estimates</li>
-              <li>
-                <span class="fa fa-check"></span>Auto Repair Shops Serving
-                Customer
-              </li>
-            </ul>
-          </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
-    </section> -->
+    </section>
+    <!-- follow us section ends -->
 
     <!-- Footer -->
     <footer class="footer ftco-section">

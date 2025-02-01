@@ -12,7 +12,7 @@ const translations = {
       aboutUs: 'About us <i class="fa fa-chevron-right">',
       contactUs: 'Contact us <i class="fa fa-chevron-right"></i>',
       product: 'Products <i class="fa fa-chevron-right"></i>',
-      service: "",
+      service: "Services <i class='fa fa-chevron-right'></i>",
     },
     //Translation data for navbar
     navbar: {
@@ -117,6 +117,9 @@ const translations = {
           text2:
             "The collaboration of PT. Pema Global Servis, PT. Yakin Pasifik Tuna, and PT. Laot Aceh Marina Indonesia under the joint fisheries operation Tridaya Pasifik KSO is designed to enhance the quality and quantity of fisheries production in Aceh-Indonesia, ensuring the capacity to meet both domestic and international market demands",
         },
+        organizationstructure: {
+          title: "ORGANIZATION STRUCTURE",
+        },
       },
       secondSection: {
         sustainability: {
@@ -203,6 +206,30 @@ const translations = {
         viewBtn: "View catalog",
       },
     },
+
+    service: {
+      maintitle: "Services",
+      title: "OUR SERVICES",
+      text1:
+        "Our fishery processing services follow a meticulously designed workflow, ensuring that every catch retains its freshness, premium quality, and safety for consumption. These essential stages include:",
+      text2:
+        "<b>Collecting the Catch:</b> We begin by gathering freshly caught fish directly from the sea to initiate the processing process.",
+      text3:
+        "<b>Sorting and Grading:</b> The fish are carefully sorted by size and quality, ensuring efficient handling and optimal processing.",
+      text4:
+        "After sorting and grading, we meticulously <b>process</b> incoming products to meet each customer's unique specifications and requirements, ensuring the highest level of satisfaction and quality.",
+      text5:
+        "<b>Freezing:</b> We utilize advanced freezing technologies, including <b>Air Blast Freezers (ABF)</b>, <b>Semi-Contact Freezers (SCF)</b>, and <b>Proton Freezer</b>, to ensure optimal preservation of freshness, texture, and quality.",
+      text6:
+        "<b>Packing:</b> Products are carefully packed following industry standards to maintain their integrity and quality during transportation. Packaging is done using plastic and boxes, customized according to the specific requests and requirements of our customers, ensuring optimal protection and satisfaction.",
+      text7:
+        "<b>Cold Room Storing:</b> We store the frozen product at low temperatures to maintain their quality until they reach their destination. Export product use-45C, local product use -25C.",
+      text8:
+        "<b>Stuffing:</b> The final step involves efficiently loading the fish for transport, adhering to stringent cold chain protocols to ensure they arrive at their destination in peak condition.",
+      text9:
+        "This carefully managed process guarantees that every fish delivered to our customers meets the highest standards of quality—ensuring freshness, safety, and readiness for consumption.",
+    },
+
     contact: {
       title: "Contact us",
       emailSection: {
@@ -250,6 +277,7 @@ const translations = {
       aboutUs: 'Tentang kami <i class="fa fa-chevron-right"></i>',
       contactUs: 'Kontak <i class="fa fa-chevron-right"></i>',
       product: 'Produk <i class="fa fa-chevron-right"></i>',
+      service: "Layanan <i class='fa fa-chevron-right'></i>",
     },
     //Translation data for navbar
     navbar: {
@@ -357,6 +385,9 @@ const translations = {
           text2:
             "Kolaborasi antara PT. Pema Global Servis, PT. Yakin Pasifik Tuna, dan PT. Laot Aceh Marina Indonesia di bawah operasi bersama perikanan Tridaya Pasifik KSO dirancang untuk meningkatkan kualitas dan kuantitas produksi perikanan di Aceh-Indonesia, memastikan kemampuan untuk memenuhi permintaan pasar domestik dan internasional.",
         },
+        organizationstructure: {
+          title: "STRUKTUR ORGANISASI",
+        },
       },
       secondSection: {
         sustainability: {
@@ -445,6 +476,29 @@ const translations = {
         downloadBtn: "Unduh katalog",
         viewBtn: "Lihat katalog",
       },
+    },
+
+    service: {
+      maintitle: "Layanan",
+      title: "LAYANAN KAMI",
+      text1:
+        "Layanan pengolahan perikanan kami mengikuti alur kerja yang dirancang dengan cermat, memastikan setiap tangkapan tetap segar, berkualitas premium, dan aman untuk dikonsumsi. Tahapan penting ini meliputi:",
+      text2:
+        "<b>Mengumpulkan Tangkapan:</b> Kami memulai dengan mengumpulkan ikan yang baru ditangkap langsung dari laut untuk memulai proses pengolahan.",
+      text3:
+        "<b>Sortir dan Grading:</b> Ikan disortir dengan cermat berdasarkan ukuran dan kualitas, memastikan penanganan yang efisien dan pemrosesan yang optimal.",
+      text4:
+        "Setelah proses sortir dan grading, kami dengan cermat <b>mengolah</b> produk yang masuk untuk memenuhi spesifikasi dan kebutuhan unik setiap pelanggan, memastikan tingkat kepuasan dan kualitas tertinggi.",
+      text5:
+        "<b>Pembekuan:</b> Kami menggunakan teknologi pembekuan canggih, termasuk <b>Air Blast Freezers (ABF)</b>, <b>Semi-Contact Freezers (SCF)</b>, dan <b>Proton Freezer</b>, untuk memastikan kesegaran, tekstur, dan kualitas tetap terjaga secara optimal.",
+      text6:
+        "<b>Pengepakan:</b> Produk dikemas dengan cermat sesuai standar industri untuk menjaga integritas dan kualitasnya selama transportasi. Pengemasan dilakukan menggunakan plastik dan kotak, disesuaikan dengan permintaan serta kebutuhan spesifik pelanggan, memastikan perlindungan dan kepuasan yang optimal.",
+      text7:
+        "<b>Penyimpanan di Ruang Dingin:</b> Kami menyimpan produk beku pada suhu rendah untuk menjaga kualitasnya hingga mencapai tujuan. Produk ekspor disimpan pada suhu -45°C, sedangkan produk lokal disimpan pada suhu -25°C.",
+      text8:
+        "<b>Stuffing:</b> Langkah terakhir melibatkan pemuatan ikan secara efisien untuk transportasi, dengan mematuhi protokol rantai dingin yang ketat guna memastikan produk tiba di tujuan dalam kondisi prima.",
+      text9:
+        "Proses yang dikelola dengan cermat ini memastikan setiap ikan yang dikirim kepada pelanggan memenuhi standar kualitas tertinggi—menjaga kesegaran, keamanan, dan kesiapan untuk dikonsumsi.",
     },
 
     contact: {

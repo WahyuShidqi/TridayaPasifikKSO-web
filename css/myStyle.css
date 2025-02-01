@@ -22,6 +22,17 @@
 
 /* testing aja */
 
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-black:hover {
+  background-color: rgb(192, 192, 192);
+  color: black;
+  font-weight: bold;
+}
+
 .mybtn {
   padding: 0.3rem 0.5rem;
   margin: 5px;
@@ -107,6 +118,22 @@ ul.no-bullets {
   border-radius: 10px;
 }
 
+/* about us page style */
+about-container-flexcol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.visimisi-Container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1rem;
+}
+/* about us page end */
+
 /* Custom Styles */
 
 .myContainer > div h1 {
@@ -116,8 +143,8 @@ ul.no-bullets {
 
 .experienceIcon {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
-  grid-template-rows: repeat(3, 1fr); /* 2 equal rows */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
   gap: 0 0.5rem; /* Optional: to add space between items */
 }
 
@@ -407,6 +434,13 @@ figcaption {
     align-items: center;
   }
 
+  .experienceIcon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0 0.5rem; /* Optional: to add space between items */
+  }
+
   .mygrid-gallery,
   .certificateGallery {
     display: flex;
@@ -427,6 +461,12 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .visimisi-Container {
+    display: flex;
+
+    flex-wrap: wrap;
   }
 }
 

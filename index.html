@@ -53,6 +53,11 @@
       src="https://kit.fontawesome.com/800d03b5f4.js"
       crossorigin="anonymous"
     ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
   </head>
 
   <body>
@@ -231,11 +236,11 @@
                 >Product</a
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="blog.html" class="nav-link" data-translate="navbar.blog"
                 >Blog</a
               >
-            </li>
+            </li> -->
             <li class="nav-item">
               <a
                 href="contact.html"
@@ -675,7 +680,8 @@
             <h2 class="mb-4" data-translate="homepage.orderfish">
               Order your fish now!
             </h2>
-            <form action="#" class="appointment">
+
+            <form id="appointment-form" class="appointment">
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group">
@@ -684,152 +690,170 @@
                         <div class="icon">
                           <span class="fa fa-chevron-down"></span>
                         </div>
-                        <select name="" id="" class="form-control">
+                        <select
+                          name="product"
+                          id="product"
+                          class="form-control"
+                          required
+                        >
                           <option value="">Select product</option>
-                          <option value="" class="font-weight-bold">
-                            --- Frozen Tuna ---
+                          <option
+                            value="[Frozen] Tuna Sirip Kuning / Yellowfin Tuna"
+                          >
+                            [Frozen] Tuna Sirip Kuning / Yellowfin Tuna
                           </option>
-                          <option value="">
-                            [Frozen]Tuna Sirip Kuning\[Frozen]Yellowfin Tuna
+                          <option
+                            value="[Frozen] Tuna Mata Besar / Big eye Tuna"
+                          >
+                            [Frozen] Tuna Mata Besar / Big eye Tuna
                           </option>
-                          <option value="">
-                            [Frozen]Tuna Mata Besar\[Frozen]Big eye Tuna
+                          <option
+                            value="[Fresh] Tuna Sirip Kuning Segar / Yellowfin Tuna"
+                          >
+                            [Fresh] Tuna Sirip Kuning Segar / Yellowfin Tuna
                           </option>
-                          <option value="" class="font-weight-bold">
-                            --- Fresh Tuna ---
+                          <option
+                            value="[Fresh] Tuna Mata Besar Segar / Big Eye Tuna"
+                          >
+                            [Fresh] Tuna Mata Besar Segar / Big Eye Tuna
                           </option>
-                          <option value="">
-                            [Fresh]Tuna Sirip Kuning Segar\[Fresh]Yellowfin Tuna
+                          <option value="Frozen Demersal">
+                            [Frozen] Layur / Largehead Hairtail
                           </option>
-                          <option value="">
-                            [Fresh]Tuna Mata Besar Segar\[Fresh]Big Eye Tuna
+                          <option
+                            value="[Frozen] Kerapu Merah / Leopard Coral Grouper"
+                          >
+                            [Frozen] Kerapu Merah / Leopard Coral Grouper
                           </option>
-                          <option value="" class="font-weight-bold">
-                            --- Demersal Beku\Frozen Demersal ---
+                          <option value="[Frozen] Kakap / Snappers">
+                            [Frozen] Kakap / Snappers
                           </option>
-                          <option value="">
-                            [Frozen]Layur\[Frozen]Largehead Hairtail
+                          <option value="[Frozen] Bawal / Pomfret">
+                            [Frozen] Bawal / Pomfret
                           </option>
-                          <option value="">
-                            [Frozen]Kerapu Merah\[Frozen]Leopard Coral Grouper
+                          <option value="[Frozen] Kurisi / Bream">
+                            [Frozen] Kurisi / Bream
                           </option>
-                          <option value="">
-                            [Frozen]Kakap\[Frozen]Snappers
+                          <option value="[Frozen] Buntal / Blowfish">
+                            [Frozen] Buntal / Blowfish
                           </option>
-                          <option value="">
-                            [Frozen]Bawal\[Frozen]Pomfret
+                          <option
+                            value="[Frozen] Kambing-Kambing / Flat-tailed Triggerfish"
+                          >
+                            [Frozen] Kambing-Kambing / Flat-tailed Triggerfish
                           </option>
-                          <option value="">[Frozen]Kurisi\[Frozen]Bream</option>
-                          <option value="">
-                            [Frozen]Buntal\[Frozen]Blowfish
+                          <option value="[Frozen] Bandeng / Milkfish">
+                            [Frozen] Bandeng / Milkfish
                           </option>
-                          <option value="">
-                            [Frozen]Kambing-Kambing\[Frozen]Flat-tailed
-                            Triggerfish???
+                          <option value="Frozen Pelagic Fish">
+                            [Frozen] Cakalang / Skipjack Tuna
                           </option>
-                          <option value="">
-                            [Frozen]Bandeng\[Frozen]Milkfish
+                          <option value="[Frozen] Layang / Mackerel Scads">
+                            [Frozen] Layang / Mackerel Scads
                           </option>
-                          <option value="" class="font-weight-bold">
-                            --- Pelagis Beku\Frozen Pelagic Fish ---
+                          <option value="[Frozen] Marlin">
+                            [Frozen] Marlin
                           </option>
-                          <option value="">
-                            [Frozen]Cakalang\[Frozen]Skipjack Tuna
+                          <option value="[Frozen] Layaran / Sailfish">
+                            [Frozen] Layaran / Sailfish
                           </option>
-                          <option value="">
-                            [Frozen]Layang\[Frozen]Mackerel Scads
+                          <option
+                            value="[Frozen] Selar Kuning / Yellowstripe Scad"
+                          >
+                            [Frozen] Selar Kuning / Yellowstripe Scad
                           </option>
-                          <option value="">
-                            [Frozen]Marlin\[Frozen]Marlin
+                          <option
+                            value="[Frozen] Kembung / Long Jawed Macekerel"
+                          >
+                            [Frozen] Kembung / Long Jawed Macekerel
                           </option>
-                          <option value="">
-                            [Frozen]Layaran\[Frozen]Sailfish
+                          <option value="[Frozen] Cencaru / Torpedo Scad">
+                            [Frozen] Cencaru / Torpedo Scad
                           </option>
-                          <option value="">
-                            [Frozen]Selar Kuning\[Frozen]Yellowstripe Scad
+                          <option value="[Frozen] Lemuru / Indian Oil Sardine">
+                            [Frozen] Lemuru / Indian Oil Sardine
                           </option>
-                          <option value="">
-                            [Frozen]Kembung\[Frozen]Long Jawed Macekerel
+                          <option value="Frozen Cephalopoda">
+                            [Frozen] Gurita / Octopus
                           </option>
-                          <option value="">
-                            [Frozen]Cencaru\[Frozen]Torpedo Scad
+                          <option value="[Frozen] Cumi / Squid">
+                            [Frozen] Cumi / Squid
                           </option>
-                          <option value="">
-                            [Frozen]Lemuru\[Frozen]Indian Oil Sardine
-                          </option>
-                          <option value="" class="font-weight-bold">
-                            --- Sefalopoda Beku\Frozen Cephalopoda ---
-                          </option>
-                          <option value="">
-                            [Frozen]Gurita\[Frozen]Octopus
-                          </option>
-                          <option value="">[Frozen]Cumi\[Frozen]Squid</option>
-                          <option value="">
-                            [Frozen]Sotong\[Frozen]Cuttlefish
+                          <option value="[Frozen] Sotong / Cuttlefish">
+                            [Frozen] Sotong / Cuttlefish
                           </option>
                         </select>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div class="col-md-6">
                   <div class="form-group">
                     <input
                       type="text"
+                      name="name"
+                      id="name"
                       class="form-control"
                       placeholder="Your Name"
+                      required
                     />
                   </div>
                 </div>
+
                 <div class="col-md-6">
                   <div class="form-group">
                     <input
                       type="text"
+                      name="location"
+                      id="location"
                       class="form-control"
                       placeholder="Your Location"
+                      required
                     />
                   </div>
                 </div>
+
                 <div class="col-md-6">
                   <div class="form-group">
-                    <div class="input-wrap">
-                      <div class="icon">
-                        <span class="fa fa-calendar"></span>
-                      </div>
-                      <input
-                        type="text"
-                        class="form-control appointment_date"
-                        placeholder="Date"
-                      />
-                    </div>
+                    <input
+                      type="text"
+                      name="date"
+                      id="date"
+                      class="form-control appointment_date"
+                      placeholder="Date"
+                      required
+                    />
                   </div>
                 </div>
+
                 <div class="col-md-6">
                   <div class="form-group">
-                    <div class="input-wrap">
-                      <div class="icon">
-                        <span class="fa fa-clock-o"></span>
-                      </div>
-                      <input
-                        type="text"
-                        class="form-control appointment_time"
-                        placeholder="Time"
-                      />
-                    </div>
+                    <input
+                      type="text"
+                      name="time"
+                      id="time"
+                      class="form-control appointment_time"
+                      placeholder="Time"
+                      required
+                    />
                   </div>
                 </div>
+
                 <div class="col-md-12">
                   <div class="form-group">
                     <textarea
-                      name=""
-                      id=""
+                      name="message"
+                      id="message"
                       cols="30"
                       rows="7"
                       class="form-control"
                       placeholder="Message"
+                      required
                     ></textarea>
                   </div>
                 </div>
+
                 <div class="col-md-12">
                   <div class="form-group">
                     <input
@@ -1011,7 +1035,7 @@
       </div>
     </section>
 
-    <section class="ftco-section">
+    <!-- <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -1082,9 +1106,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="ftco-section bg-light">
+    <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -1370,5 +1394,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/swiperSlide.js"></script>
     <!-- swiper script end -->
+    <!-- <script src="./js/emailjs.js"></script> -->
+    <script src="./js/mailto.js"></script>
   </body>
 </html>
