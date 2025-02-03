@@ -30,8 +30,14 @@ document
         time +
         "\n" +
         "\n" +
+        "Dear Tridaya Pasifik KSO, " +
         "\n" +
-        message
+        message +
+        "\n" +
+        "\n" +
+        "Best Regards, " +
+        "\n" +
+        name
     );
 
     // Create the mailto link
@@ -44,3 +50,17 @@ document
     // Open the email client (the user’s email client will pop up)
     window.location.href = mailtoLink;
   });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get current time from the user's device
+  let now = new Date();
+
+  // Format time as HH:MM (24-hour format)
+  let hours = String(now.getHours()).padStart(2, "0"); // Adds leading zero if needed
+  let minutes = String(now.getMinutes()).padStart(2, "0");
+
+  let formattedTime = `${hours}:${minutes}`;
+
+  // Set input value
+  document.getElementById("time").value = formattedTime;
+});
