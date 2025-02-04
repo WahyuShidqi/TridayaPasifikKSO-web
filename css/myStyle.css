@@ -4,6 +4,27 @@
   border-radius: 5px;
 }
 
+.hover-transform {
+  transform: scale(1) !important;
+  transition: transform 0.5s ease-in-out !important;
+}
+
+.hover-transform:hover {
+  transform: scale(1.1) !important;
+  /* animation: ease-in-out 0.5s ease-in-out; */
+  transition: transform 0.5s ease-in-out !important;
+}
+
+/* @keyframes ease-in-out {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+} */
+
 .myImg-h-fit {
   height: 100%;
 }
@@ -66,6 +87,11 @@ ul.no-bullets {
 
 .bg-soft-blue {
   background-color: #dee7f0;
+}
+
+.half-a-border-on-bottom {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to left, #fff 80%, transparent 50%) 100% 1;
 }
 
 .centralize-col {
@@ -145,7 +171,14 @@ about-container-flexcol {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
   grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
-  gap: 0 0.5rem; /* Optional: to add space between items */
+  gap: 0 1.5rem; /* Optional: to add space between items */
+}
+
+.my-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
+  gap: 1 1.5rem; /* Optional: to add space between items */
 }
 
 figure h3 {
@@ -438,7 +471,13 @@ figcaption {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 0 0.5rem; /* Optional: to add space between items */
+    gap: 1 0.5rem; /* Optional: to add space between items */
+  }
+  .my-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1 1rem; /* Optional: to add space between items */
   }
 
   .mygrid-gallery,
@@ -573,6 +612,12 @@ figcaption {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.gallery-image {
+  max-width: 21.25rem;
+  max-height: 21.25rem;
+  border-radius: 10px;
+}
+
 /* Responsive Styles */
 @media only screen and (max-width: 1000px) {
   .my-grid-container {
@@ -597,5 +642,19 @@ figcaption {
     grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
     grid-template-rows: auto auto; /* Auto row height */
     gap: 0px 5px;
+  }
+
+  .gallery-image {
+    max-width: 12rem;
+    max-height: 12rem;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .gallery-image {
+    max-width: 8rem;
+    max-height: 8rem;
+    border-radius: 10px;
   }
 }
