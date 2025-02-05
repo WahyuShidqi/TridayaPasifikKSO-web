@@ -94,6 +94,11 @@ ul.no-bullets {
   border-image: linear-gradient(to left, #fff 80%, transparent 50%) 100% 1;
 }
 
+.half-a-border-on-bottom-black {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to left, #000 80%, transparent 50%) 100% 1;
+}
+
 .centralize-col {
   display: flex;
   justify-content: center;

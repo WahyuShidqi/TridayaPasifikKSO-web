@@ -209,7 +209,7 @@ const translations = {
 
     service: {
       maintitle: "Services",
-      title: "OUR SERVICES",
+      title: "Fish Processing",
       text1:
         "Our fishery processing services follow a meticulously designed workflow, ensuring that every catch retains its freshness, premium quality, and safety for consumption. These essential stages include:",
       text2:
@@ -480,7 +480,7 @@ const translations = {
 
     service: {
       maintitle: "Layanan",
-      title: "LAYANAN KAMI",
+      title: "JASA PROSES IKAN",
       text1:
         "Layanan pengolahan perikanan kami mengikuti alur kerja yang dirancang dengan cermat, memastikan setiap tangkapan tetap segar, berkualitas premium, dan aman untuk dikonsumsi. Tahapan penting ini meliputi:",
       text2:

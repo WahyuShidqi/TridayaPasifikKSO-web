@@ -17,7 +17,7 @@ document
     }
 
     // Send data to the backend
-    fetch("https://tridaya-mail-server.vercel.app/send-email", {
+    fetch("https://tridaya-mail-server.vercel.app/api/send-email", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
