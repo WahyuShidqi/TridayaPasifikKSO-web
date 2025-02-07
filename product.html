@@ -75,7 +75,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg-light">
     <!-- header -->
     <div class="wrap" style="background-color: #0095cf">
       <div class="container">
@@ -198,15 +198,6 @@
         >
           <span class="fa fa-bars"></span> Menu
         </button>
-        <!-- <form action="#" class="searchform order-lg-last">
-		<div class="form-group d-flex">
-		  <input type="text" class="form-control pl-3" placeholder="Search" />
-		  <button type="submit" placeholder="" class="form-control search">
-			<span class="fa fa-search"></span>
-		  </button>
-		</div>
-	  </form> -->
-        <!-- Toggle Language Button (Google Translate-like icon) -->
 
         <div class="languageswitchersection order-lg-last">
           <button class="language-btn" onclick="toggleLanguagePanel()">
@@ -280,6 +271,8 @@
       </div>
     </nav>
     <!-- nav ends -->
+
+    <!-- breadcrumbs section -->
     <section
       class="hero-wrap hero-wrap-2"
       style="background-image: url('images/bg_2.jpg')"
@@ -305,42 +298,173 @@
       </div>
     </section>
 
+    <!-- breadcrumbs section ends -->
+
+    <!-- Hero section -->
     <section
-      class="ftco-section bg-soft-blue"
-      style="padding-bottom: 2rem !important"
+      class="ftco-section bg-light"
+      style="padding-bottom: 2rem !important ; margin-bottom: 2rem"
     >
-      <div class="container myCard-w-fitcontent bg-light">
-        <div class="navigation">
+      <div class="container text-center" style="text-wrap: wrap">
+        <h2 class="font-weight-bold">
+          We offer our products both locally and internationally
+        </h2>
+        <img
+          class="map-image"
+          src="./images/export-map-upscaled.png"
+          alt="export-map.png"
+        />
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- Tuna description section -->
+    <section class="ftco-section" style="background-color: black">
+      <!-- Main Product title -->
+      <div class="container">
+        <div class="navigation ftco-animate">
           <div class="title">
-            <h1 class="font-weight-bold text-center">OUR PRODUCTS</h1>
+            <h1 class="font-weight-bold text-center" style="color: white">
+              OUR PRODUCTS
+            </h1>
           </div>
-          <!-- <div class="title">
-            <h5 class="text-center" style="font-style: italic">Navigator:</h5>
-          </div> -->
+
           <div class="navigation-btn-container">
-            <a class="btn btn-black nav-btn" href="#tuna">Tuna</a>
-            <a class="btn btn-black nav-btn" href="#skipjacktuna"
+            <a class="btn btn-light nav-btn" href="#tuna">Tuna</a>
+            <a class="btn btn-light nav-btn" href="#skipjacktuna"
               >Skipjack Tuna</a
             >
-            <a class="btn btn-black nav-btn" href="#yellowfintuna"
+            <a class="btn btn-light nav-btn" href="#yellowfintuna"
               >Yellowfin Tuna</a
             >
-            <a class="btn btn-black nav-btn" href="#octopus">Octopus</a>
+            <a class="btn btn-light nav-btn" href="#octopus">Octopus</a>
           </div>
         </div>
       </div>
+      <!-- main product title end -->
+
+      <div class="swiper product-desc-slider">
+        <div class="swiper-wrapper">
+          <div class="container card-horizontal swiper-slide">
+            <div class="image ftco-animate">
+              <img
+                class="myImg-h-fit myImg-w-fit rounded-sm"
+                src="./images/skipjackTuna.jpg"
+                alt="Tuna.jpg"
+              />
+            </div>
+            <div
+              class="product-description myText-left max-width-half ftco-animate"
+            >
+              <h2 class="font-weight-bold" style="color: white !important">
+                TUNA PRODUCT
+              </h2>
+              <p style="color: white !important">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                laborum adipisci dolores, itaque tenetur sunt suscipit modi
+                tempore. Provident, delectus veniam eos iure pariatur suscipit
+                nemo sed id at molestias! Repellendus, ratione esse labore,
+                tempore incidunt vel illum voluptatum optio nesciunt
+                voluptatibus ex, consequuntur molestiae veniam? Veritatis porro
+                doloribus impedit ipsum numquam, excepturi consequuntur hic
+                optio! Molestiae eos nemo voluptates?
+              </p>
+            </div>
+          </div>
+          <div class="container card-horizontal swiper-slide">
+            <div class="image ftco-animate">
+              <img
+                class="myImg-h-fit myImg-w-fit rounded-sm"
+                src="./images/skipjackTuna.jpg"
+                alt="Tuna.jpg"
+              />
+            </div>
+            <div
+              class="product-description myText-left max-width-half ftco-animate"
+            >
+              <h2 class="font-weight-bold" style="color: white !important">
+                TUNA PRODUCT
+              </h2>
+              <p style="color: white !important">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                laborum adipisci dolores, itaque tenetur sunt suscipit modi
+                tempore. Provident, delectus veniam eos iure pariatur suscipit
+                nemo sed id at molestias! Repellendus, ratione esse labore,
+                tempore incidunt vel illum voluptatum optio nesciunt
+                voluptatibus ex, consequuntur molestiae veniam? Veritatis porro
+                doloribus impedit ipsum numquam, excepturi consequuntur hic
+                optio! Molestiae eos nemo voluptates?
+              </p>
+            </div>
+          </div>
+          <div class="container card-horizontal swiper-slide">
+            <div class="image ftco-animate">
+              <img
+                class="myImg-h-fit myImg-w-fit rounded-sm"
+                src="./images/skipjackTuna.jpg"
+                alt="Tuna.jpg"
+              />
+            </div>
+            <div
+              class="product-description myText-left max-width-half ftco-animate"
+            >
+              <h2 class="font-weight-bold" style="color: white !important">
+                TUNA PRODUCT
+              </h2>
+              <p style="color: white !important">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                laborum adipisci dolores, itaque tenetur sunt suscipit modi
+                tempore. Provident, delectus veniam eos iure pariatur suscipit
+                nemo sed id at molestias! Repellendus, ratione esse labore,
+                tempore incidunt vel illum voluptatum optio nesciunt
+                voluptatibus ex, consequuntur molestiae veniam? Veritatis porro
+                doloribus impedit ipsum numquam, excepturi consequuntur hic
+                optio! Molestiae eos nemo voluptates?
+              </p>
+            </div>
+          </div>
+          <div class="container card-horizontal swiper-slide">
+            <div class="image ftco-animate">
+              <img
+                class="myImg-h-fit myImg-w-fit rounded-sm"
+                src="./images/skipjackTuna.jpg"
+                alt="Tuna.jpg"
+              />
+            </div>
+            <div
+              class="product-description myText-left max-width-half ftco-animate"
+            >
+              <h2 class="font-weight-bold" style="color: white !important">
+                TUNA PRODUCT
+              </h2>
+              <p style="color: white !important">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                laborum adipisci dolores, itaque tenetur sunt suscipit modi
+                tempore. Provident, delectus veniam eos iure pariatur suscipit
+                nemo sed id at molestias! Repellendus, ratione esse labore,
+                tempore incidunt vel illum voluptatum optio nesciunt
+                voluptatibus ex, consequuntur molestiae veniam? Veritatis porro
+                doloribus impedit ipsum numquam, excepturi consequuntur hic
+                optio! Molestiae eos nemo voluptates?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding-top: 5rem">
+        <div class="swiper-scrollbar" style="position: static !important"></div>
+      </div>
     </section>
 
+    <!--  product slide -->
     <section
-      class="ftco-section bg-soft-blue"
+      class="ftco-section bg-light"
       style="padding-top: 0.5rem !important"
     >
+      <!-- Tuna product slide -->
       <div id="tuna" class="container myCard bg-light">
-        <div>
-          <h2
-            class="font-weight-bold w-100 half-a-border-on-bottom-black"
-            style="border-bottom: 2px solid !important"
-          >
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
             TUNA PRODUCT
           </h2>
         </div>
@@ -399,8 +523,444 @@
         </div>
       </div>
 
+      <!-- Marlin product slide  -->
+      <div id="tuna" class="container myCard bg-light">
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
+            MARLIN PRODUCT
+          </h2>
+        </div>
+        <div class="our-product">
+          <div class="my-carousel-container">
+            <div class="marlin-swiper-button-prev"></div>
+            <!-- swiper 2 start -->
+            <div class="swiper marlin-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 1"
+                  />
+                  <p class="my-product-text">Product 1</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 2"
+                  />
+                  <p class="my-product-text">Product 2</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 3"
+                  />
+                  <p class="my-product-text">Product 3</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 4"
+                  />
+                  <p class="my-product-text">Product 4</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://fishpanamatoday.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-08-at-5.37.06-PM-1.jpeg"
+                    alt="Product 5"
+                  />
+                  <p class="my-product-text">Product 5</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 6"
+                  />
+                  <p class="my-product-text">Product 6</p>
+                </div>
+              </div>
+              <!--marlin Swiper Buttons -->
+            </div>
+            <div class="marlin-swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cakalang slider start -->
+      <div id="tuna" class="container myCard bg-light">
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
+            SKIPJACK TUNA PRODUCT
+          </h2>
+        </div>
+        <div class="our-product">
+          <div class="my-carousel-container">
+            <div class="cakalang-swiper-button-prev"></div>
+            <div class="swiper cakalang-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 1"
+                  />
+                  <p class="my-product-text">Product 1</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 2"
+                  />
+                  <p class="my-product-text">Product 2</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 3"
+                  />
+                  <p class="my-product-text">Product 3</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 4"
+                  />
+                  <p class="my-product-text">Product 4</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://fishpanamatoday.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-08-at-5.37.06-PM-1.jpeg"
+                    alt="Product 5"
+                  />
+                  <p class="my-product-text">Product 5</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 6"
+                  />
+                  <p class="my-product-text">Product 6</p>
+                </div>
+              </div>
+              <!-- Swiper Buttons -->
+            </div>
+            <div class="cakalang-swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Baby tuna swiper start -->
+
+      <div id="tuna" class="container myCard bg-light">
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
+            BABY TUNA PRODUCT
+          </h2>
+        </div>
+        <div class="our-product">
+          <div class="my-carousel-container">
+            <div class="babytuna-swiper-button-prev"></div>
+            <div class="swiper babytuna-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 1"
+                  />
+                  <p class="my-product-text">Product 1</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 2"
+                  />
+                  <p class="my-product-text">Product 2</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 3"
+                  />
+                  <p class="my-product-text">Product 3</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 4"
+                  />
+                  <p class="my-product-text">Product 4</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://fishpanamatoday.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-08-at-5.37.06-PM-1.jpeg"
+                    alt="Product 5"
+                  />
+                  <p class="my-product-text">Product 5</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 6"
+                  />
+                  <p class="my-product-text">Product 6</p>
+                </div>
+              </div>
+              <!-- Swiper Buttons -->
+            </div>
+            <div class="babytuna-swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- octopus swiper start -->
+      <div id="tuna" class="container myCard bg-light">
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
+            OCTOPUS PRODUCT
+          </h2>
+        </div>
+        <div class="our-product">
+          <div class="my-carousel-container">
+            <div class="octopus-swiper-button-prev"></div>
+            <div class="swiper octopus-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 1"
+                  />
+                  <p class="my-product-text">Product 1</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 2"
+                  />
+                  <p class="my-product-text">Product 2</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 3"
+                  />
+                  <p class="my-product-text">Product 3</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 4"
+                  />
+                  <p class="my-product-text">Product 4</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://fishpanamatoday.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-08-at-5.37.06-PM-1.jpeg"
+                    alt="Product 5"
+                  />
+                  <p class="my-product-text">Product 5</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 6"
+                  />
+                  <p class="my-product-text">Product 6</p>
+                </div>
+              </div>
+              <!-- Swiper Buttons -->
+            </div>
+            <div class="octopus-swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- tenggiri swiper start / Spanish mackerels -->
+      <div id="tuna" class="container myCard bg-light">
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
+            SPANISH MACKERELS PRODUCT
+          </h2>
+        </div>
+        <div class="our-product">
+          <div class="my-carousel-container">
+            <div class="spanish-mackerel-swiper-button-prev"></div>
+            <div class="swiper spanish-mackerel-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 1"
+                  />
+                  <p class="my-product-text">Product 1</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 2"
+                  />
+                  <p class="my-product-text">Product 2</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 3"
+                  />
+                  <p class="my-product-text">Product 3</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 4"
+                  />
+                  <p class="my-product-text">Product 4</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://fishpanamatoday.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-08-at-5.37.06-PM-1.jpeg"
+                    alt="Product 5"
+                  />
+                  <p class="my-product-text">Product 5</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 6"
+                  />
+                  <p class="my-product-text">Product 6</p>
+                </div>
+              </div>
+              <!-- Swiper Buttons -->
+            </div>
+            <div class="spanish-mackerel-swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- layur swiper start -->
+      <div id="tuna" class="container myCard bg-light">
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
+            LARGEHEAD HAIRTAIL PRODUCT
+          </h2>
+        </div>
+        <div class="our-product">
+          <div class="my-carousel-container">
+            <div class="largeheadhairtail-swiper-button-prev"></div>
+            <div class="swiper largeheadhairtail-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 1"
+                  />
+                  <p class="my-product-text">Product 1</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 2"
+                  />
+                  <p class="my-product-text">Product 2</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 3"
+                  />
+                  <p class="my-product-text">Product 3</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 4"
+                  />
+                  <p class="my-product-text">Product 4</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://fishpanamatoday.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-08-at-5.37.06-PM-1.jpeg"
+                    alt="Product 5"
+                  />
+                  <p class="my-product-text">Product 5</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 6"
+                  />
+                  <p class="my-product-text">Product 6</p>
+                </div>
+              </div>
+              <!-- Swiper Buttons -->
+            </div>
+            <div class="largeheadhairtail-swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- other products swiper start -->
+      <div id="tuna" class="container myCard bg-light">
+        <div class="fish-product-title">
+          <h2 class="font-weight-bold w-100 half-a-border-on-bottom-black">
+            OTHER PRODUCT
+          </h2>
+        </div>
+        <div class="our-product">
+          <div class="my-carousel-container">
+            <div class="other-swiper-button-prev"></div>
+            <div class="swiper other-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 1"
+                  />
+                  <p class="my-product-text">Product 1</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 2"
+                  />
+                  <p class="my-product-text">Product 2</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 3"
+                  />
+                  <p class="my-product-text">Product 3</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 4"
+                  />
+                  <p class="my-product-text">Product 4</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://fishpanamatoday.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-08-at-5.37.06-PM-1.jpeg"
+                    alt="Product 5"
+                  />
+                  <p class="my-product-text">Product 5</p>
+                </div>
+                <div class="swiper-slide my-product-slide">
+                  <img
+                    src="https://www.bigbasket.com/media/uploads/p/xl/40087290-2_1-fresho-tuna-fish.jpg"
+                    alt="Product 6"
+                  />
+                  <p class="my-product-text">Product 6</p>
+                </div>
+              </div>
+              <!-- Swiper Buttons -->
+            </div>
+            <div class="other-swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
       <!-- Tuna description section -->
-      <div class="container myCard bg-light">
+      <!-- <div class="container myCard bg-light">
         <div id="skipjacktuna" class="card-horizontal">
           <div class="imgsection">
             <img
@@ -474,10 +1034,44 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="container myCard bg-light">
+      <!-- <div class="container myCard bg-light">
         <div class=""></div>
+      </div> -->
+    </section>
+
+    <!-- price catalog -->
+    <section class="ftco-section price-catalog parallax mt-6">
+      <div class="container card-horizontal">
+        <div class="pricing-katalog-title">
+          <h2 class="font-weight-bold text-white">
+            READ OUR CATALOG FOR MORE INFO!
+          </h2>
+          <h5 class="text-white" style="padding-top: 3.5rem">
+            Check out our fish pricing catalog for detailed information on
+            available varieties, sizes, and prices!
+          </h5>
+          <a
+            class="btn btn-light nav-btn"
+            style="margin-top: 3.5rem"
+            href="./pdf/Final Price List - Tridaya Pasifik KSO.pdf"
+            target="_blank"
+            >View catalog</a
+          >
+        </div>
+        <div class="centralize-col">
+          <a
+            href="./pdf/Final Price List - Tridaya Pasifik KSO.pdf"
+            target="_blank"
+          >
+            <img
+              class="catalog-img hover-scaled"
+              src="./images/pricelist.png"
+              alt="pricelist.png"
+            />
+          </a>
+        </div>
       </div>
     </section>
 
