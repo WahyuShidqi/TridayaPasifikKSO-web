@@ -202,6 +202,22 @@ about-container-flexcol {
 
 /* Custom Styles */
 
+.storage-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.storage-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.storage-images > figure > img {
+  max-width: 30rem;
+}
+
 .catalog-img {
   max-width: 24rem;
   margin-left: 3.5rem;
@@ -515,11 +531,8 @@ figcaption {
   margin-top: 8rem;
 }
 
-#yellowfintuna,
-#skipjacktuna,
-#tuna,
-#octopus {
-  scroll-margin-top: 25vh;
+* {
+  scroll-margin-top: 20vh;
 }
 
 /* @media only screen and (max-width: 750px) {

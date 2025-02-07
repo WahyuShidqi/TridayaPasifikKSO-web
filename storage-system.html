@@ -29,28 +29,32 @@
 
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/style.css" />
-
-    <!-- my added link -->
+    <!-- mystyle -->
     <link rel="stylesheet" href="./css/myStyle.css" />
     <link rel="stylesheet" href="./css/languagebutton.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
     />
+    <!-- Swiper Style -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <link rel="stylesheet" href="./css/swiperSlide.css" />
+    <!-- myHeaderScript -->
     <script
       src="https://kit.fontawesome.com/800d03b5f4.js"
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
-    <!-- header -->
     <div class="wrap" style="background-color: #0095cf">
       <div class="container">
         <div class="row justify-content-between">
@@ -153,9 +157,7 @@
         </div>
       </div>
     </div>
-    <!-- header end -->
 
-    <!-- nav start -->
     <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
       id="ftco-navbar"
@@ -172,15 +174,6 @@
         >
           <span class="fa fa-bars"></span> Menu
         </button>
-        <!-- <form action="#" class="searchform order-lg-last">
-		<div class="form-group d-flex">
-		  <input type="text" class="form-control pl-3" placeholder="Search" />
-		  <button type="submit" placeholder="" class="form-control search">
-			<span class="fa fa-search"></span>
-		  </button>
-		</div>
-	  </form> -->
-        <!-- Toggle Language Button (Google Translate-like icon) -->
 
         <div class="languageswitchersection order-lg-last">
           <button class="language-btn" onclick="toggleLanguagePanel()">
@@ -215,11 +208,19 @@
                 >About</a
               >
             </li>
-            <!-- <li class="nav-item">
-			<a href="team.html" class="nav-link" data-translate="navbar.team"
-			  >Team</a
-			>
-		  </li> -->
+            <li class="nav-item">
+              <a href="storage-system.html" class="nav-link"
+                >Facility & Utility</a
+              >
+            </li>
+
+            <li class="nav-item active">
+              <a href="storage-system.html" class="nav-link">Storage system</a>
+            </li>
+            <li class="nav-item">
+              <a href="storage-system.html" class="nav-link">supply chain</a>
+            </li>
+
             <li class="nav-item">
               <a
                 href="services.html"
@@ -241,7 +242,7 @@
                 >Blog</a
               >
             </li> -->
-            <li class="nav-item active">
+            <li class="nav-item">
               <a
                 href="contact.html"
                 class="nav-link"
@@ -253,8 +254,9 @@
         </div>
       </div>
     </nav>
-    <!-- nav ends -->
+    <!-- END nav -->
 
+    <!-- breadcrumb start -->
     <section
       class="hero-wrap hero-wrap-2 parallax"
       style="background-image: url('images/bg_2.jpg')"
@@ -266,217 +268,114 @@
             <p class="breadcrumbs mb-2">
               <span class="mr-2"
                 ><a href="index.html" data-translate="breadCrumb.home"
-                  >Home <i class="fa fa-chevron-right"></i></a
-              ></span>
-              <span data-translate="breadCrumb.contactUs"
-                >Contact us <i class="fa fa-chevron-right"></i
-              ></span>
+                  >Home
+                </a></span
+              >
+              <span data-translate="breadCrumb.aboutUs">About us</span>
             </p>
-            <h1 class="mb-0 bread" data-translate="contact.title">
-              Contact us
+            <h1 class="mb-0 bread" data-translate="aboutUs.mainTitle">
+              About Us
             </h1>
           </div>
         </div>
       </div>
     </section>
+    <!-- breadcrumb end -->
 
-    <section class="ftco-section bg-light">
+    <!-- storage system desc start -->
+
+    <section class="ftco-section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-12">
-            <div class="wrapper">
-              <div class="row no-gutters">
-                <div class="col-md-7 d-flex">
-                  <div class="contact-wrap w-100 p-md-5 p-4">
-                    <h3
-                      class="mb-4"
-                      data-translate="contact.emailSection.title"
-                    >
-                      Get in touch
-                    </h3>
-
-                    <form id="appointment-form" class="appointment">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <div class="form-field"></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              name="name"
-                              id="name"
-                              class="form-control"
-                              placeholder="Your Name"
-                              style="outline: grey solid 1px"
-                              required
-                            />
-                          </div>
-                        </div>
-
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              name="location"
-                              id="location"
-                              class="form-control"
-                              placeholder="Your Location"
-                              style="outline: grey solid 1px"
-                              required
-                            />
-                          </div>
-                        </div>
-
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              name="date"
-                              id="date"
-                              class="form-control appointment_date"
-                              placeholder="Date"
-                              style="outline: grey solid 1px"
-                              required
-                            />
-                          </div>
-                        </div>
-
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              name="subject"
-                              id="subject"
-                              class="form-control subject"
-                              placeholder="subject"
-                              style="outline: grey solid 1px"
-                              required
-                            />
-                          </div>
-                        </div>
-
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <textarea
-                              name="message"
-                              id="message"
-                              cols="30"
-                              rows="7"
-                              class="form-control"
-                              placeholder="Message"
-                              style="outline: grey solid 1px"
-                              required
-                            ></textarea>
-                          </div>
-                        </div>
-
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <input
-                              type="submit"
-                              value="Send message"
-                              class="btn btn-dark py-3 px-4"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-5 d-flex align-items-stretch">
-                  <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
-                    <h3
-                      class="mb-4 mt-md-4"
-                      data-translate="contact.address.title"
-                    >
-                      Contact us
-                    </h3>
-                    <div class="dbox w-100 d-flex align-items-start">
-                      <div
-                        class="icon d-flex align-items-center justify-content-center"
-                      >
-                        <span class="fa fa-map-marker"></span>
-                      </div>
-                      <div class="text pl-3">
-                        <p data-translate="contact.address.address">
-                          <span>Address:</span> Lampulo, Kuta Alam District,
-                          Banda Aceh City, Aceh, Indonesia
-                        </p>
-                      </div>
-                    </div>
-                    <div class="dbox w-100 d-flex align-items-center">
-                      <div
-                        class="icon d-flex align-items-center justify-content-center"
-                      >
-                        <span class="fa fa-phone"></span>
-                      </div>
-                      <div class="text pl-3">
-                        <p>
-                          <span data-translate="contact.address.phone"
-                            >Phone:</span
-                          >
-                          <a
-                            href="tel:+626513612327"
-                            data-translate="contact.address.phoneNumber"
-                            >(+62) 651 3612 327</a
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="dbox w-100 d-flex align-items-center">
-                      <div
-                        class="icon d-flex align-items-center justify-content-center"
-                      >
-                        <span class="fa fa-paper-plane"></span>
-                      </div>
-                      <div class="text pl-3">
-                        <p>
-                          <span>Email:</span>
-                          <a href="mailto:mkt.tridayapasifikkso@gmail.com"
-                            ><span>mkt.tridayapasifikkso@gmail.com</span></a
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="storage-wrapper">
+          <div class="storage-title">
+            <h2 class="font-weight-bold">COLD STORAGE SYSTEM</h2>
+            <p style="padding-top: 2rem">
+              Tridaya Pasifik KSO utilizes advanced freezing technology to
+              ensure the highest quality and freshness of our products. Our
+              state-of-the-art Proton Freezer, with a capacity of up to 50 kg
+              per hour, is designed to preserve optimal texture and freshness
+              even after defrosting, maintaining product quality for up to 2
+              years of storage. Complementing this, we also operate Air Blast
+              Freezers (ABF) and Semi-Contact Freezers (SCF), tailored to meet
+              diverse freezing requirements. The ABF, with a capacity of 10 tons
+              per day, is ideal for rapid freezing of large quantities, ensuring
+              efficiency for bulk production. Meanwhile, our SCF, equipped with
+              two operating machines and a combined capacity of 2.8 tons per
+              day, provides precision freezing for smaller batches. These
+              technologies enable us to deliver flexibility, reliability, and
+              superior quality to meet the demands of both local and
+              international markets.
+            </p>
+            <p>
+              Our operations, from receiving raw materials to preparing
+              ready-to-ship products, are supported by a state-of-the-art
+              storage system consist of two seperated cold rooms both minimum
+              -45°C and-25°C. which plays a vital role in preserving the
+              freshness and quality of our products throughout the entire
+              process
+            </p>
           </div>
-          <div class="col-md-12">
-            <div
-              id="map"
-              class="map"
-              style="width: 100% !important; margin-bottom: 6rem"
-            >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.876208849689!2d95.3207389!3d5.5853094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3040375efa9e8ffd%3A0xb6e31ecdc9532faa!2sYakin%20Pasifik%20Tuna-%20UPI%20Pabrik%20Pengolahan%20(YPT)!5e0!3m2!1sen!2sid!4v1736851596433!5m2!1sen!2sid"
-                height="450"
-                style="
-                  border: 2px solid orange;
-                  width: 100%;
-                  border-radius: 5px;
-                "
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-              <p>
-                <span data-translate="contact.map.location">Location:</span>
-                Yakin Pasifik Tuna - UPI Pabrik Pengolahan (YPT), Aceh,
-                Indonesia.
-              </p>
-            </div>
+          <div class="storage-images">
+            <figure>
+              <img src="./images/ProtonFreezer.jpg" alt="" />
+              <figcaption>
+                Proton Freezer, Air Blast (SCF), Semi Contact (SCF) Fleet and
+                Cold Storage
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+      <div class="container myCard">
+        <div class="">
+          <div class="freezertitle">
+            <h2
+              class="font-weight-bold text-center"
+              data-translate="aboutUs.fifthSection.title"
+            >
+              REFRIGERATION SYSTEM
+            </h2>
+          </div>
+          <div class="freezerImg myCard-blue">
+            <img
+              src="./images/ProtonFreezer.jpg"
+              alt="Proton-Freezer-1024x458"
+            />
+          </div>
+          <div class="freezersubtitle">
+            <h7
+              class="font-weight-bold font-italic"
+              data-translate="aboutUs.fifthSection.subtitle1"
+            >
+              PROTON FREEZER, ABF, SEMI CONTACT
+            </h7>
+            <h5 data-translate="aboutUs.fifthSection.subtitle2">
+              FLEET AND COLD STORAGE
+            </h5>
+          </div>
+          <div class="freezertextfield">
+            <p data-translate="aboutUs.fifthSection.text">
+              Tridaya Pasifik KSO utilizes cutting-edge
+              <b>Proton Freezers</b> to ensure our high-quality products remain
+              fresh and retain their optimal texture even after defrosting, even
+              following up to 2 years of storage. Our operations, from receiving
+              raw materials to preparing ready-to-ship products, are supported
+              by a state-of-the-art <b>-45°C cold</b> storage system, which
+              plays a vital role in preserving the freshness and quality of our
+              products throughout the entire process.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- storage system desc start ends-->
+
+    <!-- Corporate background section -->
+
     <footer class="footer ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -607,7 +506,6 @@
         </div>
       </div>
     </footer>
-    <!-- Footer ends -->
 
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen">
@@ -647,8 +545,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -670,14 +568,16 @@
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
       integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-      data-cf-beacon='{"rayId":"8fab3b51be4a5cde","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+      data-cf-beacon='{"rayId":"8fab39e26ff65cde","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"cd0b4b3a733644fc843ef0b185f98241"}'
       crossorigin="anonymous"
     ></script>
     <!-- my Added script -->
     <script src="./Localization/index.translation.js"></script>
     <script src="./Localization/translationFunction.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiperEffectCreative.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/swiperSlide.js"></script>
-    <script src="./js/kontakmailto.js"></script>
+    <!-- my Added Script ends here! -->
   </body>
 </html>
