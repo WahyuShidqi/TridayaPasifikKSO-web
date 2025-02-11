@@ -205,6 +205,8 @@ about-container-flexcol {
 .storage-text-image {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 3rem;
 }
 
@@ -212,10 +214,12 @@ about-container-flexcol {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
+  width: 100%;
 }
 
-.storage-images > figure > img {
-  max-width: 30rem;
+.storage-images > img {
+  max-width: 45rem;
 }
 
 .catalog-img {
@@ -679,8 +683,12 @@ figcaption {
 /* Responsive Styles */
 @media only screen and (max-width: 1000px) {
   .storage-text-image {
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse; */
     gap: 1rem;
+  }
+
+  .storage-images > img {
+    max-width: 35rem;
   }
 
   .storage-images {
@@ -767,6 +775,10 @@ figcaption {
 }
 
 @media only screen and (max-width: 750px) {
+  .storage-images > img {
+    max-width: 20rem;
+  }
+
   .my-grid-container {
     grid-template-columns: 1fr; /* Single column for small screens */
   }
@@ -843,6 +855,22 @@ figcaption {
     max-height: 12rem;
     border-radius: 10px;
   }
+
+  .storage-images > img {
+    max-width: 19rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .storage-images > img {
+    max-width: 22rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .storage-images > img {
+    max-width: 19rem;
+  }
 }
 
 @media only screen and (max-width: 340px) {
@@ -850,5 +878,9 @@ figcaption {
     max-width: 8rem;
     max-height: 8rem;
     border-radius: 10px;
+  }
+
+  .storage-images > img {
+    max-width: 16rem;
   }
 }
