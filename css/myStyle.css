@@ -202,10 +202,10 @@ about-container-flexcol {
 
 /* Custom Styles */
 
-.storage-wrapper {
+.storage-text-image {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .storage-images {
@@ -678,6 +678,15 @@ figcaption {
 
 /* Responsive Styles */
 @media only screen and (max-width: 1000px) {
+  .storage-text-image {
+    flex-wrap: wrap-reverse;
+    gap: 1rem;
+  }
+
+  .storage-images {
+    margin-top: 2rem;
+  }
+
   .my-grid-container {
     grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
   }
