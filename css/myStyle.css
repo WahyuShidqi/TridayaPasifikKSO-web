@@ -231,6 +231,12 @@ ul.no-bullets {
   font-size: 45px !important ;
 }
 
+.container-tl {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* about us page style */
 .about-container-flexcol {
   display: flex;
@@ -248,6 +254,14 @@ ul.no-bullets {
 /* about us page end */
 
 /* Custom Styles */
+
+.certificate-img {
+  max-width: 22.5rem;
+}
+
+.certification-text {
+  padding-left: 3rem;
+}
 
 .client-card {
   margin: 20px auto;
@@ -780,6 +794,24 @@ figcaption {
 
 /* Responsive Styles */
 @media only screen and (max-width: 1000px) {
+  .container-tl {
+    flex-wrap: wrap-reverse;
+  }
+
+  .certification-button {
+    margin-top: 2rem;
+  }
+
+  .certificate-img {
+    margin-top: 4rem;
+    max-width: 20rem;
+  }
+
+  .certification-text {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+  }
   .corpo-bg-wrapper {
     flex-wrap: wrap-reverse;
     margin-top: 1rem;
@@ -877,6 +909,14 @@ figcaption {
 }
 
 @media only screen and (max-width: 800px) {
+  .certificate-img {
+    max-width: 18rem;
+  }
+
+  .certification-text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
   .ourUtilityGrid {
     display: flex;
     flex-wrap: wrap;

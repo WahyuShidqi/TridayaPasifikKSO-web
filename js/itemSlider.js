@@ -156,6 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
+  // about us / client swiper
   new Swiper(".client-slider", {
     lazy: true,
     nav: false,
@@ -171,6 +172,22 @@ document.addEventListener("DOMContentLoaded", function () {
       400: { slidesPerView: 2 },
       750: { slidesPerView: 3 },
       1000: { slidesPerView: 4 },
+    },
+  });
+
+  // about us / certification swiper
+
+  new Swiper(".certification-swiper", {
+    grabCursor: true,
+    effect: "creative",
+    creativeEffect: {
+      prev: {
+        shadow: true,
+        translate: [0, 0, -400],
+      },
+      next: {
+        translate: ["100%", 0, 0],
+      },
     },
   });
 
