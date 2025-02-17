@@ -1070,7 +1070,7 @@
             available varieties, sizes, and prices!
           </h5>
           <a
-            class="btn btn-light nav-btn"
+            class="btn btn-primary"
             style="margin-top: 3.5rem"
             href="./pdf/Final Price List - Tridaya Pasifik KSO.pdf"
             target="_blank"
@@ -1211,9 +1211,9 @@
                 data-cfasync="false"
                 src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
               ></script>
-              <script>
+              <span id="copyright-year">
                 document.write(new Date().getFullYear());
-              </script>
+              </span>
               All rights reserved | Tridaya Pasifik KSO
               <i class="fa fa-fish" aria-hidden="true"></i> | Made with
               <a href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -1280,6 +1280,9 @@
       gtag("js", new Date());
 
       gtag("config", "UA-23581568-13");
+
+      document.querySelector("#copyright-year").textContent =
+        new Date().getFullYear();
     </script>
 
     <script

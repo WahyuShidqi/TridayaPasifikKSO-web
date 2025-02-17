@@ -36,6 +36,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
     />
+    <link rel="stylesheet" href="./css/myanims.css" />
     <!-- Swiper Style -->
 
     <link
@@ -43,7 +44,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
-    <link rel="stylesheet" href="./css/swiperSlide.css" />
+    <link rel="stylesheet" href="css/itemSlider.css" />
+
     <!-- myHeaderScript -->
     <script
       src="https://kit.fontawesome.com/800d03b5f4.js"
@@ -278,605 +280,559 @@
     </section>
 
     <!-- Corporate background section -->
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-      <div class="container about-container-flexcol">
-        <div class="myCard">
-          <h1
-            style="font-weight: bold"
-            data-translate="aboutUs.firstSection.corporateBackground.title"
-            class="ftco-animate"
-          >
-            CORPORATE BACKGROUND
-          </h1>
-          <p
-            class="ftco-animate"
-            data-translate="aboutUs.firstSection.corporateBackground.text1"
-          >
-            Incorporated since 2024, Tridaya Pasifik KSO is a trusted joint
-            operation entity between three renowned companies: PT. Pema Global
-            Servis, a subsidiary of PT. Pembangunan Aceh (PEMA)—a regional
-            government-owned enterprise of Aceh—specializes in key business
-            sectors including oil and gas, mining, electricity, industry, trade,
-            construction, agribusiness, fisheries, property, transportation, and
-            tourism. PT. Yakin Pasifik Tuna is an eco-friendly fish processing
-            company equipped with state of-the-art production facilities and
-            advanced processing technology, adhering to the highest
-            international standards, and PT. Laot Aceh Marina Indonesia (LAMI)
-            is a company specializing in fish catching and supply, backed by
-            decades of experience and a strong reputation as a trusted partner
-            within Aceh's traditional fishing communities.
-          </p>
-          <p
-            class="ftco-animate"
-            data-translate="aboutUs.firstSection.corporateBackground.text2"
-          >
-            The collaboration of PT. Pema Global Servis, PT. Yakin Pasifik Tuna,
-            and PT. Laot Aceh Marina Indonesia under the joint fisheries
-            operation Tridaya Pasifik KSO is designed to enhance the quality and
-            quantity of fisheries production in Aceh-Indonesia, ensuring the
-            capacity to meet both domestic and international market demands
-          </p>
-        </div>
-
-        <div class="container myCard">
-          <div>
-            <h2
-              class="font-weight-bold text-center ftco-animate"
-              data-translate="aboutUs.firstSection.organizationstructure.title"
-            >
-              ORGANIZATION STRUCTURE
-            </h2>
-          </div>
-          <div class="mt-5 mb-5">
-            <img
-              class="myImg-w-fit ftco-animate"
-              src="./images/organizationstructure.png"
-              alt="./images/organizationstructure.png"
-            />
-          </div>
-        </div>
-
-        <!-- about.whyus Section -->
-        <div class="myContainer">
-          <!-- <div class="imageContainer myCard">
-            <img class="myImg" src="./images/KSO ikan.png" alt="" />
-          </div> -->
-          <div class="myCard WhyUs" style="width: 100%">
-            <div>
-              <h2
-                data-translate="homepage.whyus.whyusTitle"
-                class="ftco-animate"
-              >
-                Why Us?
-              </h2>
-            </div>
-            <div class="experienceIcon ftco-animate">
-              <div
-                class="myCard card-flex-row hover-transform"
-                style="width: 100% !important"
-              >
-                <div>
-                  <span class="fas fa-fish"></span>
-                </div>
-                <h5 data-translate="homepage.whyus.icon1title">
-                  Fresh Fish Supply
-                </h5>
-              </div>
-              <div
-                class="myCard card-flex-row hover-transform"
-                style="width: 100% !important"
-              >
-                <div>
-                  <span class="fas fa-snowflake"></span>
-                </div>
-                <h5 data-translate="homepage.whyus.icon2title">Cold Storage</h5>
-              </div>
-              <div
-                class="myCard card-flex-row hover-transform"
-                style="width: 100% !important"
-              >
-                <div>
-                  <span class="fas fa-globe"></span>
-                </div>
-                <h5
-                  data-translate="homepage.whyus.icon3title"
-                  style="width: 100% !important"
-                >
-                  Export Expertise
-                </h5>
-              </div>
-              <div
-                class="myCard card-flex-row hover-transform"
-                style="width: 100% !important"
-              >
-                <div>
-                  <span class="fas fa-industry"></span>
-                </div>
-                <h5 data-translate="homepage.whyus.icon4title">
-                  Fish Processing
-                </h5>
-              </div>
-              <div
-                class="myCard card-flex-row hover-transform"
-                style="width: 100% !important"
-              >
-                <div>
-                  <span class="fas fa-leaf"></span>
-                </div>
-                <h5 data-translate="homepage.whyus.icon5title">Sustainable</h5>
-              </div>
-              <div
-                class="myCard card-flex-row hover-transform"
-                style="width: 100% !important"
-              >
-                <div>
-                  <span class="fas fa-headset"></span>
-                </div>
-                <h5 data-translate="homepage.whyus.icon6title">
-                  Customer Support
-                </h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Corporate background section ends here! -->
-
-    <!-- vision and mission section -->
-
-    <section class="ftco-section ftco-no-pt ftco-no-pb bg-light">
+    <section class="ftco-section">
       <div class="container">
         <div class="row d-flex no-gutters">
-          <div class="col-md-6 d-flex">
-            <div
-              class="img img-video d-flex align-self-stretch align-items-center justify-content-center mb-4 mb-sm-0"
-              style="background-image: url(images/about.jpg)"
+          <div class="corpo-logo-container col-md-6">
+            <img
+              class="corpo-logo"
+              src="./images/KSO ikan.png"
+              alt="KSO-logo"
+            />
+          </div>
+          <div class="heading-section col-md-6">
+            <span
+              class="subheading subheading-bigger-text"
+              style="font-size: 16px !important"
             >
-              <iframe
-                class="popup-vimeo d-flex justify-content-center align-items-center"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/2iMl-CIyKxA?si=O11ih-c44lRiYBFM"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-              <!-- <a
-                href="https://vimeo.com/45830194"
-                class="icon-video popup-vimeo d-flex justify-content-center align-items-center"
-              >
-                <span class="fa fa-play"></span>
-              </a> -->
+              Tridaya Pasifik KSO
+            </span>
+            <h2 class="font-weight-bold">
+              A New Force in Aceh’s Fisheries Industry!
+            </h2>
+
+            <p>
+              Tridaya Pasifik KSO is a collaboration of three major players in
+              the fisheries industry:
+            </p>
+            <ul>
+              <li>
+                PT. Pema Global Servis – A subsidiary of PEMA, a regional
+                government-owned company in Aceh operating across various
+                sectors, including fisheries.
+              </li>
+              <li>
+                PT. Yakin Pasifik Tuna – Experts in fish processing with
+                cutting-edge technology and international standards.
+              </li>
+              <li>
+                PT. Laot Aceh Marina Indonesia (LAMI) – Specialists in fish
+                capture and supply with decades of experience.
+              </li>
+            </ul>
+            <p>
+              Together, we combine expertise to deliver high-quality fish
+              products, support local fishermen, and meet both domestic and
+              international market demands.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our partner -->
+    <section class="ftco-section bg-deepsea">
+      <!-- Main Product title -->
+      <div class="container">
+        <div class="navigation ftco-animate">
+          <div class="title">
+            <h1 class="font-weight-bold text-center" style="color: white">
+              OUR PARTNER
+            </h1>
+          </div>
+
+          <div class="navigation-btn-container">
+            <a class="btn btn-light nav-btn nav-btn-slideTo" href="#pgs"
+              >About PGS</a
+            >
+            <a class="btn btn-light nav-btn nav-btn-slideTo" href="#ypt"
+              >About YPT</a
+            >
+            <a class="btn btn-light nav-btn nav-btn-slideTo" href="#lami"
+              >About LAMI</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- main product title end -->
+
+      <div class="swiper product-desc-slider">
+        <div class="swiper-wrapper">
+          <!-- pgs card -->
+          <div
+            id="pgs"
+            class="container card-horizontal swiper-slide swiper-slide-slideTo"
+          >
+            <div class="image">
+              <img
+                class="myImg-h-fit myImg-w-fit rounded-sm"
+                src="./images/LAMI.jpg"
+                alt="pgs.jpg"
+              />
+            </div>
+            <div
+              class="product-description myText-left max-width-half"
+              style="border: none !important"
+            >
+              <h2 class="font-weight-bold" style="color: white !important">
+                Pema Global Servis (PGS)
+              </h2>
+              <p style="color: white !important">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                laborum adipisci dolores, itaque tenetur sunt suscipit modi
+                tempore. Provident, delectus veniam eos iure pariatur suscipit
+                nemo sed id at molestias! Repellendus, ratione esse labore,
+                tempore incidunt vel illum voluptatum optio nesciunt
+                voluptatibus ex, consequuntur molestiae veniam? Veritatis porro
+                doloribus impedit ipsum numquam, excepturi consequuntur hic
+                optio! Molestiae eos nemo voluptates?
+              </p>
             </div>
           </div>
-          <div class="col-md-6 pl-md-5">
-            <div class="row justify-content-start py-5">
-              <div class="col-md-12 heading-section ftco-animate">
-                <span class="subheading" data-translate="homepage.mediawelcome"
-                  >Welcome to Tridaya Pasifik KSO</span
-                >
-                <h2 class="mb-4" data-translate="homepage.mediaSubheader">
-                  We offer you quality and fresh fish product
-                </h2>
-                <p data-translate="homepage.mediadescription">
-                  We offer you premium quality, fresh fish products that are
-                  carefully sourced and handled with the utmost care. Our
-                  commitment to freshness ensures that every product meets the
-                  highest standards, providing you with a taste that’s both
-                  delicious and fresh
-                </p>
-                <div class="tabulation-2 mt-4">
-                  <ul class="nav nav-pills nav-fill d-md-flex d-block">
-                    <li class="nav-item mb-md-0 mb-2">
-                      <a
-                        class="nav-link active py-2"
-                        data-toggle="tab"
-                        href="#home1"
-                        data-translate="homepage.visimisi.buttonSection.misi"
-                        >Our Mission</a
-                      >
-                    </li>
-                    <li class="nav-item px-lg-2 mb-md-0 mb-2">
-                      <a
-                        class="nav-link py-2"
-                        data-toggle="tab"
-                        href="#home2"
-                        data-translate="homepage.visimisi.buttonSection.visi"
-                        >Our Vision</a
-                      >
-                    </li>
-                    <!-- <li class="nav-item">
-                      <a
-                        class="nav-link py-2 mb-md-0 mb-2"
-                        data-toggle="tab"
-                        href="#home3"
-                        >Our Value</a
-                      >
-                    </li> -->
-                  </ul>
-                  <div class="tab-content rounded mt-2">
-                    <div
-                      class="tab-pane container p-0 active"
-                      id="home1"
-                      style="max-height: 260px; overflow-y: auto"
-                    >
-                      <ul>
-                        <li>
-                          <span
-                            class="font-weight-bold"
-                            style="display: block"
-                            data-translate="homepage.visimisi.misi.poin1title"
-                            >Enhancing Sustainable Fisheries Production:</span
-                          >
-                          <span
-                            data-translate="homepage.visimisi.misi.poin1text"
-                            >Develop and implement sustainable fishing practices
-                            that prioritize marine resource conservation and
-                            ecosystem preservation to meet long-term market
-                            demands
-                          </span>
-                        </li>
-                        <li>
-                          <span
-                            class="font-weight-bold"
-                            style="display: block"
-                            data-translate="homepage.visimisi.misi.poin2title"
-                            >Innovating in Fisheries Technology:</span
-                          >
-                          <span
-                            data-translate="homepage.visimisi.misi.poin2text"
-                            >Adopt the latest technology in aquaculture,
-                            processing, and distribution to boost efficiency,
-                            improve product quality, and enhance competitiveness
-                          </span>
-                        </li>
-                        <li>
-                          <span
-                            class="font-weight-bold"
-                            style="display: block"
-                            data-translate="homepage.visimisi.misi.poin3title"
-                            >Empowering Coastal Communities:</span
-                          >
-                          <span
-                            data-translate="homepage.visimisi.misi.poin3text"
-                            >Support fishermen and fish farmers through
-                            training, mentoring, and improved market access to
-                            enhance their livelihoods and create job
-                            opportunities
-                          </span>
-                        </li>
-                        <li>
-                          <span
-                            class="font-weight-bold"
-                            style="display: block"
-                            data-translate="homepage.visimisi.misi.poin4title"
-                            >Ensuring Product Quality and Safety:</span
-                          >
-                          <span
-                            data-translate="homepage.visimisi.misi.poin4text"
-                            >Produce high-quality fishery products that meet
-                            strict food safety standards, with a strong focus on
-                            cleanliness and halal compliance
-                          </span>
-                        </li>
-                        <li>
-                          <span
-                            class="font-weight-bold"
-                            style="display: block"
-                            data-translate="homepage.visimisi.misi.poin5title"
-                            >Promoting Education and Environmental
-                            Awareness:</span
-                          >
-                          <span
-                            data-translate="homepage.visimisi.misi.poin5text"
-                            >Raise public awareness about the importance of
-                            preserving marine resources and encourage
-                            responsible consumption to ensure the sustainability
-                            of fisheries
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="tab-pane container p-0 fade" id="home2">
-                      <p data-translate="homepage.visimisi.visi">
-                        Becoming a leading company that contributes to global
-                        food security through sustainable, high-quality, and
-                        environmentally friendly fish production while improving
-                        the welfare of coastal communities
-                      </p>
-                    </div>
-                  </div>
-                </div>
+          <!-- pgs card end -->
+
+          <!-- ypt card -->
+          <div
+            id="ypt"
+            class="container card-horizontal swiper-slide swiper-slide-slideTo"
+          >
+            <div class="image">
+              <img
+                class="myImg-h-fit myImg-w-fit rounded-sm"
+                src="./images/LAMI.jpg"
+                alt="ypt.jpg"
+              />
+            </div>
+            <div
+              class="product-description myText-left max-width-half"
+              style="border: none !important"
+            >
+              <h2 class="font-weight-bold" style="color: white !important">
+                Yakin Pasifik Tuna (YPT)
+              </h2>
+              <p style="color: white !important">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                laborum adipisci dolores, itaque tenetur sunt suscipit modi
+                tempore. Provident, delectus veniam eos iure pariatur suscipit
+                nemo sed id at molestias! Repellendus, ratione esse labore,
+                tempore incidunt vel illum voluptatum optio nesciunt
+                voluptatibus ex, consequuntur molestiae veniam? Veritatis porro
+                doloribus impedit ipsum numquam, excepturi consequuntur hic
+                optio! Molestiae eos nemo voluptates?
+              </p>
+            </div>
+          </div>
+          <!-- ypt card end -->
+
+          <!-- lami card -->
+          <div
+            id="lami"
+            class="container card-horizontal swiper-slide swiper-slide-slideTo"
+          >
+            <div class="image">
+              <img
+                class="myImg-h-fit myImg-w-fit rounded-sm"
+                src="./images/LAMI.jpg"
+                alt="pgs.jpg"
+              />
+            </div>
+            <div
+              class="product-description myText-left max-width-half"
+              style="border: none !important"
+            >
+              <h2 class="font-weight-bold" style="color: white !important">
+                Pema Global Servis (PGS)
+              </h2>
+              <p style="color: white !important">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                laborum adipisci dolores, itaque tenetur sunt suscipit modi
+                tempore. Provident, delectus veniam eos iure pariatur suscipit
+                nemo sed id at molestias! Repellendus, ratione esse labore,
+                tempore incidunt vel illum voluptatum optio nesciunt
+                voluptatibus ex, consequuntur molestiae veniam? Veritatis porro
+                doloribus impedit ipsum numquam, excepturi consequuntur hic
+                optio! Molestiae eos nemo voluptates?
+              </p>
+            </div>
+          </div>
+          <!-- lami card end -->
+        </div>
+      </div>
+      <div class="container" style="padding-top: 5rem">
+        <div class="swiper-scrollbar" style="position: static !important"></div>
+      </div>
+    </section>
+    <!-- our partner end -->
+
+    <!-- mitra kami section -->
+    <section class="ftco-section bg-light">
+      <div class="personal-container">
+        <div class="container">
+          <h2 class="font-weight-bold text-center my-font-lg">
+            We Are Expert In Fish Processing
+          </h2>
+          <p
+            class="text-center my-font-md font-weight-bold dynamic-padding"
+            style="--py-value: 2.5rem"
+          >
+            From ocean to plate, we specialize in processing and delivering the
+            freshest seafood with precision and care. Operating 24/7, our
+            dedicated team ensures top-quality seafood supply for businesses
+            across Queensland. With state-of-the-art processing and strict
+            quality control, we provide reliability, freshness, and excellence
+            in every order.
+          </p>
+        </div>
+
+        <div class="our-client">
+          <h3 class="font-weight-bold text-center">Our Client:</h3>
+          <div class="swiper client-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide client-card">
+                <img class="client-image" src="./images/LAMI.jpg" alt="" />
+              </div>
+              <div class="swiper-slide client-card">
+                <img class="client-image" src="./images/LAMI.jpg" alt="" />
+              </div>
+              <div class="swiper-slide client-card">
+                <img class="client-image" src="./images/LAMI.jpg" alt="" />
+              </div>
+              <div class="swiper-slide client-card">
+                <img class="client-image" src="./images/LAMI.jpg" alt="" />
+              </div>
+              <div class="swiper-slide client-card">
+                <img class="client-image" src="./images/LAMI.jpg" alt="" />
+              </div>
+              <div class="swiper-slide client-card">
+                <img class="client-image" src="./images/LAMI.jpg" alt="" />
+              </div>
+              <div class="swiper-slide client-card">
+                <img class="client-image" src="./images/LAMI.jpg" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- vision and mission section end-->
+    <!-- mitra kami section end-->
 
-    <!-- Processing Factory Starts! -->
-    <!-- <section class="ftco-section ftco-no-pt ftco-no-pb">
-      <div class="container">
-        <div class="myCard card-horizontal-reverse">
-          <div class="image">
-            <img class="myImg" src="./images/bg_2_upscaled.jpg" alt="" />
-          </div>
-          <div class="myTextReverse">
-            <h2
-              class="font-weight-bold"
-              data-translate="aboutUs.thirdSection.processingFacilities.title"
-            >
-              PROCESSING FACILITIES
-            </h2>
-            <p data-translate="aboutUs.thirdSection.processingFacilities.text1">
-              Tridaya Pasifik KSO operates a state-of-the-art processing
-              facility located in TPI Lampulo, Banda Aceh, Indonesia. Equipped
-              with world-class infrastructure and advanced equipment, the plant
-              is dedicated to producing high-quality tuna products
-            </p>
-            <p data-translate="aboutUs.thirdSection.processingFacilities.text2">
-              Fully equipped with state-of-art freezing machines, these
-              equipment allow the process of freezing the fishes without
-              compromising on the taste and quality of freshness
-            </p>
-            <p data-translate="aboutUs.thirdSection.processingFacilities.text3">
-              A proton freezer is a machine that freezes by the approach of
-              quantum mechanical and electromagnetism. Proton freezing is much
-              faster than a conventional freezing and the ice crystals generated
-              during the freezing process is much smaller. This prevents the
-              destruction of food cells by reducing the amount of drip during
-              thawing. In the case of tuna, freezing by conventional freezer
-              will typically have a drip of percentage of 7% while freezing by
-              proton freezer will have a drip of 2%
-            </p>
-            <p data-translate="aboutUs.thirdSection.processingFacilities.text4">
-              With the vision of increasing the cold storage capacity, Tridaya
-              Pasifik KSO is installing dedicated cold rooms in line with the
-              range of ready-to-consume products. The cold rooms are equipped
-              with new refrigeration plants and insulation panels to ensure
-              more-than-adequate storage temperature to ensure the quality and
-              freshness of the processed products are not compromised. Typically
-              these cold rooms run at -45
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Processing Factory ends here! -->
-
-    <!-- Our Facilities Starts -->
-    <!-- <section
-      class="ftco-section bg-light"
-      style="padding-top: 0.5rem; padding-bottom: 0.5rem"
+    <!-- visi misi section -->
+    <section
+      class="ftco-section ftco-no-pb ftco-no-pt bg-light waveanim-container"
     >
-      <div class="container">
-        <div class="myCard facilitiesContainer">
-          <div class="centralize-col">
-            <h2
-              class="font-weight-bold"
-              data-translate="aboutUs.fourthSection.title"
-            >
-              OUR FACILITIES
-            </h2>
-          </div>
-          <div class="mygrid-gallery">
-            <div class="myCard">
-              <figure>
-                <img class="myImg" src="./images/bg_2_upscaled.webp" alt="" />
-                <h3 data-translate="aboutUs.fourthSection.firstCard.title">
-                  Laundry Room
-                </h3>
-                <figcaption
-                  data-translate="aboutUs.fourthSection.firstCard.text"
-                >
-                  Our laundry room is dedicated to maintaining cleanliness and
-                  sanitation for all equipment and uniforms, ensuring a safe
-                  working environment
-                </figcaption>
-              </figure>
-            </div>
-            <div class="myCard">
-              <figure>
-                <img class="myImg" src="./images/bg_2_upscaled.webp" alt="" />
-                <h3 data-translate="aboutUs.fourthSection.secondCard.title">
-                  Laboratorium
-                </h3>
-                <figcaption
-                  data-translate="aboutUs.fourthSection.secondCard.text"
-                >
-                  The laboratory on-site plays a critical role in testing raw
-                  materials, ensuring that our products meet rigorous quality
-                  and safety standards
-                </figcaption>
-              </figure>
-            </div>
-            <div class="myCard">
-              <figure>
-                <img class="myImg" src="./images/bg_2_upscaled.webp" alt="" />
-                <h3 data-translate="aboutUs.fourthSection.thirdCard.title">
-                  Receiving Area
-                </h3>
-                <figcaption
-                  data-translate="aboutUs.fourthSection.thirdCard.text"
-                >
-                  In the receiving area, fresh catch is carefully inspected
-                  before being processed, guaranteeing only the best-quality
-                  seafood moves forward
-                </figcaption>
-              </figure>
-            </div>
-            <div class="myCard">
-              <figure>
-                <img class="myImg" src="./images/bg_2_upscaled.webp" alt="" />
-                <h3 data-translate="aboutUs.fourthSection.fourthCard.title">
-                  Processing Room
-                </h3>
-                <figcaption
-                  data-translate="aboutUs.fourthSection.fourthCard.text"
-                >
-                  Our processing room is where our skilled team transforms raw
-                  materials into premium products, adhering to strict food
-                  safety protocols. Finally, the loading area is optimized for
-                  quick and safe distribution, ensuring timely delivery to both
-                  local and global markets
-                </figcaption>
-              </figure>
-            </div>
-            <div class="myCard">
-              <figure>
-                <img class="myImg" src="./images/bg_2_upscaled.webp" alt="" />
-                <h3 data-translate="aboutUs.fourthSection.fifthCard.title">
-                  Loading Area
-                </h3>
-                <figcaption
-                  data-translate="aboutUs.fourthSection.fifthCard.text"
-                >
-                  The loading area is where all incoming products are received,
-                  unloaded, and prepared for processing. Designed for
-                  efficiency, it handles various goods, especially fish, with
-                  the necessary tools and equipment. Organized to accommodate
-                  large shipments, it ensures quick, safe handling from arrival
-                  to storage or processing, supporting smooth operations through
-                  the supply chain
-                </figcaption>
-              </figure>
-            </div>
-            <div class="myCard">
-              <figure>
-                <img class="myImg" src="./images/bg_2_upscaled.webp" alt="" />
-                <h3 data-translate="aboutUs.fourthSection.sixthCard.title">
-                  Cold Storage Room
-                </h3>
-                <figcaption
-                  data-translate="aboutUs.fourthSection.sixthCard.text"
-                >
-                  The cold storage room is designed to safely store perishable
-                  goods, particularly fish and goods from local restaurant, at
-                  optimal temperatures. Equipped with modern cooling systems, it
-                  ensures the freshness and quality of products, maintaining a
-                  controlled environment for efficient storage and handling
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Our Facilities ends -->
-
-    <!-- Refrigeration system section starts! -->
-    <!-- <section class="ftco-section ftco-no-pt ftco-no-pb">
-      <div class="container myCard">
-        <div class="">
-          <div class="freezertitle">
-            <h2
-              class="font-weight-bold text-center"
-              data-translate="aboutUs.fifthSection.title"
-            >
-              REFRIGERATION SYSTEM
-            </h2>
-          </div>
-          <div class="freezerImg myCard-blue">
-            <img
-              src="./images/ProtonFreezer.jpg"
-              alt="Proton-Freezer-1024x458"
-            />
-          </div>
-          <div class="freezersubtitle">
-            <h7
-              class="font-weight-bold font-italic"
-              data-translate="aboutUs.fifthSection.subtitle1"
-            >
-              PROTON FREEZER, ABF, SEMI CONTACT
-            </h7>
-            <h5 data-translate="aboutUs.fifthSection.subtitle2">
-              FLEET AND COLD STORAGE
-            </h5>
-          </div>
-          <div class="freezertextfield">
-            <p data-translate="aboutUs.fifthSection.text">
-              Tridaya Pasifik KSO utilizes cutting-edge
-              <b>Proton Freezers</b> to ensure our high-quality products remain
-              fresh and retain their optimal texture even after defrosting, even
-              following up to 2 years of storage. Our operations, from receiving
-              raw materials to preparing ready-to-ship products, are supported
-              by a state-of-the-art <b>-45°C cold</b> storage system, which
-              plays a vital role in preserving the freshness and quality of our
-              products throughout the entire process.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Refrigeration system ends! -->
-
-    <!-- Our utility Start! -->
-    <!-- <section
-      class="ftco-section bg-light"
-      style="padding-top: 0.5rem; padding-bottom: 0.5rem"
-    >
-      <div class="container myCard">
-        <div class="ourUtilityText">
-          <h2
-            class="font-weight-bold text-center"
-            data-translate="aboutUs.sixthSection.title"
+      <div class="personal-container dynamic-padding" style="--py-value: 4rem">
+        <div class="visi-misi-container">
+          <div
+            class="visi-misi-textarea dynamic-padding bg-lightblue"
+            style="--py-value: 3rem"
           >
-            OUR UTILITIES
-          </h2>
-          <p data-translate="aboutUs.sixthSection.text">
-            Tridaya Pasifik KSO is equipped with advanced utilities designed to
-            support smooth and efficient operations. Our
-            <b>control room</b> serves as the heart of the facility, where all
-            processes are closely monitored to ensure optimal performance and
-            safety. The <b>machine area</b> houses state-of-the-art equipment,
-            maintaining the highest levels of efficiency and reliability in
-            production. Our <b>electricity area</b> is well-equipped to power
-            our entire facility, ensuring uninterrupted operations, while the
-            <b>water installations</b> provide a steady supply of clean water
-            for processing and sanitation, essential for maintaining food safety
-            and quality. These well-maintained utilities form the backbone of
-            our operations, enabling Tridaya Pasifik KSO to consistently deliver
-            top-quality seafood products with precision and care
-          </p>
+            <h3 class="font-weight-bold text-center text-white">Our Mission</h3>
+            <div class="mt-3">
+              <ul class="text-white">
+                <li>
+                  <span
+                    class="font-weight-bold"
+                    style="display: block"
+                    data-translate="homepage.visimisi.misi.poin1title"
+                    >Enhancing Sustainable Fisheries Production:</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="font-weight-bold"
+                    style="display: block"
+                    data-translate="homepage.visimisi.misi.poin2title"
+                    >Innovating in Fisheries Technology:</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="font-weight-bold"
+                    style="display: block"
+                    data-translate="homepage.visimisi.misi.poin3title"
+                    >Empowering Coastal Communities:</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="font-weight-bold"
+                    style="display: block"
+                    data-translate="homepage.visimisi.misi.poin4title"
+                    >Ensuring Product Quality and Safety:</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="font-weight-bold"
+                    style="display: block"
+                    data-translate="homepage.visimisi.misi.poin5title"
+                    >Promoting Education and Environmental Awareness:</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="visi-misi-textarea dynamic-padding bg-lightblue"
+            style="--py-value: 3rem"
+          >
+            <h3 class="font-weight-bold text-center text-white">Our Vision</h3>
+            <div class="mt-3">
+              <span
+                class="font-weight-bold text-white"
+                style="display: block; padding-left: 40px; padding-right: 40px"
+                >Becoming a leading company that contributes to global food
+                security through sustainable, high-quality, and environmentally
+                friendly fish production while improving the welfare of coastal
+                communities</span
+              >
+            </div>
+          </div>
         </div>
-        <div class="ourUtilityGrid">
-          <figure>
-            <img class="myImg" src="./images/bg_2_upscaled.jpg" alt="" />
-            <figcaption data-translate="aboutUs.sixthSection.img1">
-              Room Control
-            </figcaption>
-          </figure>
-          <figure>
-            <img class="myImg" src="./images/bg_2_upscaled.jpg" alt="" />
-            <figcaption data-translate="aboutUs.sixthSection.img2">
-              Machine Area
-            </figcaption>
-          </figure>
-          <figure>
-            <img class="myImg" src="./images/bg_2_upscaled.jpg" alt="" />
-            <figcaption data-translate="aboutUs.sixthSection.img3">
-              Electricity Area
-            </figcaption>
-          </figure>
-          <figure>
-            <img class="myImg" src="./images/bg_2_upscaled.jpg" alt="" />
-            <figcaption data-translate="aboutUs.sixthSection.img4">
-              Water Installations
-            </figcaption>
-          </figure>
+      </div>
+      <svg viewBox="0 0 2 1" preserveAspectRatio="none">
+        <defs>
+          <path
+            id="w"
+            d="
+      m0 1v-.5 
+      q.5.5 1 0
+      t1 0 1 0 1 0
+      v.5z"
+          />
+        </defs>
+        <g>
+          <use href="#w" y=".0" fill="#2d55aa" />
+          <use href="#w" y=".1" fill="#3461c1" />
+          <use href="#w" y=".2" fill="#4579e2" />
+        </g>
+      </svg>
+    </section>
+    <!-- visi misi section end-->
+
+    <!-- <section class="ftco-section bg-light">
+      <div class="container">
+        <div>
+          <h2
+            class="font-weight-bold text-center ftco-animate"
+            data-translate="aboutUs.firstSection.organizationstructure.title"
+          >
+            ORGANIZATION STRUCTURE
+          </h2>
+        </div>
+        <div class="mt-5 mb-5">
+          <img
+            class="myImg-w-fit ftco-animate"
+            src="./images/organizationstructure (1).png"
+            alt="organizationstructure.png"
+          />
         </div>
       </div>
     </section> -->
 
-    <!-- Our utility ends! -->
+    <!-- whyus Section -->
+    <section
+      class="ftco-section"
+      style="background-image: linear-gradient(#4579e2, #26447e)"
+    >
+      <div class="personal-container">
+        <div class="heading-section">
+          <span
+            class="subheading subheading-bigger-text text-center my-font-sm text-white"
+          >
+            Public Opinion
+          </span>
+          <h2 class="font-weight-bold text-center my-font-lg text-white">
+            What People Say About Us
+          </h2>
+        </div>
+        <div class="swiper opinion-slider">
+          <div class="swiper-wrapper opinion-card-section">
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold">Amazing company</q>
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Yusri Ch, Local guide</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >Hygienic fish processing factory that has gone
+                    international</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Black Nada</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >When I return from Bitung, Manado, I will invest in this
+                    company so that it can becomes even more famous</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Republik Investoraceh</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >International Scale Tuna Fish Processing Factory</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Ramadhan</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >Clean and comfortable</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Riski Saputra, Local guide</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >Processed fish exporter</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Muhammad Ridha Irham</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >MSMEs driving the Aceh economy</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Bilal Vote, Local guide</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >International standards</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Muhammad Alva Roby</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="container myCard">
+        <div class="WhyUs" style="width: 100%">
+          <div>
+            <h2 data-translate="homepage.whyus.whyusTitle" class="ftco-animate">
+              Why Us?
+            </h2>
+          </div>
+          <div class="experienceIcon ftco-animate">
+            <div
+              class="myCard card-flex-row hover-transform"
+              style="width: 100% !important"
+            >
+              <div>
+                <span class="fas fa-fish"></span>
+              </div>
+              <h5 data-translate="homepage.whyus.icon1title">
+                Fresh Fish Supply
+              </h5>
+            </div>
+            <div
+              class="myCard card-flex-row hover-transform"
+              style="width: 100% !important"
+            >
+              <div>
+                <span class="fas fa-snowflake"></span>
+              </div>
+              <h5 data-translate="homepage.whyus.icon2title">Cold Storage</h5>
+            </div>
+            <div
+              class="myCard card-flex-row hover-transform"
+              style="width: 100% !important"
+            >
+              <div>
+                <span class="fas fa-globe"></span>
+              </div>
+              <h5
+                data-translate="homepage.whyus.icon3title"
+                style="width: 100% !important"
+              >
+                Export Expertise
+              </h5>
+            </div>
+            <div
+              class="myCard card-flex-row hover-transform"
+              style="width: 100% !important"
+            >
+              <div>
+                <span class="fas fa-industry"></span>
+              </div>
+              <h5 data-translate="homepage.whyus.icon4title">
+                Fish Processing
+              </h5>
+            </div>
+            <div
+              class="myCard card-flex-row hover-transform"
+              style="width: 100% !important"
+            >
+              <div>
+                <span class="fas fa-leaf"></span>
+              </div>
+              <h5 data-translate="homepage.whyus.icon5title">Sustainable</h5>
+            </div>
+            <div
+              class="myCard card-flex-row hover-transform"
+              style="width: 100% !important"
+            >
+              <div>
+                <span class="fas fa-headset"></span>
+              </div>
+              <h5 data-translate="homepage.whyus.icon6title">
+                Customer Support
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <!-- whyus section end -->
 
     <!-- Certifications Starts! -->
-    <section class="ftco-section">
+    <section
+      class="ftco-section"
+      style="background-image: linear-gradient(#26447e, #16274a)"
+    >
       <div class="container myCard wave" style="background-color: white">
         <div
           class="certificateTitle"
@@ -991,7 +947,7 @@
                 >Download catalog</a
               >
             </div>
-            <div class="catalog-viewbtn">
+            <!-- <div class="catalog-viewbtn">
               <a
                 class="btn btn-secondary"
                 href="./pdf/Catalog Product - Tridaya Pasifik KSO.pdf"
@@ -999,7 +955,7 @@
                 data-translate="aboutUs.ninthSection.viewBtn"
                 >View catalog</a
               >
-            </div>
+            </div> -->
           </div>
           <!-- first card ends -->
           <!-- Second card -->
@@ -1019,7 +975,7 @@
                 >Download catalog</a
               >
             </div>
-            <div class="catalog-viewbtn">
+            <!-- <div class="catalog-viewbtn">
               <a
                 class="btn btn-secondary"
                 href="./pdf/Company Profile - Tridaya Pasifik KSO.pdf"
@@ -1027,7 +983,7 @@
                 data-translate="aboutUs.ninthSection.viewBtn"
                 >View catalog</a
               >
-            </div>
+            </div> -->
           </div>
           <!-- Second card ends -->
 
@@ -1045,7 +1001,7 @@
                 >Download catalog</a
               >
             </div>
-            <div class="catalog-viewbtn">
+            <!-- <div class="catalog-viewbtn">
               <a
                 class="btn btn-secondary"
                 href="../pdf/Final Price List - Tridaya Pasifik KSO.pdf"
@@ -1053,7 +1009,7 @@
                 data-translate="aboutUs.ninthSection.viewBtn"
                 >View catalog</a
               >
-            </div>
+            </div> -->
           </div>
           <!-- third card ends -->
         </div>
@@ -1062,290 +1018,6 @@
       </div>
     </section>
     <!-- Pdf downlaod section end -->
-
-    <!-- Email product start -->
-    <!-- <section
-      class="ftco-section ftco-no-pt ftco-no-pb img"
-      style="
-        background-image: url(images/FrozenSlicedTunaCropped.jpg);
-        background-color: orange;
-        background-size: contain;
-        background-position: left;
-        background-repeat: no-repeat;
-      "
-    >
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row d-md-flex justify-content-end">
-          <div
-            class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate heading-section heading-section-white"
-          >
-            <span
-              class="subheading ftco-animate"
-              data-translate="homepage.emailusHeader"
-              >Email us!</span
-            >
-            <h2 class="mb-4 ftco-animate" data-translate="homepage.orderfish">
-              Order your fish now!
-            </h2>
-            <form action="#" class="appointment" class="ftco-animate">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <div class="form-field">
-                      <div class="select-wrap">
-                        <div class="icon">
-                          <span class="fa fa-chevron-down"></span>
-                        </div>
-                        <select name="" id="" class="form-control">
-                          <option value="">Select product</option>
-                          <option value="" class="font-weight-bold">
-                            --- Frozen Tuna ---
-                          </option>
-                          <option value="">
-                            [Frozen]Tuna Sirip Kuning\[Frozen]Yellowfin Tuna
-                          </option>
-                          <option value="">
-                            [Frozen]Tuna Mata Besar\[Frozen]Big eye Tuna
-                          </option>
-                          <option value="" class="font-weight-bold">
-                            --- Fresh Tuna ---
-                          </option>
-                          <option value="">
-                            [Fresh]Tuna Sirip Kuning Segar\[Fresh]Yellowfin Tuna
-                          </option>
-                          <option value="">
-                            [Fresh]Tuna Mata Besar Segar\[Fresh]Big Eye Tuna
-                          </option>
-                          <option value="" class="font-weight-bold">
-                            --- Demersal Beku\Frozen Demersal ---
-                          </option>
-                          <option value="">
-                            [Frozen]Layur\[Frozen]Largehead Hairtail
-                          </option>
-                          <option value="">
-                            [Frozen]Kerapu Merah\[Frozen]Leopard Coral Grouper
-                          </option>
-                          <option value="">
-                            [Frozen]Kakap\[Frozen]Snappers
-                          </option>
-                          <option value="">
-                            [Frozen]Bawal\[Frozen]Pomfret
-                          </option>
-                          <option value="">[Frozen]Kurisi\[Frozen]Bream</option>
-                          <option value="">
-                            [Frozen]Buntal\[Frozen]Blowfish
-                          </option>
-                          <option value="">
-                            [Frozen]Kambing-Kambing\[Frozen]Flat-tailed
-                            Triggerfish???
-                          </option>
-                          <option value="">
-                            [Frozen]Bandeng\[Frozen]Milkfish
-                          </option>
-                          <option value="" class="font-weight-bold">
-                            --- Pelagis Beku\Frozen Pelagic Fish ---
-                          </option>
-                          <option value="">
-                            [Frozen]Cakalang\[Frozen]Skipjack Tuna
-                          </option>
-                          <option value="">
-                            [Frozen]Layang\[Frozen]Mackerel Scads
-                          </option>
-                          <option value="">
-                            [Frozen]Marlin\[Frozen]Marlin
-                          </option>
-                          <option value="">
-                            [Frozen]Layaran\[Frozen]Sailfish
-                          </option>
-                          <option value="">
-                            [Frozen]Selar Kuning\[Frozen]Yellowstripe Scad
-                          </option>
-                          <option value="">
-                            [Frozen]Kembung\[Frozen]Long Jawed Macekerel
-                          </option>
-                          <option value="">
-                            [Frozen]Cencaru\[Frozen]Torpedo Scad
-                          </option>
-                          <option value="">
-                            [Frozen]Lemuru\[Frozen]Indian Oil Sardine
-                          </option>
-                          <option value="" class="font-weight-bold">
-                            --- Sefalopoda Beku\Frozen Cephalopoda ---
-                          </option>
-                          <option value="">
-                            [Frozen]Gurita\[Frozen]Octopus
-                          </option>
-                          <option value="">[Frozen]Cumi\[Frozen]Squid</option>
-                          <option value="">
-                            [Frozen]Sotong\[Frozen]Cuttlefish
-                          </option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Your Name"
-                    />
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Your Location"
-                    />
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <div class="input-wrap">
-                      <div class="icon">
-                        <span class="fa fa-calendar"></span>
-                      </div>
-                      <input
-                        type="text"
-                        class="form-control appointment_date"
-                        placeholder="Date"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <div class="input-wrap">
-                      <div class="icon">
-                        <span class="fa fa-clock-o"></span>
-                      </div>
-                      <input
-                        type="text"
-                        class="form-control appointment_time"
-                        placeholder="Time"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea
-                      name=""
-                      id=""
-                      cols="30"
-                      rows="7"
-                      class="form-control"
-                      placeholder="Message"
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input
-                      type="submit"
-                      value="Send message"
-                      class="btn btn-dark py-3 px-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Email product ends -->
-
-    <!-- Follow us section start! -->
-    <section class="ftco-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-          <div class="col-md-7 heading-section text-center">
-            <span
-              class="subheading ftco-animate"
-              data-translate="homepage.socialMedia.title"
-              >SOCIAL MEDIA</span
-            >
-            <h2
-              class="ftco-animate"
-              data-translate="homepage.socialMedia.subtitle"
-            >
-              Follow our social media
-            </h2>
-            <div class="SocMedIcon">
-              <a href="https://x.com/TridayaKSO" class="myIcon ftco-animate"
-                ><span class="fa fa-twitter"></span
-              ></a>
-              <a
-                href="https://www.facebook.com/profile.php?id=61570836929906"
-                class="myIcon ftco-animate"
-                ><span class="fa fa-facebook"></span
-              ></a>
-              <a
-                href="https://www.instagram.com/tridayapasifik.kso/"
-                class="myIcon ftco-animate"
-                ><span class="fa fa-instagram"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper mySwiper ftco-animate">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-    <!-- Follow us section end! -->
 
     <footer class="footer ftco-section">
       <div class="container">
@@ -1461,13 +1133,10 @@
             <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;
-              <script
-                data-cfasync="false"
-                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-              ></script>
-              <script>
+
+              <span id="copyright-year">
                 document.write(new Date().getFullYear());
-              </script>
+              </span>
               All rights reserved | Tridaya Pasifik KSO
               <i class="fa fa-fish" aria-hidden="true"></i> | Made with
               <a href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -1533,6 +1202,9 @@
       gtag("js", new Date());
 
       gtag("config", "UA-23581568-13");
+
+      document.querySelector("#copyright-year").textContent =
+        new Date().getFullYear();
     </script>
 
     <script
@@ -1548,7 +1220,9 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/swiperEffectCreative.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/swiperSlide.js"></script>
+
     <!-- my Added Script ends here! -->
+
+    <script src="./js/itemSlider.js"></script>
   </body>
 </html>
