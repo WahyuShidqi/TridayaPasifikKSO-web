@@ -263,6 +263,30 @@ ul.no-bullets {
 
 /* Custom Styles */
 
+.certificate-logo-container {
+  max-width: 200px; /* Limit width of grid item */
+  max-height: 200px; /* Limit height of grid item */
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content */
+}
+
+.certificates-icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem 0.5rem;
+  max-width: 16rem;
+  max-height: auto;
+}
+
+.certificate-logo {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
 .catalog-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
