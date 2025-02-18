@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
     lazy: true,
     nav: false,
     speed: 1000,
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 10,
     rewind: true,
     autoplay: {
@@ -180,6 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
   new Swiper(".certification-swiper", {
     grabCursor: true,
     effect: "creative",
+
     creativeEffect: {
       prev: {
         shadow: true,
@@ -222,3 +223,31 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// function catalogSwiperTrigger() {
+//   let catalogGrid = document.querySelector(".catalog-grid");
+//   let catalogSwiper = document.querySelector(".catalog-swiper");
+
+//   if (!catalogGrid || !catalogSwiper) {
+//     console.log("Catalog grid or catalog swiper not found");
+//     return;
+//   }
+
+//   console.log("window width: ", window.innerWidth);
+
+//   if (window.innerWidth <= 800) {
+//     console.log(
+//       "adding container-disabled class to catalog-swiper and remove it from catalog-grid"
+//     );
+//     catalogGrid.classList.add("container-disabled");
+//     catalogSwiper.classList.remove("container-disabled");
+//   } else {
+//     console.log(
+//       "removing container-disabled class to catalog-swiper and remove it from catalog-grid"
+//     );
+//     catalogGrid.classList.remove("container-disabled");
+//     catalogSwiper.classList.add("container-disabled");
+//   }
+// }
+
+// window.addEventListener("resize", catalogSwiperTrigger);

@@ -1,3 +1,11 @@
+.container-disabled {
+  display: none !important;
+}
+
+.shadow {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
 .personal-container {
   padding: 2rem;
 }
@@ -255,6 +263,17 @@ ul.no-bullets {
 
 /* Custom Styles */
 
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+  grid-template-rows: auto auto; /* Auto row height */
+
+  justify-items: center; /* Center items horizontally in their cell */
+  align-items: center; /* Center items vertically in their cell */
+  height: 100%; /* Optional: Ensures full-height if needed */
+  padding: 16px;
+}
+
 .certificate-img {
   max-width: 22.5rem;
 }
@@ -272,6 +291,9 @@ ul.no-bullets {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  /* adding new */
+  height: fit-content;
+  width: fit-content;
 }
 
 .client-image {
@@ -608,6 +630,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: fit-content !important;
   /* animation: translate-down 0.2s ease-in-out forwards; */
 }
 
@@ -652,8 +675,8 @@ figcaption {
 }
 
 .bookshelf {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/BookShelf.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/gambar-nelayan.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -661,7 +684,7 @@ figcaption {
 
 .price-catalog {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/pricing-catalog-bg.jpg);
+    url(../images/perahu-nelayan.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -909,6 +932,10 @@ figcaption {
 }
 
 @media only screen and (max-width: 800px) {
+  .catalog-grid {
+    grid-template-columns: repeat(1, 1fr); /* 3 equal columns */
+    grid-template-rows: auto auto; /* Auto row height */
+  }
   .certificate-img {
     max-width: 18rem;
   }
@@ -937,6 +964,9 @@ figcaption {
 }
 
 @media only screen and (max-width: 750px) {
+  .personal-container {
+    padding: 0.5rem;
+  }
   .visi-misi-container {
     gap: 1rem;
   }
@@ -1047,6 +1077,15 @@ figcaption {
 }
 
 @media only screen and (max-width: 450px) {
+  .certification-text {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .client-image {
+    max-width: 9rem;
+    max-height: 9rem;
+  }
+
   .storage-images > img {
     max-width: 22rem;
   }
@@ -1056,6 +1095,9 @@ figcaption {
   .storage-images > img {
     max-width: 19rem;
   }
+}
+
+@media only screen and (max-widht: 360px) {
 }
 
 @media only screen and (max-width: 340px) {
