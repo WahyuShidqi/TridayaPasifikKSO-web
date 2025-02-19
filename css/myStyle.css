@@ -2,6 +2,15 @@
   display: none !important;
 }
 
+.disable-lg {
+  display: none;
+}
+
+.sticky {
+  position: sticky !important;
+  top: -0.1rem;
+}
+
 .shadow {
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
@@ -262,6 +271,21 @@ ul.no-bullets {
 /* about us page end */
 
 /* Custom Styles */
+
+.my-dropdown {
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+
+.my-dropdown:hover {
+  background-color: rgb(195, 193, 193);
+  transition: background-color 0.3s;
+}
+
+.my-dropdown-container:hover .my-dropdown {
+  display: block;
+}
 
 .certificate-logo-container {
   max-width: 200px; /* Limit width of grid item */
@@ -948,6 +972,16 @@ figcaption {
   }
 }
 
+@media only screen and (max-width: 991.98px) {
+  .disable-lg {
+    display: block;
+  }
+
+  .my-dropdown-container:hover .my-dropdown {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .visi-misi-textarea {
     max-width: 22rem;
@@ -1042,9 +1076,9 @@ figcaption {
     align-items: center;
   }
 
-  .parallax {
+  /* .parallax {
     background-attachment: scroll !important;
-  }
+  } */
 
   .experienceIcon {
     display: grid;
