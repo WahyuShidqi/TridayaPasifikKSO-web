@@ -232,6 +232,12 @@ ul.no-bullets {
   border-radius: 10px;
 }
 
+.myImg-lg {
+  max-width: 48rem;
+  max-height: 20rem;
+  border-radius: 10px;
+}
+
 .my-font-sm {
   font-size: 16px !important;
 }
@@ -271,6 +277,11 @@ ul.no-bullets {
 /* about us page end */
 
 /* Custom Styles */
+
+.fact-util-container {
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
 
 .my-dropdown {
   position: absolute;
@@ -865,6 +876,12 @@ figcaption {
 
 /* Responsive Styles */
 @media only screen and (max-width: 1000px) {
+  .myImg-lg {
+    max-width: 44rem;
+    max-height: 18rem;
+    border-radius: 10px;
+  }
+
   .container-tl {
     flex-wrap: wrap-reverse;
   }
@@ -985,6 +1002,12 @@ figcaption {
 @media only screen and (max-width: 900px) {
   .visi-misi-textarea {
     max-width: 22rem;
+    border-radius: 10px;
+  }
+
+  .myImg-lg {
+    max-width: 40rem;
+    max-height: 16rem;
     border-radius: 10px;
   }
 }
