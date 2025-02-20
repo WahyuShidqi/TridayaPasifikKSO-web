@@ -278,6 +278,22 @@ ul.no-bullets {
 
 /* Custom Styles */
 
+.social-media-icon {
+  font-size: 4rem;
+}
+
+.social-media-icon a:hover {
+  color: orange !important;
+}
+
+.social-media-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 0 1rem 0;
+}
+
 .fact-util-container {
   padding-right: 4rem;
   padding-left: 4rem;
@@ -994,6 +1010,11 @@ figcaption {
     display: block;
   }
 
+  .fact-util-container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
   .my-dropdown-container:hover .my-dropdown {
     display: none;
   }
@@ -1013,6 +1034,9 @@ figcaption {
 }
 
 @media only screen and (max-width: 800px) {
+  .social-media-icon {
+    font-size: 3.5rem;
+  }
   .catalog-grid {
     grid-template-columns: repeat(1, 1fr); /* 3 equal columns */
     grid-template-rows: auto auto; /* Auto row height */
@@ -1140,6 +1164,9 @@ figcaption {
 }
 
 @media only screen and (max-width: 500px) {
+  .social-media-icon {
+    font-size: 3rem;
+  }
   .my-grid-container-small {
     grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
     grid-template-rows: auto auto; /* Auto row height */
@@ -1182,6 +1209,9 @@ figcaption {
 }
 
 @media only screen and (max-width: 340px) {
+  .social-media-icon {
+    font-size: 2.5rem;
+  }
   .gallery-image {
     max-width: 8rem;
     max-height: 8rem;
