@@ -2365,7 +2365,7 @@ h5,
   height: 100%;
   bottom: 0;
   left: 0;
-  background-color: #f79f24;
+  background-color: rgb(195, 193, 193);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -2380,7 +2380,7 @@ h5,
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
   visibility: visible;
-  background-color: #f79f24;
+  background-color: rgb(195, 193, 193);
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -2431,7 +2431,7 @@ h5,
 }
 .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
   visibility: visible;
-  background-color: #f79f24;
+  background-color: rgb(195, 193, 193);
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);

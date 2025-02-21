@@ -2,6 +2,13 @@
   display: none !important;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
 .disable-lg {
   display: none;
 }
@@ -751,7 +758,7 @@ figcaption {
 
 .bookshelf {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/gambar-nelayan.jpg);
+    url(../images/gambar-nelayan.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -759,7 +766,7 @@ figcaption {
 
 .price-catalog {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/perahu-nelayan.jpg);
+    url(../images/perahu-nelayan.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1034,6 +1041,13 @@ figcaption {
 }
 
 @media only screen and (max-width: 800px) {
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px 5px;
+  }
+
   .social-media-icon {
     font-size: 3.5rem;
   }

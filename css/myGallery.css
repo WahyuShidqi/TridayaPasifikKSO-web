@@ -7,9 +7,10 @@
 .green {
   background-color: #6fb936;
 }
-.thumb {
+
+/* .thumb {
   margin-bottom: 30px;
-}
+} */
 
 .page-top {
   margin-top: 85px;
@@ -68,4 +69,4 @@ img.zoom {
 .fancybox-button--close {
   background-color: red !important;
   border-radius: 50%;
-} */
+}
