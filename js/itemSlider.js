@@ -1,4 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
+  //  main product slider
+  new Swiper(".product-desc-slider", {
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      hide: true,
+    },
+    speed: 1300,
+    slidesPerView: 1,
+    autoplay: {
+      delay: 4000,
+      pauseOnMouseEnter: true,
+    },
+  });
+
   // for tuna slider
   new Swiper(".my-swiper", {
     lazy: true,
@@ -139,6 +153,8 @@ document.addEventListener("DOMContentLoaded", function () {
       1024: { slidesPerView: 4 },
     },
   });
+
+  // about us / opinion swiper
   new Swiper(".opinion-slider", {
     lazy: true,
     nav: false,
@@ -174,80 +190,4 @@ document.addEventListener("DOMContentLoaded", function () {
       1000: { slidesPerView: 4 },
     },
   });
-
-  // about us / certification swiper
-
-  new Swiper(".certification-swiper", {
-    grabCursor: true,
-    effect: "creative",
-
-    creativeEffect: {
-      prev: {
-        shadow: true,
-        translate: [0, 0, -400],
-      },
-      next: {
-        translate: ["100%", 0, 0],
-      },
-    },
-  });
-
-  // main product slider description
-
-  const productDescSwiper = new Swiper(".product-desc-slider", {
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      hide: true,
-    },
-    speed: 1300,
-    slidesPerView: 1,
-    autoplay: {
-      delay: 4000,
-      pauseOnMouseEnter: true,
-    },
-  });
-
-  const navButtons = document.querySelectorAll(".nav-btn-slideTo");
-  const slides = document.querySelectorAll(".swiper-slide-slideTo");
-
-  navButtons.forEach((btn) => {
-    btn.addEventListener("click", function (e) {
-      e.preventDefault();
-      const targetId = this.getAttribute("href").substring(1); // Remove #
-
-      slides.forEach((slide, index) => {
-        if (slide.id === targetId) {
-          productDescSwiper.slideTo(index); // Navigate to the correct slide
-        }
-      });
-    });
-  });
 });
-
-// function catalogSwiperTrigger() {
-//   let catalogGrid = document.querySelector(".catalog-grid");
-//   let catalogSwiper = document.querySelector(".catalog-swiper");
-
-//   if (!catalogGrid || !catalogSwiper) {
-//     console.log("Catalog grid or catalog swiper not found");
-//     return;
-//   }
-
-//   console.log("window width: ", window.innerWidth);
-
-//   if (window.innerWidth <= 800) {
-//     console.log(
-//       "adding container-disabled class to catalog-swiper and remove it from catalog-grid"
-//     );
-//     catalogGrid.classList.add("container-disabled");
-//     catalogSwiper.classList.remove("container-disabled");
-//   } else {
-//     console.log(
-//       "removing container-disabled class to catalog-swiper and remove it from catalog-grid"
-//     );
-//     catalogGrid.classList.remove("container-disabled");
-//     catalogSwiper.classList.add("container-disabled");
-//   }
-// }
-
-// window.addEventListener("resize", catalogSwiperTrigger);

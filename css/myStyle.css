@@ -2,6 +2,65 @@
   display: none !important;
 }
 
+.snowy-container {
+  position: relative;
+}
+
+.snowy-wrapper {
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.my-horizontal-card {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border: 2px solid grey;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.my-horizontal-card img {
+  border-radius: 10px;
+  max-width: 480px;
+
+  object-fit: cover;
+  /* Adjust the gradient stops to control the transparency range */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.my-horizontal-card .horizontal-card-body {
+  padding: 2em 3em 2em 3em;
+}
+
+.horizontal-card-body .horizontal-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.horizontal-card-body .horizontal-card-text {
+  max-height: 200px;
+  overflow: auto;
+  word-wrap: break-word;
+  padding: 5px;
+  margin: 0;
+  background-color: #fff;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -284,6 +343,18 @@ ul.no-bullets {
 /* about us page end */
 
 /* Custom Styles */
+
+/* .freezer-swiper {
+  display: flex;
+  justify-content: center !important;
+} */
+
+.freezer-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
 
 .social-media-icon {
   font-size: 4rem;
@@ -859,10 +930,57 @@ figcaption {
 
 /*  */
 /*  */
+/* freezer icon card style */
+.freezer-icon-card-container {
+  margin-top: 32px;
+}
+.storage-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.storage-card {
+  width: 240px;
+  text-align: center;
+  background: #1c140f;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.storage-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content i {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 24px;
+}
+
+.card-content h3 {
+  margin: 10px 0 5px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
 /*  */
 /*  */
 /*  */
 /*  */
+/*  */
+
 /*  */
 /*  */
 /*  */
@@ -903,6 +1021,44 @@ figcaption {
     max-width: 44rem;
     max-height: 18rem;
     border-radius: 10px;
+  }
+
+  .my-horizontal-card-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .my-horizontal-card-container.swiper-slide {
+    display: flex !important;
+  }
+
+  .my-horizontal-card {
+    display: block;
+
+    border: 2px solid grey;
+    max-width: 480px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  .my-horizontal-card img {
+    border-radius: 10px;
+    max-width: 480px;
+
+    object-fit: cover;
+    /* Adjust the gradient stops to control the transparency range */
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 70%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 70%,
+      rgba(0, 0, 0, 0) 100%
+    );
   }
 
   .container-tl {
@@ -1048,6 +1204,13 @@ figcaption {
     gap: 0px 5px;
   }
 
+  .freezer-image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+
   .social-media-icon {
     font-size: 3.5rem;
   }
@@ -1178,6 +1341,18 @@ figcaption {
 }
 
 @media only screen and (max-width: 500px) {
+  .my-horizontal-card {
+    max-width: 360px;
+  }
+
+  .my-horizontal-card img {
+    max-width: 360px;
+  }
+
+  .my-horizontal-card .horizontal-card-body {
+    padding: 3em 2em 3em 2em;
+  }
+
   .social-media-icon {
     font-size: 3rem;
   }
@@ -1217,6 +1392,18 @@ figcaption {
   .storage-images > img {
     max-width: 19rem;
   }
+
+  .my-horizontal-card {
+    max-width: 320px;
+  }
+
+  .my-horizontal-card img {
+    max-width: 320px;
+  }
+
+  .my-horizontal-card .horizontal-card-body {
+    padding: 2em 1em 2em 1em;
+  }
 }
 
 @media only screen and (max-widht: 360px) {
@@ -1234,5 +1421,17 @@ figcaption {
 
   .storage-images > img {
     max-width: 16rem;
+  }
+
+  .my-horizontal-card {
+    max-width: 300px;
+  }
+
+  .my-horizontal-card img {
+    max-width: 300px;
+  }
+
+  .my-horizontal-card .horizontal-card-body {
+    padding: 1em 0.5em 1em 0.5em;
   }
 }
