@@ -1,3 +1,11 @@
+* {
+  scroll-margin-top: 20vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .container-disabled {
   display: none !important;
 }
@@ -926,10 +934,6 @@ figcaption {
 
 .product-container {
   margin-top: 8rem;
-}
-
-* {
-  scroll-margin-top: 20vh;
 }
 
 /* grid sytling */

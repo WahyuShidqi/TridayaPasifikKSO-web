@@ -9,10 +9,6 @@
   background: #d5f2ff !important;
 } */
 
-html {
-  scroll-behavior: smooth;
-}
-
 .SocMedIcon {
   display: flex;
   justify-content: center;
