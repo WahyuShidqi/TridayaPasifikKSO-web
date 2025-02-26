@@ -181,15 +181,15 @@
     },
   });
 
-  $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
-    disableOn: 700,
-    type: "iframe",
-    mainClass: "mfp-fade",
-    removalDelay: 160,
-    preloader: false,
+  // $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
+  //   disableOn: 700,
+  //   type: "iframe",
+  //   mainClass: "mfp-fade",
+  //   removalDelay: 160,
+  //   preloader: false,
 
-    fixedContentPos: false,
-  });
+  //   fixedContentPos: false,
+  // });
 
   var counter = function () {
     $("#section-counter").waypoint(
@@ -259,10 +259,10 @@
   };
   contentWayPoint();
 
-  $(".appointment_date").datepicker({
-    format: "m/d/yyyy",
-    autoclose: true,
-  });
+  //   $(".appointment_date").datepicker({
+  //     format: "m/d/yyyy",
+  //     autoclose: true,
+  //   });
 
-  $(".appointment_time").timepicker();
+  //   $(".appointment_time").timepicker();
 })(jQuery);

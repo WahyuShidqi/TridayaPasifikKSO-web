@@ -22,12 +22,7 @@
 
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
-    <link rel="stylesheet" href="css/jquery.timepicker.css" />
-
-    <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- mystyle -->
     <link rel="stylesheet" href="./css/myStyle.css" />
@@ -46,8 +41,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-
-    <link rel="stylesheet" href="./css/swiperSlide.css" />
 
     <!-- mygallery addedlink -->
     <link rel="stylesheet" href="./css/myGallery.css" />
@@ -115,7 +108,7 @@
         <!-- END -->
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="index.html" class="nav-link" data-translate="navbar.home"
                 >Home</a
               >
@@ -164,7 +157,7 @@
               <a href="storage-system.html" class="nav-link">Storage system</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="supply-chain.html" class="nav-link">supply chain</a>
             </li>
 
@@ -202,11 +195,9 @@
                   >Home
                 </a></span
               >
-              <span data-translate="breadCrumb.aboutUs">About us</span>
+              <span>Supply chain</span>
             </p>
-            <h1 class="mb-0 bread" data-translate="aboutUs.mainTitle">
-              About Us
-            </h1>
+            <h1 class="mb-0 bread">Supply Chain</h1>
           </div>
         </div>
       </div>
@@ -231,10 +222,242 @@
     </section>
     <!-- supply chain ends -->
 
+    <!-- join us section start -->
+    <section
+      class="ftco-section parallax mt-6"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(./images/about-us-nelayan.webp);
+      "
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- contact intro -->
+          <div>
+            <h2 class="my-font-lg text-white text-center font-weight-bold mb-4">
+              Be Part of Our Supply Chain
+            </h2>
+            <p class="my-font-md text-white text-center font-weight-bold mb-5">
+              Join our supply network and bring your products to customers both
+              locally and internationally. With Tridaya Pasifik KSO, we can grow
+              your business together and expand your reach to a wider market.
+            </p>
+          </div>
+
+          <!-- contact start -->
+          <div class="col-md-12 mt-4">
+            <div class="wrapper">
+              <div class="row no-gutters">
+                <div class="col-md-7 d-flex">
+                  <div
+                    class="contact-wrap w-100 p-md-5 p-4 bg-coffee border-white border-right-md"
+                  >
+                    <h3 class="mb-2 text-white font-weight-bold">
+                      Come Join Us!
+                    </h3>
+                    <p class="text-white my-font-sm">
+                      We will try to reach you as soon as possible!
+                    </p>
+
+                    <form id="appointment-form" class="appointment">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <div class="form-field">
+                              <div class="select-wrap">
+                                <div class="icon">
+                                  <span class="fa fa-chevron-down"></span>
+                                </div>
+                                <select
+                                  name="product"
+                                  id="product"
+                                  class="form-control"
+                                  required
+                                >
+                                  <option value="">Choose option</option>
+                                  <option value="Become a Supplier">
+                                    Become a Supplier
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              name="name"
+                              id="name"
+                              class="form-control"
+                              placeholder="Your Name"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              name="location"
+                              id="location"
+                              class="form-control"
+                              placeholder="Your Location"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="tel"
+                              name="tel"
+                              id="phone-number"
+                              class="form-control"
+                              placeholder="Your phone number"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              name="email"
+                              id="email"
+                              class="form-control"
+                              placeholder="Enter your email"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea
+                              name="message"
+                              id="message"
+                              cols="30"
+                              rows="7"
+                              class="form-control"
+                              placeholder="Message"
+                              required
+                            ></textarea>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="submit"
+                              value="Send message"
+                              class="btn btn-light py-3 px-4"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-stretch">
+                  <div class="info-wrap bg-primary w-100 p-lg-5 p-4 bg-coffee">
+                    <h3
+                      class="mb-4 mt-md-4"
+                      data-translate="contact.address.title"
+                    >
+                      Contact us
+                    </h3>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-map-marker"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p data-translate="contact.address.address">
+                          <span>Address:</span> Lampulo, Kuta Alam District,
+                          Banda Aceh City, Aceh, Indonesia
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p>
+                          <span data-translate="contact.address.phone"
+                            >Phone:</span
+                          >
+                          <a
+                            href="tel:+626513612327"
+                            data-translate="contact.address.phoneNumber"
+                            >(+62) 651 3612 327</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p style="word-wrap: break-word">
+                          <span>Email:</span>
+                          <a href="mailto:mkt.tridayapasifikkso@gmail.com"
+                            ><span>mkt.tridayapasifikkso@gmail.com</span></a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-social-media">
+                      <ul class="social-media-icon-container no-bullets">
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a class="text-white" href="https://x.com/TridayaKSO"
+                            ><span class="fa fa-twitter"></span
+                          ></a>
+                        </li>
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a
+                            class="text-white"
+                            href="https://www.facebook.com/profile.php?id=61570836929906"
+                            ><span class="fa fa-facebook"></span
+                          ></a>
+                        </li>
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a
+                            class="text-white"
+                            href="https://www.instagram.com/tridayapasifik.kso/"
+                            ><span class="fa fa-instagram"></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- join us section end -->
+
     <!-- storage system desc start -->
 
     <!-- image for fish processing -->
-    <section class="ftco-section ftco-animate" style="background-color: black">
+    <!-- <section class="ftco-section ftco-animate" style="background-color: black">
       <div class="container">
         <div class="title" style="display: flex">
           <h1
@@ -245,7 +468,7 @@
           </h1>
         </div>
 
-        <!-- gallery image -->
+   
         <div class="page-top">
           <div class="row">
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -411,90 +634,8 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- image for fish processing ends -->
-
-    <!-- follow us section -->
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading" data-translate="homepage.socialMedia.title"
-              >SOCIAL MEDIA</span
-            >
-            <h2 data-translate="homepage.socialMedia.subtitle">
-              Follow our social media
-            </h2>
-            <div class="SocMedIcon">
-              <a href="https://x.com/TridayaKSO" class="myIcon"
-                ><span class="fa fa-twitter"></span
-              ></a>
-              <a
-                href="https://www.facebook.com/profile.php?id=61570836929906"
-                class="myIcon"
-                ><span class="fa fa-facebook"></span
-              ></a>
-              <a
-                href="https://www.instagram.com/tridayapasifik.kso/"
-                class="myIcon"
-                ><span class="fa fa-instagram"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://media.istockphoto.com/id/1334276621/photo/bluefin-tuna-thunnus-thynnus-saltwater-fish.jpg?s=612x612&w=0&k=20&c=FNDMZ2Ptv1obv2ubYB5p81jAPVp6lJIZYDmbUeYyXhc="
-              />
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-    <!-- follow us section ends -->
 
     <!-- Corporate background section -->
 
@@ -657,43 +798,16 @@
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
+
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
+
     <script src="js/main.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-23581568-13");
-    </script>
-
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
-      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-      data-cf-beacon='{"rayId":"8fab39e26ff65cde","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"cd0b4b3a733644fc843ef0b185f98241"}'
-      crossorigin="anonymous"
-    ></script>
     <!-- my Added script -->
     <script src="./Localization/index.translation.js"></script>
     <script src="./Localization/translationFunction.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/swiperEffectCreative.js"></script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/swiperSlide.js"></script>
     <!-- my Added Script ends here! -->
@@ -707,5 +821,7 @@
     <!-- FancyBox JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <!-- my gallery script ends -->
+
+    <script src="./api/api.js"></script>
   </body>
 </html>

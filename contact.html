@@ -22,27 +22,14 @@
 
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
-    <link rel="stylesheet" href="css/jquery.timepicker.css" />
-
-    <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- my added link -->
     <link rel="stylesheet" href="./css/myStyle.css" />
     <link rel="stylesheet" href="./css/languagebutton.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <!-- <link rel="stylesheet" href="./css/subscription.css" /> -->
 
-    <link rel="stylesheet" href="./css/swiperSlide.css" />
     <script
       src="https://kit.fontawesome.com/800d03b5f4.js"
       crossorigin="anonymous"
@@ -182,6 +169,7 @@
     </nav>
     <!-- nav ends -->
 
+    <!-- breadcrums start -->
     <section
       class="hero-wrap hero-wrap-2 parallax"
       style="background-image: url('images/bg_2.jpg')"
@@ -206,27 +194,104 @@
         </div>
       </div>
     </section>
+    <!-- breadcrums start -->
 
-    <section class="ftco-section bg-light">
+    <section class="ftco-section ftco-no-pb">
+      <div class="heading-section">
+        <span class="subheading my-font-sm text-center">Location</span>
+        <h2 class="font-weight-bold my-font-lg text-center mb-5">
+          Our Office Location
+        </h2>
+      </div>
+      <div class="container">
+        <div class="col-md-12">
+          <div
+            id="map"
+            class="map"
+            style="width: 100% !important; margin-bottom: 6rem"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.876208849689!2d95.3207389!3d5.5853094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3040375efa9e8ffd%3A0xb6e31ecdc9532faa!2sYakin%20Pasifik%20Tuna-%20UPI%20Pabrik%20Pengolahan%20(YPT)!5e0!3m2!1sen!2sid!4v1736851596433!5m2!1sen!2sid"
+              height="450"
+              style="
+                border: 2px solid rgba(0, 0, 0, 0.5);
+                width: 100%;
+                border-radius: 5px;
+              "
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <p>
+              <span data-translate="contact.map.location">Location:</span>
+              Yakin Pasifik Tuna - UPI Pabrik Pengolahan (YPT), Aceh, Indonesia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section bg-deepsea mt-6">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-12">
+          <!-- contact intro -->
+          <div>
+            <h2 class="my-font-lg text-white text-center font-weight-bold mb-4">
+              We’re Here for You
+            </h2>
+            <p class="my-font-md text-white text-center font-weight-bold mb-5">
+              We’d love to hear from you! Whether you have questions, feedback,
+              or just want to say hello, feel free to reach out. We’re here to
+              help!
+            </p>
+          </div>
+
+          <!-- contact start -->
+          <div class="col-md-12 mt-4">
             <div class="wrapper">
               <div class="row no-gutters">
                 <div class="col-md-7 d-flex">
-                  <div class="contact-wrap w-100 p-md-5 p-4">
+                  <div
+                    class="contact-wrap w-100 p-md-5 p-4 bg-coffee border-white border-right-md"
+                  >
                     <h3
-                      class="mb-4"
+                      class="mb-2 text-white font-weight-bold"
                       data-translate="contact.emailSection.title"
                     >
                       Get in touch
                     </h3>
+                    <p class="text-white my-font-sm">
+                      Our team will try to reach you as soon as possible!
+                    </p>
 
                     <form id="appointment-form" class="appointment">
                       <div class="row">
                         <div class="col-md-12">
                           <div class="form-group">
-                            <div class="form-field"></div>
+                            <div class="form-field">
+                              <div class="select-wrap">
+                                <div class="icon">
+                                  <span class="fa fa-chevron-down"></span>
+                                </div>
+                                <select
+                                  name="product"
+                                  id="product"
+                                  class="form-control"
+                                  required
+                                >
+                                  <option value="">Select your question</option>
+                                  <option value="Question about products">
+                                    Question about products
+                                  </option>
+                                  <option value="Question about services">
+                                    Question about services
+                                  </option>
+                                  <option value="Customer support">
+                                    Customer support
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
                           </div>
                         </div>
 
@@ -238,7 +303,6 @@
                               id="name"
                               class="form-control"
                               placeholder="Your Name"
-                              style="outline: grey solid 1px"
                               required
                             />
                           </div>
@@ -252,7 +316,6 @@
                               id="location"
                               class="form-control"
                               placeholder="Your Location"
-                              style="outline: grey solid 1px"
                               required
                             />
                           </div>
@@ -261,12 +324,11 @@
                         <div class="col-md-6">
                           <div class="form-group">
                             <input
-                              type="text"
-                              name="date"
-                              id="date"
-                              class="form-control appointment_date"
-                              placeholder="Date"
-                              style="outline: grey solid 1px"
+                              type="tel"
+                              name="tel"
+                              id="phone-number"
+                              class="form-control"
+                              placeholder="Your phone number"
                               required
                             />
                           </div>
@@ -275,12 +337,11 @@
                         <div class="col-md-6">
                           <div class="form-group">
                             <input
-                              type="text"
-                              name="subject"
-                              id="subject"
-                              class="form-control subject"
-                              placeholder="subject"
-                              style="outline: grey solid 1px"
+                              type="email"
+                              name="email"
+                              id="email"
+                              class="form-control"
+                              placeholder="Enter your email"
                               required
                             />
                           </div>
@@ -295,7 +356,6 @@
                               rows="7"
                               class="form-control"
                               placeholder="Message"
-                              style="outline: grey solid 1px"
                               required
                             ></textarea>
                           </div>
@@ -306,7 +366,7 @@
                             <input
                               type="submit"
                               value="Send message"
-                              class="btn btn-dark py-3 px-4"
+                              class="btn btn-light py-3 px-4"
                             />
                           </div>
                         </div>
@@ -315,7 +375,7 @@
                   </div>
                 </div>
                 <div class="col-md-5 d-flex align-items-stretch">
-                  <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+                  <div class="info-wrap bg-primary w-100 p-lg-5 p-4 bg-coffee">
                     <h3
                       class="mb-4 mt-md-4"
                       data-translate="contact.address.title"
@@ -361,7 +421,7 @@
                         <span class="fa fa-paper-plane"></span>
                       </div>
                       <div class="text pl-3">
-                        <p>
+                        <p style="word-wrap: break-word">
                           <span>Email:</span>
                           <a href="mailto:mkt.tridayapasifikkso@gmail.com"
                             ><span>mkt.tridayapasifikkso@gmail.com</span></a
@@ -369,39 +429,114 @@
                         </p>
                       </div>
                     </div>
+                    <div class="contact-social-media">
+                      <ul class="social-media-icon-container no-bullets">
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a class="text-white" href="https://x.com/TridayaKSO"
+                            ><span class="fa fa-twitter"></span
+                          ></a>
+                        </li>
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a
+                            class="text-white"
+                            href="https://www.facebook.com/profile.php?id=61570836929906"
+                            ><span class="fa fa-facebook"></span
+                          ></a>
+                        </li>
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a
+                            class="text-white"
+                            href="https://www.instagram.com/tridayapasifik.kso/"
+                            ><span class="fa fa-instagram"></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-12">
-            <div
-              id="map"
-              class="map"
-              style="width: 100% !important; margin-bottom: 6rem"
-            >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.876208849689!2d95.3207389!3d5.5853094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3040375efa9e8ffd%3A0xb6e31ecdc9532faa!2sYakin%20Pasifik%20Tuna-%20UPI%20Pabrik%20Pengolahan%20(YPT)!5e0!3m2!1sen!2sid!4v1736851596433!5m2!1sen!2sid"
-                height="450"
-                style="
-                  border: 2px solid orange;
-                  width: 100%;
-                  border-radius: 5px;
-                "
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-              <p>
-                <span data-translate="contact.map.location">Location:</span>
-                Yakin Pasifik Tuna - UPI Pabrik Pengolahan (YPT), Aceh,
-                Indonesia.
-              </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="ftco-section bg-coffee">
+      <div class="container">
+        <div
+          id="mlb2-23050580"
+          class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-23050580"
+        >
+          <div class="ml-form-align-center">
+            <div class="ml-form-embedWrapper embedForm">
+              <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+                <div class="ml-form-embedContent" style="">
+                  <h4>Newsletter</h4>
+
+                  <p>Signup for news and special offers!</p>
+                </div>
+
+                <form
+                  class="ml-block-form"
+                  action="https://assets.mailerlite.com/jsonp/1352299/forms/147293751177381214/subscribe"
+                  data-code=""
+                  method="post"
+                  target="_blank"
+                >
+                  <div class="ml-form-formContent">
+                    <div class="ml-form-fieldRow ml-last-item">
+                      <div
+                        class="ml-field-group ml-field-email ml-validate-email ml-validate-required"
+                      >
+                        <input
+                          aria-label="email"
+                          aria-required="true"
+                          type="email"
+                          class="form-control"
+                          data-inputmask=""
+                          name="fields[email]"
+                          placeholder="Email"
+                          autocomplete="email"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <input type="hidden" name="ml-submit" value="1" />
+
+                  <div class="ml-form-embedSubmit">
+                    <button type="submit" class="primary">Subscribe</button>
+
+                    <button
+                      disabled="disabled"
+                      style="display: none"
+                      type="button"
+                      class="loading"
+                    >
+                      <div class="ml-form-embedSubmitLoad"></div>
+                      <span class="sr-only">Loading...</span>
+                    </button>
+                  </div>
+
+                  <input type="hidden" name="anticsrf" value="true" />
+                </form>
+              </div>
+
+              <div
+                class="ml-form-successBody row-success"
+                style="display: none"
+              >
+                <div class="ml-form-successContent">
+                  <h4>Thank you!</h4>
+
+                  <p>You have successfully joined our subscriber list.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer ftco-section bg-dark">
@@ -564,43 +699,35 @@
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
+
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script> -->
+
     <script src="js/main.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-23581568-13");
-    </script>
-
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
-      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-      data-cf-beacon='{"rayId":"8fab3b51be4a5cde","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"cd0b4b3a733644fc843ef0b185f98241"}'
-      crossorigin="anonymous"
-    ></script>
     <!-- my Added script -->
     <script src="./Localization/index.translation.js"></script>
     <script src="./Localization/translationFunction.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/swiperSlide.js"></script>
-    <script src="./js/kontakmailto.js"></script>
+    <script src="./api/api.js"></script>
+
+    <!-- subcription srcipt start-->
+    <!-- <script>
+      function ml_webform_success_23050580() {
+        var $ = ml_jQuery || jQuery;
+        $(".ml-subscribe-form-23050580 .row-success").show();
+        $(".ml-subscribe-form-23050580 .row-form").hide();
+      }
+    </script>
+
+    <script
+      src="https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024"
+      type="text/javascript"
+    ></script>
+    <script>
+      fetch(
+        "https://assets.mailerlite.com/jsonp/1352299/forms/147293751177381214/takel"
+      );
+    </script> -->
+    <!-- subcription srcipt end-->
   </body>
 </html>

@@ -2,6 +2,30 @@
   display: none !important;
 }
 
+.parallax.attachment-scroll {
+  background-attachment: scroll !important;
+}
+
+.border-right-md {
+  border-right: 2px solid black;
+}
+
+.border-all {
+  border: 2px solid black;
+}
+
+.border-white {
+  border-color: white !important;
+}
+
+.border-black {
+  border-color: #000 !important;
+}
+
+.bg-coffee {
+  background-color: #1c140f !important;
+}
+
 .snowy-container {
   position: relative;
   z-index: 1;
@@ -97,7 +121,7 @@
 }
 
 .parallax {
-  height: 100% !important; /* Adjust as needed */
+  height: 100% !important;
   background-attachment: fixed !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -192,6 +216,10 @@
 
 .bg-deepsea {
   background-color: #003366;
+}
+
+.bg-frost {
+  background-image: linear-gradient(to bottom, #003366 25%, #4283c5);
 }
 
 .mybtn {
@@ -362,6 +390,14 @@ ul.no-bullets {
   font-size: 4rem;
 }
 
+.contact-social-media-icon {
+  font-size: 3rem;
+}
+
+.contact-social-media-icon a:hover {
+  color: orange !important;
+}
+
 .social-media-icon a:hover {
   color: orange !important;
 }
@@ -372,6 +408,7 @@ ul.no-bullets {
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem 0 1rem 0;
+  height: 100%;
 }
 
 .fact-util-container {
@@ -1191,6 +1228,10 @@ figcaption {
     border-radius: 10px;
   }
 
+  .contact-social-media-icon {
+    font-size: 2.5rem;
+  }
+
   .myImg-lg {
     max-width: 40rem;
     max-height: 16rem;
@@ -1199,10 +1240,12 @@ figcaption {
 }
 
 @media only screen and (max-width: 800px) {
+  .border-right-md {
+    border-right: none;
+  }
   .image-grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
     gap: 0px 5px;
   }
 
@@ -1215,6 +1258,10 @@ figcaption {
 
   .social-media-icon {
     font-size: 3.5rem;
+  }
+
+  .contact-social-media-icon {
+    font-size: 2.3rem;
   }
   .catalog-grid {
     grid-template-columns: repeat(1, 1fr); /* 3 equal columns */
@@ -1248,6 +1295,9 @@ figcaption {
 }
 
 @media only screen and (max-width: 750px) {
+  .contact-social-media-icon {
+    font-size: 3rem;
+  }
   .personal-container {
     padding: 0.5rem;
   }
@@ -1358,6 +1408,9 @@ figcaption {
   .social-media-icon {
     font-size: 3rem;
   }
+  .contact-social-media-icon {
+    font-size: 2.5rem;
+  }
   .my-grid-container-small {
     grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
     grid-template-rows: auto auto; /* Auto row height */
@@ -1395,6 +1448,12 @@ figcaption {
     max-width: 19rem;
   }
 
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 0px 5px;
+  }
+
   .my-horizontal-card {
     max-width: 320px;
   }
@@ -1414,6 +1473,9 @@ figcaption {
 @media only screen and (max-width: 340px) {
   .social-media-icon {
     font-size: 2.5rem;
+  }
+  .contact-social-media-icon {
+    font-size: 2rem;
   }
   .gallery-image {
     max-width: 8rem;
