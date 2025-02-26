@@ -6,6 +6,13 @@
   background-attachment: scroll !important;
 }
 
+.border-radius-sm {
+  border-radius: 5px;
+}
+.border-radius-md {
+  border-radius: 10px;
+}
+
 .border-right-md {
   border-right: 2px solid black;
 }
@@ -345,6 +352,9 @@ ul.no-bullets {
 .my-font-lg {
   font-size: 35px !important;
 }
+.my-font-normal {
+  font-size: 24px !important;
+}
 
 .my-font-xl {
   font-size: 45px !important ;
@@ -374,10 +384,17 @@ ul.no-bullets {
 
 /* Custom Styles */
 
-/* .freezer-swiper {
+.problem-container {
   display: flex;
-  justify-content: center !important;
-} */
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.problem-report-icon {
+  font-size: 4em;
+  color: white;
+}
 
 .freezer-image-grid {
   display: grid;
@@ -1315,6 +1332,10 @@ figcaption {
 
   .my-font-lg {
     font-size: 28px !important;
+  }
+
+  .my-font-normal {
+    font-size: 20px !important;
   }
 
   .my-font-xl {
