@@ -97,9 +97,10 @@ html {
   max-height: 200px;
   overflow: auto;
   word-wrap: break-word;
+  text-wrap: pretty;
   padding: 5px;
   margin: 0;
-  background-color: #fff;
+  background-color: #ffff;
 }
 
 .image-grid {
