@@ -36,6 +36,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="./css/itemSlider.css" />
 
     <!-- mygallery addedlink -->
     <link rel="stylesheet" href="./css/myGallery.css" />
@@ -180,6 +181,8 @@
     </nav>
     <!-- nav ends -->
 
+    <!-- breadcrumbs start -->
+
     <section
       class="hero-wrap hero-wrap-2 parallax"
       style="background-image: url('images/bg_2.jpg')"
@@ -204,93 +207,159 @@
         </div>
       </div>
     </section>
+    <!-- breadcrumbs ends -->
 
+    <!-- intro start -->
     <section class="ftco-section bg-light">
-      <div class="container myCard">
-        <h1 class="font-weight-bold text-center" data-translate="service.title">
-          Fish processing
-        </h1>
-
-        <div class="mt-5">
-          <p data-translate="service.text1">
-            Our fishery processing services follow a meticulously designed
-            workflow, ensuring that every catch retains its freshness, premium
-            quality, and safety for consumption. These essential stages include:
-          </p>
+      <div class="container">
+        <div class="heading-section">
+          <span class="subheading text-center my-font-sm">Our Services</span>
+          <h2 class="text-center my-font-lg">Discover The Services We Offer</h2>
         </div>
         <div>
-          <img
-            src="./images/ourservice.png"
-            alt="our-service.png"
-            class="myImg-w-fit mt-5"
-          />
-        </div>
-        <div class="mt-5">
-          <ul>
-            <li data-translate="service.text2">
-              Collecting the Catch: We begin by gathering freshly caught fish
-              directly from the sea to initiate the processing process.
-            </li>
-            <li data-translate="service.text3">
-              <b>Sorting and Grading:</b> The fish are carefully sorted by size
-              and quality, ensuring efficient handling and optimal processing.
-            </li>
-            <li data-translate="service.text4">
-              After sorting and grading, we meticulously <b>process</b> incoming
-              products to meet each customer's unique specifications and
-              requirements, ensuring the highest level of satisfaction and
-              quality.
-            </li>
-            <li data-translate="service.text5">
-              <b>Freezing:</b> We utilize advanced freezing technologies,
-              including <b>Air Blast Freezers (ABF)</b>,
-              <b>Semi-Contact Freezers (SCF)</b>, and <b>Proton Freezer</b>, to
-              ensure optimal preservation of freshness, texture, and quality.
-            </li>
-            <li data-translate="service.text6">
-              <b>Packing:</b> Products are carefully packed following industry
-              standards to maintain their integrity and quality during
-              transportation. Packaging is done using plastic and boxes,
-              customized according to the specific requests and requirements of
-              our customers, ensuring optimal protection and satisfaction.
-            </li>
-            <li data-translate="service.text7">
-              <b>Cold Room Storing:</b> We store the frozen product at low
-              temperatures to maintain their quality until they reach their
-              destination. Export product use-45C, local product use -25C.
-            </li>
-            <li data-translate="service.text8">
-              <b>Stuffing:</b> The final step involves efficiently loading the
-              fish for transport, adhering to stringent cold chain protocols to
-              ensure they arrive at their destination in peak condition.
-            </li>
-          </ul>
-
-          <p data-translate="service.text9">
-            This carefully managed process guarantees that every fish delivered
-            to our customers meets the highest standards of quality—ensuring
-            freshness, safety, and readiness for consumption.
+          <p class="font-weight-bold my-font-md text-center">
+            We take great care in handling seafood, ensuring top quality every
+            step of the way. With our expert fish processing service, we
+            carefully clean, prepare, and package seafood while following
+            industry standards. Our cold storage service keeps fish fresh and
+            well-preserved, maintaining its natural flavor and texture. By
+            combining precision and sustainable practices, we deliver seafood
+            you can enjoy with confidence
           </p>
+        </div>
+        <div class="centralize mt-5">
+          <a
+            href="./pdf/Catalog Product - Tridaya Pasifik KSO.pdf#page=7"
+            target="_blank"
+            class="btn btn-primary"
+            >Learn more</a
+          >
+        </div>
+
+        <!-- <div class="navigation-btn-container mt-3">
+          <a
+            class="btn btn-primary nav-btn nav-btn-slideTo"
+            href="#proton-freezer"
+            >Proton Freezer</a
+          >
+          <a class="btn btn-primary nav-btn nav-btn-slideTo" href="#ABF"
+            >Air Blast Freezers</a
+          >
+          <a class="btn btn-primary nav-btn nav-btn-slideTo" href="#SCF"
+            >Semi-Contact Freezers</a
+          >
+        </div> -->
+        <!-- gallery image -->
+        <h3 class="my-font-normal text-center font-weight-bold mt-5">
+          Our services include:
+        </h3>
+        <div class="swiper services-swiper">
+          <div class="swiper-wrapper">
+            <!-- <div
+              id="proton-freezer"
+              class="container mt-5 my-horizontal-card-container swiper-slide swiper-slide-slideTo"
+            >
+              <div class="my-horizontal-card">
+                <img
+                  src="./images/about-us-nelayan.webp"
+                  alt="Card image cap"
+                />
+                <div class="horizontal-card-body">
+                  <h5 class="horizontal-card-title">Proton Freezer</h5>
+                  <p class="horizontal-card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit soluta sed libero fugiat iusto repudiandae saepe
+                    quae! Harum, facilis nihil voluptatum facere eius ad
+                    quisquam eaque Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Nisi eaque architecto qui tempore odio
+                    earum nihil facere porro adipisci fuga, autem eius, iste
+                    nulla. Esse deserunt veritatis similique necessitatibus
+                    excepturi.
+                  </p>
+                </div>
+              </div>
+            </div> -->
+            <div
+              id="fish-processing"
+              class="container mt-5 my-horizontal-card-container swiper-slide swiper-slide-slideTo"
+            >
+              <div class="my-horizontal-card">
+                <img
+                  src="./images/about-us-nelayan.webp"
+                  alt="Card image cap"
+                />
+                <div class="horizontal-card-body">
+                  <h5 class="horizontal-card-title">Fish Processing Service</h5>
+                  <p class="horizontal-card-text bg-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit soluta sed libero fugiat iusto repudiandae saepe
+                    quae! Harum, facilis nihil voluptatum facere eius ad
+                    quisquam eaque Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Nisi eaque architecto qui tempore odio
+                    earum nihil facere porro adipisci fuga, autem eius, iste
+                    nulla. Esse deserunt veritatis similique necessitatibus
+                    excepturi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              id="cold-storage"
+              class="container mt-5 my-horizontal-card-container swiper-slide swiper-slide-slideTo"
+            >
+              <div class="my-horizontal-card">
+                <img
+                  src="./images/about-us-nelayan.webp"
+                  alt="Card image cap"
+                />
+                <div class="horizontal-card-body">
+                  <h5 class="horizontal-card-title">Cold Storage Service</h5>
+                  <p class="horizontal-card-text bg-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit soluta sed libero fugiat iusto repudiandae saepe
+                    quae! Harum, facilis nihil voluptatum facere eius ad
+                    quisquam eaque Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Nisi eaque architecto qui tempore odio
+                    earum nihil facere porro adipisci fuga, autem eius, iste
+                    nulla. Esse deserunt veritatis similique necessitatibus
+                    excepturi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- intro end-->
 
-    <!-- image for fish processing -->
-    <section class="ftco-section ftco-animate" style="background-color: black">
+    <!-- Fish processing section start -->
+    <section class="ftco-section bg-deepsea">
       <div class="container">
-        <div class="title" style="display: flex">
-          <h1
-            class="font-weight-bold half-a-border-on-bottom"
-            style="color: white; width: 100%; height: fit-content; padding: 0"
+        <div class="heading-section">
+          <span class="subheading my-font-sm text-center text-white">
+            Fish Processing
+          </span>
+          <h2 class="font-weight-bold text-center my-font-lg text-white">
+            Quality Seafood At Every Step
+          </h2>
+          <p
+            class="text-center my-font-md font-weight-bold dynamic-padding text-white"
+            style="--py-value: 1rem"
           >
-            GALLERY
-          </h1>
+            We collect fresh fish directly from our supplier, sorting and
+            grading them by size and quality. After processing to meet customer
+            specifications, we use advanced freezing technologies to preserve
+            freshness. The products are carefully packed and stored at low
+            temperatures. Export products are stored at -45°C, and local
+            products at -25°C, ensuring they arrive in peak condition.
+          </p>
         </div>
 
         <!-- gallery image -->
         <div class="page-top">
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <div class="image-grid">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                 class="fancybox"
@@ -304,13 +373,10 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    Just a test hehe
-                  </figcaption>
                 </figure>
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                 class="fancybox"
@@ -324,13 +390,10 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    testing
-                  </figcaption>
                 </figure>
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 class="fancybox"
@@ -344,13 +407,10 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    testing
-                  </figcaption>
                 </figure>
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 class="fancybox"
@@ -364,13 +424,10 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    testing testing
-                  </figcaption>
                 </figure>
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                 class="fancybox"
@@ -384,13 +441,10 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    asdflkhasdf
-                  </figcaption>
                 </figure>
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                 class="fancybox"
@@ -404,13 +458,10 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    adsfasdfasdfasdfasdf
-                  </figcaption>
                 </figure>
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 class="fancybox"
@@ -424,13 +475,10 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    kadsjfhlakdsjfhalksdjfhaslkjdfh
-                  </figcaption>
                 </figure>
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="thumb">
               <a
                 href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 class="fancybox"
@@ -444,9 +492,6 @@
                     class="zoom img-fluid"
                     alt=""
                   />
-                  <figcaption class="text-center mt-2" style="color: white">
-                    ladskjflaksdjfhalksdjfhalsdkjfhasdflkh
-                  </figcaption>
                 </figure>
               </a>
             </div>
@@ -454,11 +499,305 @@
         </div>
       </div>
     </section>
-    <!-- image for fish processing ends -->
+    <!-- Fish processing section end -->
 
-    <!-- follow us section -->
+    <!-- cold storage intro section start -->
+    <section
+      class="parallax attachment-scroll ftco-section"
+      style="
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0.9)
+          ),
+          url(./images/);
+      "
+    >
+      <div class="personal-container dynamic-padding">
+        <div class="row d-flex no-gutters fact-util-container">
+          <div class="corpo-logo-container col-md-6">
+            <figure>
+              <img
+                class="myImg-lg"
+                src="./images/freezer-icon.png"
+                alt="Freezer Icon"
+              />
+              <figcaption class="text-center">
+                <a
+                  href="https://www.flaticon.com/free-icons/furniture-and-household"
+                  title="furniture and household icons"
+                  style="color: grey"
+                  >Made by bearicons - Flaticon</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="heading-section col-md-6">
+            <span class="subheading my-font-sm">cold Storage</span>
+            <h2 class="font-weight-bold">
+              Advanced Refrigeration for Optimal Freshness
+            </h2>
 
-    <!-- follow us section ends -->
+            <p>
+              At Tridaya Pasifik KSO, we prioritize quality and freshness above
+              all else. Our advanced refrigeration systems, including the
+              powerful Proton Freezer and specialized Air Blast and Semi-Contact
+              Freezers, work seamlessly to preserve the optimal texture and
+              flavor of our fish products. With the ability to store products
+              for up to two years without compromising quality, our advanced
+              cold storage rooms ensure the highest standards of preservation.
+            </p>
+            <p>
+              Curious about how our technology guarantees top-notch products?
+              Click here to read more about our refrigeration process and how
+              our product being stored!
+            </p>
+            <a class="btn btn-primary" href="./storage-system.html"
+              >Read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cold storage intro section end-->
+
+    <!-- Services ordering mail service start -->
+    <section
+      class="ftco-section parallax"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(./images/about-us-nelayan.webp);
+      "
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- contact intro -->
+          <div>
+            <h2 class="my-font-lg text-white text-center font-weight-bold mb-4">
+              Entrust Your Product to Us
+            </h2>
+            <p class="my-font-md text-white text-center font-weight-bold mb-5">
+              Let us handle your seafood with care, whether you need expert
+              processing or secure cold storage. We are committed to providing
+              high-quality service to keep your product fresh and
+              well-preserved.
+            </p>
+          </div>
+
+          <!-- contact start -->
+          <div class="col-md-12 mt-4">
+            <div class="wrapper">
+              <div class="row no-gutters">
+                <div class="col-md-7 d-flex">
+                  <div
+                    class="contact-wrap w-100 p-md-5 p-4 bg-coffee border-white border-right-md"
+                  >
+                    <h3 class="mb-2 text-white font-weight-bold">
+                      Choose your service!
+                    </h3>
+                    <p class="text-white my-font-sm">
+                      We will try to reach you as soon as possible!
+                    </p>
+
+                    <form id="appointment-form" class="appointment">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <div class="form-field">
+                              <div class="select-wrap">
+                                <div class="icon">
+                                  <span class="fa fa-chevron-down"></span>
+                                </div>
+                                <select
+                                  name="product"
+                                  id="product"
+                                  class="form-control"
+                                  required
+                                >
+                                  <option value="">Choose option</option>
+                                  <option value="Fish processing">
+                                    Fish processing
+                                  </option>
+                                  <option value="Cold storage">
+                                    Cold storage
+                                  </option>
+                                  <option value="Question related to services">
+                                    Question related to services
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              name="name"
+                              id="name"
+                              class="form-control"
+                              placeholder="Your Name"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              name="location"
+                              id="location"
+                              class="form-control"
+                              placeholder="Your Location"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="tel"
+                              name="tel"
+                              id="phone-number"
+                              class="form-control"
+                              placeholder="Your phone number"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              name="email"
+                              id="email"
+                              class="form-control"
+                              placeholder="Enter your email"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea
+                              name="message"
+                              id="message"
+                              cols="30"
+                              rows="7"
+                              class="form-control"
+                              placeholder="Message"
+                              required
+                            ></textarea>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="submit"
+                              value="Send message"
+                              class="btn btn-light py-3 px-4"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-stretch">
+                  <div class="info-wrap bg-primary w-100 p-lg-5 p-4 bg-coffee">
+                    <h3
+                      class="mb-4 mt-md-4"
+                      data-translate="contact.address.title"
+                    >
+                      Contact us
+                    </h3>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-map-marker"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p data-translate="contact.address.address">
+                          <span>Address:</span> Lampulo, Kuta Alam District,
+                          Banda Aceh City, Aceh, Indonesia
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p>
+                          <span data-translate="contact.address.phone"
+                            >Phone:</span
+                          >
+                          <a
+                            href="tel:+626513612327"
+                            data-translate="contact.address.phoneNumber"
+                            >(+62) 651 3612 327</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p style="word-wrap: break-word">
+                          <span>Email:</span>
+                          <a href="mailto:mkt.tridayapasifikkso@gmail.com"
+                            ><span>mkt.tridayapasifikkso@gmail.com</span></a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-social-media">
+                      <ul class="social-media-icon-container no-bullets">
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a class="text-white" href="https://x.com/TridayaKSO"
+                            ><span class="fa fa-twitter"></span
+                          ></a>
+                        </li>
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a
+                            class="text-white"
+                            href="https://www.facebook.com/profile.php?id=61570836929906"
+                            ><span class="fa fa-facebook"></span
+                          ></a>
+                        </li>
+                        <li class="ftco-animate contact-social-media-icon">
+                          <a
+                            class="text-white"
+                            href="https://www.instagram.com/tridayapasifik.kso/"
+                            ><span class="fa fa-instagram"></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services ordering mail service ends -->
 
     <!-- Footer -->
     <footer class="footer ftco-section bg-dark">
@@ -631,6 +970,7 @@
     <script src="./Localization/index.translation.js"></script>
     <script src="./Localization/translationFunction.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/itemSlider.js"></script>
 
     <!-- my gallery script -->
 
@@ -641,5 +981,23 @@
     <!-- FancyBox JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <!-- my gallery script ends -->
+
+    <!-- mail api -->
+    <script src="api/api.js"></script>
+
+    <script>
+      const freezerSwiper = new Swiper(".services-swiper", {
+        lazy: true,
+        nav: false,
+        speed: 1000,
+        slidesPerView: 1,
+        spaceBetween: 1,
+        rewind: true,
+        autoplay: {
+          delay: 2500,
+          pauseOnMouseEnter: true,
+        },
+      });
+    </script>
   </body>
 </html>
