@@ -6,6 +6,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .container-disabled {
   display: none !important;
 }
@@ -399,6 +407,30 @@ ul.no-bullets {
 
 /* Custom Styles */
 
+.export-country {
+  margin: 20px auto;
+  /* padding: 20px; */
+  border-radius: 8px;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* adding new */
+  height: fit-content;
+  width: fit-content;
+}
+
+.export-flag-icon {
+  width: 32vw !important; /* 24px */
+  height: 14vh !important; /* 16px */
+  object-fit: cover;
+  border-radius: 0.25rem; /* 4px */
+  margin-right: 0.5rem; /* 8px */
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
 .problem-container {
   display: flex;
   gap: 1rem;
@@ -634,8 +666,15 @@ ul.no-bullets {
   margin-left: 3.5rem;
 }
 
+.map-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .map-image {
-  width: 100%;
+  width: 35vw;
+  height: auto;
   margin-top: 3.5rem;
 }
 
@@ -1251,6 +1290,11 @@ figcaption {
 }
 
 @media only screen and (max-width: 900px) {
+  .map-image {
+    width: 50vw;
+    height: auto;
+    margin-top: 3.5rem;
+  }
   .visi-misi-textarea {
     max-width: 22rem;
     border-radius: 10px;
@@ -1332,6 +1376,12 @@ figcaption {
 }
 
 @media only screen and (max-width: 750px) {
+  .map-image {
+    width: 80vw;
+    height: auto;
+    margin-top: 3.5rem;
+  }
+
   .contact-social-media-icon {
     font-size: 3rem;
   }
@@ -1447,6 +1497,11 @@ figcaption {
 }
 
 @media only screen and (max-width: 500px) {
+  .map-image {
+    width: 90vw;
+    height: auto;
+    margin-top: 3.5rem;
+  }
   .my-horizontal-card {
     max-width: 360px;
   }
@@ -1521,7 +1576,7 @@ figcaption {
   }
 }
 
-@media only screen and (max-widht: 360px) {
+@media only screen and (max-width: 360px) {
 }
 
 @media only screen and (max-width: 340px) {

@@ -47,6 +47,9 @@
     />
     <!-- my gallery addedlink end -->
 
+    <!-- my wave animations -->
+    <link rel="stylesheet" href="./css/myanims.css" />
+
     <!-- myHeaderScript -->
     <script
       src="https://kit.fontawesome.com/800d03b5f4.js"
@@ -215,7 +218,9 @@
           <div class="col-md-6 pl-md-5">
             <div class="row justify-content-start py-5">
               <div class="col-md-12 heading-section ftco-animate">
-                <span class="subheading">Our Supply Chain partner</span>
+                <span class="subheading my-font-sm"
+                  >Our Supply Chain partner</span
+                >
                 <h2 class="mb-4">
                   From Local Fishermen to International Market
                 </h2>
@@ -250,7 +255,7 @@
     <section class="ftco-section bg-deepsea">
       <div class="container heading-section">
         <div class="heading-section text-center">
-          <span class="subheading text-white">Supply Chain Map</span>
+          <span class="subheading text-white my-font-sm">Supply Chain Map</span>
           <h2 class="text-white my-font-lg">
             Our Supplier Comes From All Around Aceh
           </h2>
@@ -267,7 +272,7 @@
         <div class="map-image-container">
           <img
             class="map-image"
-            src="./images/supply-chain-map.webp"
+            src="./images/supply-chain-map-cropped.webp"
             alt="supply-chain-aceh"
           />
         </div>
@@ -276,51 +281,81 @@
     <!-- Supply chain maps end-->
 
     <!-- Worldwide market section -->
-    <section class="ftco-section bg-light">
+    <section class="ftco-section ftco-no-pb bg-light">
       <div class="personal-container">
-        <div class="container">
+        <div class="heading-section container">
+          <span class="subheading my-font-sm text-center"
+            >Tridaya Market Experience</span
+          >
           <h2 class="font-weight-bold text-center my-font-lg">
-            We Are Expert In Fish Processing
+            Our Expertise in Exporting Quality Products Globally
           </h2>
           <p
             class="text-center my-font-md font-weight-bold dynamic-padding"
             style="--py-value: 2.5rem"
           >
-            From ocean to plate, we specialize in processing and delivering the
-            freshest seafood with precision and care. Our dedicated team ensures
-            top-quality seafood supply for businesses across the world. With
-            advanced processing and strict quality control, we provide
-            reliability, freshness, and excellence in every order.
+            With years of experience in the global market, we specialize in
+            exporting high-quality products, ensuring they meet international
+            standards. Our dedicated team works closely with partners to
+            guarantee timely delivery, exceptional service, and products that
+            exceed expectations.
           </p>
-          <div class="centralize-col">
-            <a href="./services.html" class="btn btn-primary">Read more</a>
-          </div>
         </div>
 
         <div class="our-client mt-5">
-          <h3 class="font-weight-bold text-center">Our Client:</h3>
-          <div class="swiper client-slider">
+          <h3 class="font-weight-bold my-font-normal text-center">
+            Experienced in exporting to:
+          </h3>
+          <div class="swiper client-slider mt-5">
             <div class="swiper-wrapper">
-              <div class="swiper-slide client-card">
-                <i class="flag-icon flag-icon-jp flag-icon-squared"></i>
+              <div
+                class="swiper-slide export-country flex-col"
+                style="gap: 5px"
+              >
+                <div class="export-flag-icon flag-icon-jp"></div>
+                <div><p class="font-weight-bold">Japan</p></div>
               </div>
-              <div class="swiper-slide client-card">
-                <i class="flag-icon flag-icon-jp flag-icon-squared"></i>
+              <div
+                class="swiper-slide export-country flex-col"
+                style="gap: 5px"
+              >
+                <div class="export-flag-icon flag-icon-us"></div>
+                <div><p class="font-weight-bold">USA</p></div>
               </div>
-              <div class="swiper-slide client-card">
-                <i class="flag-icon flag-icon-jp flag-icon-squared"></i>
+              <div
+                class="swiper-slide export-country flex-col"
+                style="gap: 5px"
+              >
+                <div class="export-flag-icon flag-icon-hk"></div>
+                <div><p class="font-weight-bold">Hongkong</p></div>
               </div>
-              <div class="swiper-slide client-card">
-                <i class="flag-icon flag-icon-jp flag-icon-squared"></i>
+              <div
+                class="swiper-slide export-country flex-col"
+                style="gap: 5px"
+              >
+                <div class="export-flag-icon flag-icon-cn"></div>
+                <div><p class="font-weight-bold">China</p></div>
               </div>
-              <div class="swiper-slide client-card">
-                <i class="flag-icon flag-icon-jp flag-icon-squared"></i>
+              <div
+                class="swiper-slide export-country flex-col"
+                style="gap: 5px"
+              >
+                <div class="export-flag-icon flag-icon-sa"></div>
+                <div><p class="font-weight-bold">Saudi Arabia</p></div>
               </div>
-              <div class="swiper-slide client-card">
-                <i class="flag-icon flag-icon-jp flag-icon-squared"></i>
+              <div
+                class="swiper-slide export-country flex-col"
+                style="gap: 5px"
+              >
+                <div class="export-flag-icon flag-icon-ae"></div>
+                <div><p class="font-weight-bold">UAE</p></div>
               </div>
-              <div class="swiper-slide client-card">
-                <i class="flag-icon flag-icon-jp flag-icon-squared"></i>
+              <div
+                class="swiper-slide export-country flex-col"
+                style="gap: 5px"
+              >
+                <div class="export-flag-icon flag-icon-mx"></div>
+                <div><p class="font-weight-bold">Mexico</p></div>
               </div>
             </div>
           </div>
@@ -328,6 +363,146 @@
       </div>
     </section>
     <!-- Worldwide market section end -->
+
+    <!-- wave container start -->
+    <section
+      class="ftco-section ftco-no-pb ftco-no-pt bg-light waveanim-container"
+    >
+      <svg viewBox="0 0 2 1" preserveAspectRatio="none">
+        <defs>
+          <path
+            id="w"
+            d="
+      m0 1v-.5 
+      q.5.5 1 0
+      t1 0 1 0 1 0
+      v.5z"
+          />
+        </defs>
+        <g>
+          <use href="#w" y=".0" fill="#2d55aa" />
+          <use href="#w" y=".1" fill="#3461c1" />
+          <use href="#w" y=".2" fill="#4579e2" />
+        </g>
+      </svg>
+    </section>
+    <!-- wave container end -->
+
+    <section
+      class="ftco-section"
+      style="background-image: linear-gradient(#4579e2, #33569d)"
+    >
+      <div class="personal-container">
+        <div class="heading-section">
+          <span class="subheading text-center my-font-sm text-white">
+            Our Client Opinion
+          </span>
+          <h2 class="font-weight-bold text-center my-font-lg text-white">
+            What Our Clients Say About Us
+          </h2>
+        </div>
+        <div class="swiper opinion-slider">
+          <div class="swiper-wrapper opinion-card-section">
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold">Amazing company</q>
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Yusri Ch, Local guide</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >Hygienic fish processing factory that has gone
+                    international</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Black Nada</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >When I return from Bitung, Manado, I will invest in this
+                    company so that it can becomes even more famous</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Republik Investoraceh</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >International Scale Tuna Fish Processing Factory</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Ramadhan</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >Clean and comfortable</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Riski Saputra, Local guide</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >Processed fish exporter</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Muhammad Ridha Irham</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >MSMEs driving the Aceh economy</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Bilal Vote, Local guide</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide opinion-card">
+              <div class="quote-container">
+                <blockquote class="text-center">
+                  <q class="my-font-md font-weight-bold"
+                    >International standards</q
+                  >
+                  <div class="mt-3 my-font-sm">
+                    <cite>—Muhammad Alva Roby</cite>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Report problem section start-->
     <section class="bg-coffee dynamic-padding">
@@ -581,8 +756,6 @@
     </section>
     <!-- join us section end -->
 
-    <!-- storage system desc start -->
-
     <!-- image for fish processing -->
     <!-- <section class="ftco-section ftco-animate" style="background-color: black">
       <div class="container">
@@ -763,8 +936,6 @@
       </div>
     </section> -->
     <!-- image for fish processing ends -->
-
-    <!-- Corporate background section -->
 
     <footer class="footer ftco-section bg-dark">
       <div class="container">
