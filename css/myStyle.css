@@ -185,7 +185,13 @@ html {
   width: fit-content;
 }
 
-.text-white {
+.text-white,
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6 {
   color: white !important;
 }
 
@@ -372,11 +378,15 @@ ul.no-bullets {
   font-size: 18px !important;
 }
 
-.my-font-lg {
-  font-size: 35px !important;
-}
 .my-font-normal {
   font-size: 24px !important;
+}
+.my-font-big {
+  font-size: 28px !important;
+}
+
+.my-font-lg {
+  font-size: 35px !important;
 }
 
 .my-font-xl {
@@ -1290,6 +1300,10 @@ figcaption {
 }
 
 @media only screen and (max-width: 900px) {
+  .export-flag-icon {
+    width: 26vw !important; /* 24px */
+    height: 10vh !important; /* 16px */
+  }
   .map-image {
     width: 50vw;
     height: auto;
@@ -1400,12 +1414,16 @@ figcaption {
     font-size: 16px !important;
   }
 
-  .my-font-lg {
-    font-size: 28px !important;
-  }
-
   .my-font-normal {
     font-size: 20px !important;
+  }
+
+  .my-font-big {
+    font-size: 25px !important;
+  }
+
+  .my-font-lg {
+    font-size: 28px !important;
   }
 
   .my-font-xl {
