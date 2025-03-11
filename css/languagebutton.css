@@ -75,7 +75,7 @@
   padding: 0.5rem 0.75rem; /* 8px 12px */
   border-top-left-radius: 0.5rem; /* 8px */
   border-bottom-left-radius: 0.5rem; /* 8px */
-  display: flex;
+  display: none;
   flex-direction: row; /* Arrange buttons in column */
   align-items: center;
   z-index: 999;
@@ -89,6 +89,7 @@
 .language-panel.show {
   transform: translateY(0); /* Slide into view */
   opacity: 1; /* Make visible */
+  display: flex;
 }
 
 /* Language switcher buttons */

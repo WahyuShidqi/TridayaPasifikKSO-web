@@ -28,6 +28,10 @@
     <!-- my added link -->
     <link rel="stylesheet" href="./css/myStyle.css" />
     <link rel="stylesheet" href="./css/languagebutton.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+    />
     <!-- <link rel="stylesheet" href="./css/subscription.css" /> -->
 
     <script
@@ -67,14 +71,7 @@
         >
           <span class="fa fa-bars"></span> Menu
         </button>
-        <!-- <form action="#" class="searchform order-lg-last">
-		<div class="form-group d-flex">
-		  <input type="text" class="form-control pl-3" placeholder="Search" />
-		  <button type="submit" placeholder="" class="form-control search">
-			<span class="fa fa-search"></span>
-		  </button>
-		</div>
-	  </form> -->
+
         <!-- Toggle Language Button (Google Translate-like icon) -->
 
         <div class="languageswitchersection order-lg-last">
@@ -122,7 +119,12 @@
               <div class="my-dropdown">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                    <a href="services.html" class="nav-link">Services</a>
+                    <a
+                      href="services.html"
+                      class="nav-link"
+                      data-translate="navbar.services"
+                      >Services</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -137,17 +139,30 @@
               >
             </li>
             <li class="nav-item">
-              <a href="facility-utility.html" class="nav-link"
+              <a
+                href="facility-utility.html"
+                class="nav-link"
+                data-translate="navbar.facilityutility"
                 >Facility & Utility</a
               >
             </li>
 
             <li class="nav-item">
-              <a href="storage-system.html" class="nav-link">Storage system</a>
+              <a
+                href="storage-system.html"
+                class="nav-link"
+                data-translate="navbar.storagesystem"
+                >Storage system</a
+              >
             </li>
 
             <li class="nav-item">
-              <a href="supply-chain.html" class="nav-link">supply chain</a>
+              <a
+                href="supply-chain.html"
+                class="nav-link"
+                data-translate="navbar.supplychain"
+                >supply chain</a
+              >
             </li>
 
             <!-- <li class="nav-item">
@@ -183,11 +198,11 @@
                 ><a href="index.html" data-translate="breadCrumb.home"
                   >Home <i class="fa fa-chevron-right"></i></a
               ></span>
-              <span data-translate="breadCrumb.contactUs"
+              <span data-translate="breadCrumb.contact"
                 >Contact us <i class="fa fa-chevron-right"></i
               ></span>
             </p>
-            <h1 class="mb-0 bread" data-translate="contact.title">
+            <h1 class="mb-0 bread" data-translate="headertitle.contact">
               Contact us
             </h1>
           </div>
