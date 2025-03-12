@@ -2,6 +2,10 @@
   scroll-margin-top: 20vh;
 }
 
+.myoverlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -200,6 +204,18 @@ html {
 }
 .myImg-w-fit {
   width: 100%;
+}
+
+.myImg-w-sm {
+  max-width: 256px;
+}
+
+.myImg-w-md {
+  max-width: 512px;
+}
+
+.myImg-w-lg {
+  max-width: 665px;
 }
 
 .max-width-half {
@@ -1390,6 +1406,18 @@ figcaption {
 }
 
 @media only screen and (max-width: 750px) {
+  .myImg-w-sm {
+    max-width: 173px;
+  }
+
+  .myImg-w-md {
+    max-width: 342px;
+  }
+
+  .myImg-w-lg {
+    max-width: 444px;
+  }
+
   .map-image {
     width: 80vw;
     height: auto;
