@@ -8,6 +8,8 @@ const translations = {
       learnmore: "Learn More",
       visitsite: "Visit Site",
       readmore: "Read More",
+      seecertifications: "See Certifications",
+      downloadcatalog: "Download Catalog",
     },
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
@@ -170,6 +172,123 @@ const translations = {
         text: "From ocean to plate, we specialize in processing and delivering the freshest seafood with precision and care. Our dedicated team ensures top-quality seafood supply for businesses across the world. With advanced processing and strict quality control, we provide reliability, freshness, and excellence in every order.",
         subtitle: "Our Client:",
       },
+      section4: {
+        ourmission: {
+          title: "Our Mission",
+          text1: "Enhancing Sustainable Fisheries Production",
+          text2: "Innovating in Fisheries Technology",
+          text3: "Empowering Coastal Communities",
+          text4: "Ensuring Product Quality and Safety",
+          text5: "Promoting Education and Environmental Awareness",
+        },
+        ourvision: {
+          title: "Our Vision",
+          text: "Becoming a leading company that contributes to global food security through sustainable, high-quality, and environmentally friendly fish production while improving the welfare of coastal communities",
+        },
+      },
+      section5: {
+        subheader: "Public Opinion",
+        title: "What People Say About Us",
+        comment1: {
+          text: "Amazing company",
+          name: "—Yusri Ch, Local guide",
+        },
+        comment2: {
+          text: "Hygienic fish processing factory that has gone international",
+          name: "—Black Nada",
+        },
+        comment1: {
+          text: "When I return from Bitung, Manado, I will invest in this company so that it can becomes even more famous",
+          name: "—Republik Investoraceh",
+        },
+        comment1: {
+          text: "International Scale Tuna Fish Processing Factory",
+          name: "—Ramadhan",
+        },
+        comment1: {
+          text: "Clean and comfortable",
+          name: "—Riski Saputra, Local guide",
+        },
+        comment1: {
+          text: "Processed fish exporter",
+          name: "—Muhammad Ridha Irham",
+        },
+        comment1: {
+          text: "MSMEs driving the Aceh economy",
+          name: "—Bilal Vote, Local guide",
+        },
+        comment1: {
+          text: "International standards",
+          name: "—Muhammad Alva Roby",
+        },
+      },
+      section6: {
+        subheader: "Certificates",
+        title: "Certified Quality You Can Trust",
+        text: "We take pride in delivering premium, safe, and sustainably processed seafood. We ensure that every product meets the highest industry standards. Trust us for quality, freshness, and responsible sourcing.",
+      },
+      section7: {
+        subheader: "KSO Catalog",
+        title: "Explore Our Premium Seafood Selection",
+        text: "Discover our wide range of high-quality, sustainably processed seafood products. From fresh catches to expertly prepared frozen options, our catalog showcases the best we have to offer. Browse now and find the perfect seafood solutions for your business.",
+      },
+    },
+
+    // en.productpage translations
+    productpage: {
+      section1: {
+        title: "OUR PRODUCTS",
+        navbtn1: "Tuna",
+        navbtn2: "Marlin",
+        navbtn3: "Skipjack",
+        navbtn4: "Baby tuna",
+        navbtn5: "Octopus",
+        navbtn6: "Spanish mackerels",
+        navbtn7: "Largehead hairtail",
+        navbtn8: "Other",
+        card1: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card2: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card3: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card4: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card5: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card6: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card7: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card8: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+      },
+      section2: {
+        title:
+          "We’re proud to have exported our products to these countries and many more to come!",
+        flag1: "Japan",
+        flag2: "U.S.A.",
+        flag3: "Hongkong",
+        flag4: "China",
+        flag5: "Saudi Arabia",
+        flag6: "Mexico",
+      },
     },
   },
   //
@@ -186,6 +305,8 @@ const translations = {
       contactus: "Kontak Kami",
       learnmore: "Selengkapnya",
       visitsite: "Kunjungi Web",
+      seecertifications: "Lihat Sertifikasi",
+      downloadcatalog: "Unduh Katalog",
     },
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
@@ -322,7 +443,6 @@ const translations = {
         text5:
           "Bersama-sama, kami menggabungkan keahlian untuk menghadirkan produk ikan berkualitas tinggi, mendukung nelayan lokal, dan memenuhi permintaan pasar domestik maupun internasional.",
       },
-
       section2: {
         title: "PARTNER KAMI",
         buttons: {
@@ -343,11 +463,127 @@ const translations = {
           text: "Coming soon",
         },
       },
-
       section3: {
         title: "Kami Ahli dalam Pengolahan Ikan",
         text: "Dari laut hingga ke piring anda, kami ahli dalam mengolah dan menyajikan seafood segar dengan presisi dan perhatian. Tim kami yang berdedikasi memastikan produk seafood berkualitas tinggi untuk bisnis di seluruh dunia. Dengan teknik pemrosesan ikan yang profesional dan  quality control yang ketat, kami memberikan keandalan, kesegaran, dan keunggulan dalam setiap pesanan.",
         subtitle: "Klien Kami:",
+      },
+      section4: {
+        ourmission: {
+          title: "Misi Kami",
+          text1: "Meningkatkan Produksi Perikanan Berkelanjutan",
+          text2: "Berinovasi dalam Teknologi Perikanan",
+          text3: "Memberdayakan Masyarakat Pesisir",
+          text4: "Menjaga Kualitas dan Keamanan Produk",
+          text5: "Mendorong Edukasi dan Kesadaran Lingkungan",
+        },
+        ourvision: {
+          title: "Visi Kami",
+          text: "Menjadi perusahaan terkemuka yang berkontribusi pada ketahanan pangan global melalui produksi ikan yang berkelanjutan, berkualitas tinggi, dan ramah lingkungan, serta meningkatkan kesejahteraan masyarakat pesisir",
+        },
+      },
+      section5: {
+        subheader: "Opini Publik",
+        title: "Pendapat Publik Tentang Kami",
+        comment1: {
+          text: "Perusahaan yang luar biasa",
+          name: "—Yusri Ch, Local guide",
+        },
+        comment2: {
+          text: "Pabrik pengolahan ikan higenis yang sudah go international",
+          name: "—Black Nada",
+        },
+        comment3: {
+          text: "Kalau saya sudah pulang dari Bitung, Manado saya akan besarkan perusahaan ini biar lebih terkenal lagi",
+          name: "—Republik Investoraceh",
+        },
+        comment4: {
+          text: "Pabrik Pengolahan Ikan Tuna Skala Internasional",
+          name: "—Ramadhan",
+        },
+        comment5: {
+          text: "bersih dan nyaman",
+          name: "—Riski Saputra, Local guide",
+        },
+        comment6: {
+          text: "Pengolahan ikan export",
+          name: "—Muhammad Ridha Irham",
+        },
+        comment7: {
+          text: "UMKM penghela ekonomi Aceh",
+          name: "—Bilal Vote, Local guide",
+        },
+        comment8: {
+          text: "Standar internasional",
+          name: "—Muhammad Alva Roby",
+        },
+      },
+      section6: {
+        subheader: "Sertifikat",
+        title: "Kualitas teruji yang dapat anda percaya",
+        text: "Kami bangga menghadirkan makanan laut premium yang aman dan diproses secara berkelanjutan. Kami memastikan setiap produk memenuhi standar industri internasional. Percayakan kepada kami untuk produk yang berkualitas, segar, dan terpercaya.",
+      },
+      section7: {
+        subheader: "Katalog KSO",
+        title: "Jelajahi Pilihan Produk Seafood Premium Kami",
+        text: "Temukan beragam produk seafood berkualitas tinggi yang diproses secara berkelanjutan. Dari hasil tangkapan segar hingga opsi beku yang diproses dengan ahli, katalog kami menghadirkan yang terbaik untuk Anda. Telusuri sekarang dan temukan solusi seafood yang sempurna untuk bisnis Anda.",
+      },
+    },
+
+    // id.productpage translations
+    productpage: {
+      section1: {
+        title: "PRODUK KAMI",
+        navbtn1: "Tuna",
+        navbtn2: "Marlin",
+        navbtn3: "Cakalang",
+        navbtn4: "Baby tuna",
+        navbtn5: "Gurita",
+        navbtn6: "Tenggiri",
+        navbtn7: "Layur",
+        navbtn8: "Lainnya",
+        card1: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card2: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card3: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card4: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card5: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card6: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card7: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+        card8: {
+          title: "coming soon",
+          text: "coming soon",
+        },
+      },
+      section2: {
+        title:
+          "Kami bangga telah mengekspor produk kami ke negara-negara ini, dan masih banyak lagi yang akan datang!",
+        flag1: "Jepang",
+        flag2: "Amerika Serikat",
+        flag3: "Hongkong",
+        flag4: "Tiongkok",
+        flag5: "Arab Saudi",
+        flag6: "Meksiko",
       },
     },
   },
