@@ -10,6 +10,9 @@ const translations = {
       readmore: "Read More",
       seecertifications: "See Certifications",
       downloadcatalog: "Download Catalog",
+      viewcatalog: "View Catalog",
+      readmore: "Read More",
+      sendmessage: "Send Message",
     },
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
@@ -248,7 +251,7 @@ const translations = {
         navbtn8: "Other",
         card1: {
           title: "coming soon",
-          text: "coming soon",
+          text: "en: Kambing secara alami adalah hewan yang ingin tahu dan cerdas, jadi mainan yang mengeluarkan suara dapat menarik perhatian mereka dan memberikan hiburan. Beberapa mainan pendengaran yang populer untuk kambing meliputi: Lonceng Gantung: Lonceng yang diikatkan pada tali atau rantai dapat digantung di kandangnya. Kambing senang menyenggol atau menabraknya untuk mengeluarkan suara",
         },
         card2: {
           title: "coming soon",
@@ -289,6 +292,87 @@ const translations = {
         flag5: "Saudi Arabia",
         flag6: "Mexico",
       },
+      section3: {
+        subheader: "Product List",
+        title: "High-Quality, Fresh Seafood Delivered to Your Door",
+        text: "Whether you’re a seafood lover or a home chef, our premium products are designed to meet your highest expectations. Delivered fresh and frozen, each piece is guaranteed to be packed with flavor. Explore our collection and bring restaurant-quality seafood to your home.",
+        producttitle1: "TUNA PRODUCT",
+        producttitle2: "MARLIN PRODUCT",
+        producttitle3: "SKIPJACK TUNA PRODUCT",
+        producttitle4: "BABY TUNA PRODUCT",
+        producttitle5: "OCTOPUS PRODUCT",
+        producttitle6: "SPANISH MACKERELS PRODUCT",
+        producttitle7: "LARGEHEAD HAIRTAIL PRODUCT",
+        producttitle8: "OTHER PRODUCT",
+      },
+      section4: {
+        subheader: "Email us!",
+        title: "Order your fish now!",
+        text: "Having trouble ordering? We’re happy to help, just",
+      },
+      section5: {
+        title: "READ OUR CATALOG FOR MORE INFO!",
+        text: "Check out our catalog for detailed information about our product, how we process our product and others!",
+      },
+    },
+
+    // en.servicespage translations
+    servicespage: {
+      section1: {
+        subheader: "Our Services",
+        title: "Discover The Services We Offer",
+        text: "We take great care in handling seafood, ensuring top quality every step of the way. With our expert fish processing service, we carefully clean, prepare, and package seafood while following industry standards. Our cold storage service keeps fish fresh and well-preserved, maintaining its natural flavor and texture. By combining precision and sustainable practices, we deliver seafood you can enjoy with confidence",
+        subtitle: "Our services include:",
+        slide1: {
+          title: "Fish Processing Service",
+          text: "fish processing service is a form of useless thing that happened to this world because you need to eat the fish as a whole! The fisherman catched the fish and brought it to you as a whole fish yet you dare disrespect them and butcher their hardwork? How much a monster can a human be?!",
+        },
+        slide2: {
+          title: "Cold Storage Service",
+          text: "So after you butcher the fish, you need a place to preserve them so the useless thing that you do don't acutally go to waste but preserved in its current state so you can still eat it even tho its not as good as normal unbutchered fishes that you cook immediately as a whole that can feed an stomach for a day!",
+        },
+      },
+
+      section2: {
+        subheader: "Fish Processing",
+        title: "Quality Seafood At Every Step",
+        text: "We collect fresh fish directly from our supplier, sorting and grading them by size and quality. After processing to meet customer specifications, we use advanced freezing technologies to preserve freshness. The products are carefully packed and stored at low temperatures. Export products are stored at -45°C, and local products at -25°C, ensuring they arrive in peak condition.",
+      },
+
+      section3: {
+        subheader: "cold Storage",
+        title: "Advanced Refrigeration for your product",
+        text1:
+          "At Tridaya Pasifik KSO, we prioritize quality and freshness above all else. Our advanced refrigeration systems, including the powerful Proton Freezer and specialized Air Blast and Semi-Contact Freezers, work seamlessly to preserve the optimal texture and flavor of our fish products. With the ability to store products for up to two years without compromising quality, our advanced cold storage rooms ensure the high standards of preservation.",
+        text2:
+          "Curious about how our technology to preserve products? read more about our refrigeration process and how our product being stored!",
+      },
+
+      section4: {
+        title: "Entrust Your Product to Us",
+        text: "Let us handle your seafood with care, whether you need expert processing or secure cold storage. We are committed to providing high-quality service to keep your product fresh and well-preserved.",
+        mail: {
+          title: "Choose your service!",
+          text: "We will try to reach you as soon as possible!",
+          selections: {
+            option1: "",
+            option2: "",
+          },
+        },
+        contactus: {
+          title: "Contact us",
+          address: {
+            title: "Address:",
+            text: "Lampulo, Kuta Alam District, Banda Aceh City, Aceh, Indonesia",
+          },
+          phone: {
+            title: "Phone:",
+          },
+          email: {
+            title: "Email:",
+          },
+        },
+      },
     },
   },
   //
@@ -302,11 +386,14 @@ const translations = {
     buttons: {
       seeproducts: "Lihat Produk",
       seeservices: "Lihat Layanan",
-      contactus: "Kontak Kami",
+      contactus: "Hubungi Kami",
       learnmore: "Selengkapnya",
       visitsite: "Kunjungi Web",
       seecertifications: "Lihat Sertifikasi",
       downloadcatalog: "Unduh Katalog",
+      viewcatalog: "Lihat Katalog",
+      readmore: "Baca Selengkapnya",
+      sendmessage: "Kirim Pesan",
     },
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
@@ -544,7 +631,7 @@ const translations = {
         navbtn8: "Lainnya",
         card1: {
           title: "coming soon",
-          text: "coming soon",
+          text: "Kambing secara alami adalah hewan yang ingin tahu dan cerdas, jadi mainan yang mengeluarkan suara dapat menarik perhatian mereka dan memberikan hiburan. Beberapa mainan pendengaran yang populer untuk kambing meliputi: Lonceng Gantung: Lonceng yang diikatkan pada tali atau rantai dapat digantung di kandangnya. Kambing senang menyenggol atau menabraknya untuk mengeluarkan suara",
         },
         card2: {
           title: "coming soon",
@@ -584,6 +671,85 @@ const translations = {
         flag4: "Tiongkok",
         flag5: "Arab Saudi",
         flag6: "Meksiko",
+      },
+      section3: {
+        subheader: "Daftar Produk",
+        title: "Makanan Laut Berkualitas Tinggi, Segar, Langsung ke Pintu Anda",
+        text: "Baik Anda pecinta seafood maupun koki rumahan, produk premium kami dirancang untuk memenuhi harapan tertinggi Anda. Dikirim dalam keadaan segar dan beku, setiap potongan dijamin penuh dengan cita rasa. Jelajahi koleksi kami dan bawa hidangan laut berkualitas restoran ke rumah Anda.",
+        producttitle1: "PRODUK TUNA",
+        producttitle2: "PRODUK MARLIN",
+        producttitle3: "PRODUK CAKALANG",
+        producttitle4: "PRODUK BABY TUNA",
+        producttitle5: "PRODUK GURITA",
+        producttitle6: "PRODUK TENGGIRI",
+        producttitle7: "PRODUK LAYUR",
+        producttitle8: "PRODUK LAINNYA",
+      },
+      section4: {
+        subheader: "Email kami!",
+        title: "Pesan produk ikan mu sekarang!",
+        text: "Punya kendala di pesanan? Kami siap membantu!",
+      },
+      section5: {
+        title: "BACA KATALOG KAMI UNTUK INFO LEBIH LANJUT!",
+        text: "Lihat katalog kami untuk informasi lengkap tentang produk kami, cara pengolahan, dan lainnya!",
+      },
+    },
+
+    // id.servicespage translations
+    servicespage: {
+      section1: {
+        subheader: "Layanan Kami",
+        title: "Lihat Layanan yang Kami Tawarkan",
+        text: "Kami sangat menjaga kualitas dalam menangani makanan laut di setiap tahap. Dengan layanan pengolahan ikan kami yang profesional, kami dengan cermat membersihkan, menyiapkan, dan mengemas seafood sesuai standar industri. Layanan penyimpanan dingin kami menjaga kesegaran ikan serta mempertahankan rasa dan teksturnya yang alami. Dengan menggabungkan ketelitian dan praktik berkelanjutan, kami menghadirkan seafood yang bisa Anda nikmati dengan percaya diri.",
+        subtitle: "Layanan kami meliputi:",
+        slide1: {
+          title: "Layanan Pengolahan Ikan",
+          text: "Layanan pengolahan ikan adalah hal yang tidak berguna yang terjadi di dunia ini karena kamu seharusnya makan ikan secara utuh! Nelayan menangkap ikan dan membawanya kepadamu dalam keadaan utuh, tapi kamu berani-beraninya tidak menghargai mereka dan malah memotong hasil kerja keras mereka? Seberapa monster manusia bisa jadi?!",
+        },
+        slide2: {
+          title: "Layanan Penyimpanan Dingin",
+          text: "Jadi setelah kamu memotong ikan, kamu butuh tempat untuk mengawetkannya supaya hal tidak berguna yang kamu lakukan tidak benar-benar terbuang sia-sia, tetapi tetap terjaga dalam kondisi saat ini sehingga kamu masih bisa memakannya, meskipun tidak sebagus ikan utuh yang langsung dimasak dan bisa mengenyangkan perut seharian!",
+        },
+      },
+      section2: {
+        subheader: "Pengolahan Ikan",
+        title: "Seafood Berkualitas di Setiap Tahap",
+        text: "Kami mengumpulkan ikan segar langsung dari pemasok kami, menyortir dan mengklasifikasikannya berdasarkan ukuran dan kualitas. Setelah diproses sesuai spesifikasi pelanggan, kami menggunakan teknologi pembekuan canggih untuk menjaga kesegarannya. Produk dikemas dengan hati-hati dan disimpan pada suhu rendah. Produk ekspor disimpan pada -45°C, dan produk lokal pada -25°C, memastikan kualitas terbaik saat sampai ke tangan Anda.",
+      },
+      section3: {
+        subheader: "Penyimpanan Dingin",
+        title: "Refrigerasi Canggih untuk Produk Anda",
+        text1:
+          "Di Tridaya Pasifik KSO, kami mengutamakan kualitas dan kesegaran di atas segalanya. Sistem refrigerasi canggih kami, termasuk Proton Freezer yang kuat serta Air Blast dan Semi-Contact Freezer khusus, bekerja secara optimal untuk menjaga tekstur dan rasa terbaik dari produk ikan kami. Dengan kemampuan menyimpan produk hingga dua tahun tanpa mengurangi kualitas, ruang penyimpanan dingin kami memastikan standar pengawetan yang tinggi.",
+        text2:
+          "Penasaran bagaimana teknologi kami menjaga kesegaran produk? Baca lebih lanjut tentang proses refrigerasi kami dan cara produk disimpan!",
+      },
+
+      section4: {
+        title: "Percayakan Produk Anda kepada Kami",
+        text: "Biarkan kami menangani seafood Anda dengan penuh perhatian, baik untuk pemrosesan ahli maupun penyimpanan dingin yang aman. Kami berkomitmen untuk memberikan layanan berkualitas tinggi agar produk Anda tetap segar dan terjaga dengan baik.",
+        mail: {
+          title: "Pilih layanan Anda!",
+          text: "Kami akan berusaha menghubungi Anda secepat mungkin!",
+          selections: {
+            option1: "",
+            option2: "",
+          },
+        },
+        contactus: {
+          title: "Hubungi Kami",
+          address: {
+            title: "Alamat:",
+            text: "Lampulo, Kecamatan Kuta Alam, Kota Banda Aceh, Aceh, Indonesia",
+          },
+          phone: {
+            title: "Telepon:",
+          },
+          email: {
+            title: "Email:",
+          },
+        },
       },
     },
   },
