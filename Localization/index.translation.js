@@ -13,6 +13,7 @@ const translations = {
       viewcatalog: "View Catalog",
       readmore: "Read More",
       sendmessage: "Send Message",
+      divein: "Dive in and explore our utility",
     },
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
@@ -374,6 +375,50 @@ const translations = {
         },
       },
     },
+
+    // en.facilitypage translations
+    facilitypage: {
+      section1: {
+        subheader: "OUR FACILITY",
+        title: "Where The Quality Begins",
+        text1:
+          "We take pride in our advanced facility, designed to bring you the freshest, highest quality seafood with top-notch safety and efficiency. Here’s what makes us stand out:",
+        lists: {
+          text1:
+            "<strong>Cleanliness:</strong> Our laundry room keeps all equipment and uniforms in perfect condition, ensuring a hygienic work environment.",
+          text2:
+            "<strong>Strict Quality Control:</strong>Our on-site lab tests raw materials to make sure everything meets the highest safety and quality standards.",
+          text3:
+            "<strong>Careful Selection:</strong> Every fresh catch is thoroughly inspected in our receiving area before it moves forward for processing.",
+          text4:
+            "<strong>Expert Processing:</strong> Our skilled team turns top-quality seafood into premium products, following strict food safety protocols.",
+          text5:
+            "<strong>Fast & Secure Shipping:</strong> Our optimized loading area ensures quick and safe deliveries, so your seafood arrives fresh and on time.",
+        },
+        text2:
+          "From the moment seafood arrives to the moment it reaches you, we handle everything with care and precision. That’s our factory's goal",
+      },
+      section2: {
+        subheader: " Facility Gallery",
+        title: "A Look Inside Our Facility",
+        text: "Explore our facility through these snapshots, showcasing our place, equipment, and surroundings",
+      },
+      section3: {
+        subheader: "Our Utility",
+        title: "The Foundation of Our Smooth Operations",
+        text: "Every operation depends on a strong and reliable foundation. Our advanced utilities ensure seamless workflows, from precise monitoring in our control room to the efficient performance of our machinery. A stable power supply keeps everything running without interruption, while our water installations maintain cleanliness and sanitation. These essential systems work together to support efficiency, safety, and quality at every step.",
+      },
+      section4: {
+        subheader: "Utility Gallery",
+        title: "The Systems That Keep Us Running",
+        text: "Discover the essential utilities that power, sustain, and optimize our facility, ensuring efficiency at every step.",
+      },
+      section5: {
+        subheader: "Stay Connected",
+        title: "Follow Us for Updates & Insights",
+        text: "Stay in the loop with our latest updates, industry insights, and behind-the-scenes moments. Follow us on social media and be part of our journey!",
+      },
+    },
   },
   //
   //
@@ -394,6 +439,7 @@ const translations = {
       viewcatalog: "Lihat Katalog",
       readmore: "Baca Selengkapnya",
       sendmessage: "Kirim Pesan",
+      divein: "Jelajahi Utilitas Kami",
     },
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
@@ -750,6 +796,53 @@ const translations = {
             title: "Email:",
           },
         },
+      },
+    },
+
+    // id.facilitypage translations
+    facilitypage: {
+      section1: {
+        subheader: "FASILITAS KAMI",
+        title: "Dimana Kualitas Bermula",
+        text1:
+          "Kami bangga dengan fasilitas canggih kami, dirancang untuk menghadirkan makanan laut yang paling segar dan berkualitas tinggi dengan keamanan dan efisiensi terbaik. Berikut yang membuat kami menonjol:",
+        lists: {
+          text1:
+            "<strong>Kebersihan:</strong> Ruang laundry kami menjaga semua peralatan dan seragam dalam kondisi sempurna, memastikan lingkungan kerja yang higienis.",
+          text2:
+            "<strong>Kontrol Kualitas Ketat:</strong> Laboratorium kami menguji bahan baku untuk memastikan semuanya memenuhi standar keamanan dan kualitas tertinggi.",
+          text3:
+            "<strong>Seleksi Teliti:</strong> Setiap tangkapan segar diperiksa secara menyeluruh di area penerimaan kami sebelum dilanjutkan untuk diproses.",
+          text4:
+            "<strong>Pemrosesan Ahli:</strong> Tim terampil kami mengubah makanan laut berkualitas tinggi menjadi produk premium, mengikuti protokol keamanan pangan yang ketat.",
+          text5:
+            "<strong>Pengiriman Cepat & Aman:</strong> Area pemuatan kami yang dioptimalkan memastikan pengiriman yang cepat dan aman, sehingga makanan laut Anda tiba dalam keadaan segar dan tepat waktu.",
+        },
+        text2:
+          "Dari saat makanan laut tiba hingga saat mencapai Anda, kami menangani semuanya dengan hati-hati dan presisi. Itulah tujuan pabrik kami",
+      },
+
+      section2: {
+        subheader: "Galeri Fasilitas",
+        title: "Melihat Ke Dalam Fasilitas Kami",
+        text: "Jelajahi fasilitas kami melalui cuplikan ini, menampilkan tempat, peralatan, dan lingkungan kami.",
+      },
+
+      section3: {
+        subheader: "Utilitas Kami",
+        title: "Dasar dari Operasi Lancar Kami",
+        text: "Setiap operasi bergantung pada dasar yang kuat dan dapat diandalkan. Utilitas canggih kami memastikan alur kerja yang lancar, mulai dari pemantauan yang tepat di ruang kontrol kami hingga kinerja mesin yang efisien. Pasokan listrik yang stabil menjaga semua berjalan tanpa gangguan, sementara instalasi air kami menjaga kebersihan dan sanitasi. Sistem-sistem penting ini bekerja bersama untuk mendukung efisiensi, keselamatan, dan kualitas di setiap langkah.",
+      },
+
+      section4: {
+        subheader: "Galeri Utilitas",
+        title: "Sistem yang Menjaga Kami Tetap Berjalan",
+        text: "Temukan utilitas penting yang memberi daya, mendukung, dan mengoptimalkan fasilitas kami, memastikan efisiensi di setiap langkah.",
+      },
+      section5: {
+        subheader: "Tetap Terhubung",
+        title: "Ikuti Kami untuk Pembaruan & Wawasan",
+        text: "Tetap terhubung dengan pembaruan terbaru kami, wawasan industri, dan momen di balik layar. Ikuti kami di media sosial dan jadilah bagian dari perjalanan kami!",
       },
     },
   },
