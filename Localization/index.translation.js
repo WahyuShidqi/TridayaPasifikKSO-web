@@ -14,7 +14,18 @@ const translations = {
       readmore: "Read More",
       sendmessage: "Send Message",
       divein: "Dive in and explore our utility",
+      joinus: "Join Us",
     },
+
+    flags: {
+      flag1: "Japan",
+      flag2: "U.S.A.",
+      flag3: "Hongkong",
+      flag4: "China",
+      flag5: "Saudi Arabia",
+      flag6: "Mexico",
+    },
+
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
       about: 'About <i class="fa fa-chevron-right">',
@@ -419,6 +430,127 @@ const translations = {
         text: "Stay in the loop with our latest updates, industry insights, and behind-the-scenes moments. Follow us on social media and be part of our journey!",
       },
     },
+
+    //en.storagesystempage translations
+    storagesystempage: {
+      section1: {
+        subheader: "Refrigeration System",
+        title: "Advanced Cold Storage for Maximum Freshness",
+        text: "We utilize cutting-edge freezing technology to ensure the highest quality and freshness of our products. Our advanced Proton Freezer, capable of handling up to 50 kg per hour, preserves the natural texture and taste of fish even after defrosting. Complementing this, our Air Blast Freezers (ABF) and Semi-Contact Freezers (SCF) provide efficient and precise freezing solutions to meet various needs, from bulk production to specialized processing.",
+        subtitle: "Our Freezer List:",
+        slides: {
+          slide1: {
+            text: "Coming soon",
+          },
+          slide2: {
+            text: "Coming Soon",
+          },
+          slide3: {
+            text: "Coming Soon",
+          },
+        },
+      },
+      section2: {
+        subheader: "Cold Storage Solutions",
+        title: "How We Store Your Fish",
+        text: "From the moment we receive raw materials to the time they are ready for shipment, we maintain strict quality control",
+        cards: {
+          card1: {
+            title: "Ultra-Low Temperature Freezing",
+            text: "Keeps fish fresh for up to 2 years.",
+          },
+          card1: {
+            title: "Advanced Cold Storage System",
+            text: "Maintains storage at -45°C and -25°C for optimal preservation.",
+          },
+          card1: {
+            title: "Tailored Freezing Solutions",
+            text: "Rapid freezing for bulk production and precision freezing for smaller batches.",
+          },
+        },
+      },
+      section3: {
+        title: "Why Our Freezing Technology Matters to You",
+        text1:
+          "Our advanced freezing technology isn’t just about preserving fish, it’s about delivering unmatched quality and reliability to our customers. Whether you're a seafood distributor, restaurant owner, or retail supplier. here’s why our cold storage solutions give you the competitive edge:",
+        lists: {
+          list1:
+            "<strong>Uncompromised Freshness:</strong> Our Cold Storage ensures that fish retain their natural texture, taste, and nutritional value even after defrosting, making every serving as fresh as the day it was caught.",
+          list2:
+            "<strong>Reliable Supply Chain Support:</strong>We maintain strict temperature control from storage to shipment, ensuring that businesses receive fresh and safe seafood, no matter where they are.",
+          list3:
+            "<strong>Efficiency & Cost Savings:</strong>With our technology, you reduce product loss, lower waste, and optimize storage costs, making our solutions not just about quality, but also about smarter business.",
+        },
+        text2:
+          "By choosing us, you’re not just getting your fish stored in a modern cold storage, you’re getting a trusted partner in freshness, quality, and reliability.",
+      },
+      section4: {
+        title: "Storage system Gallery",
+      },
+    },
+
+    //en.supplychainpage translations
+    supplychainpage: {
+      section1: {
+        subheader: "Our Supply Chain partner",
+        title: "From Local Fishermen to International Market",
+        text1:
+          "From Aceh’s bustling fishing ports to international markets, our seafood is sourced with care and expertise. Every fresh catch reflects our rich maritime heritage and commitment to quality, bringing the authentic taste of the sea to your table",
+        subtitle: "Our sourcing location:",
+        lists: {
+          list1: "Sabang",
+          list2: "Bireuen",
+          list3: "Ulee Lheue",
+          list4: "Lampulo",
+        },
+        text2:
+          "We’re proud to bring you the best seafood from our local fishermen, ensuring quality and freshness in every bite.",
+      },
+
+      section2: {
+        subheader: "Supply Chain Map",
+        title: "Our Supplier Comes From All Around Aceh, Indonesia",
+        text: "We work with local fishermen and suppliers to help them expand their market. Not only they can sell they fish product locally, they will also be able to sell it Internationally with us!. You too will be the same if you become our supplier",
+      },
+
+      section3: {
+        subheader: "Tridaya Market Experience",
+        title: "Our Expertise in Exporting Quality Products Globally",
+        text: "With years of experience in the global market, we specialize in exporting high-quality products, ensuring they meet international standards. Our dedicated team works closely with partners to guarantee timely delivery, exceptional service, and products that exceed expectations.",
+        subtitle: "Experienced in exporting to:",
+      },
+
+      section4: {
+        subheader: "",
+        title: "",
+        cards: {
+          card1: {
+            text: "",
+          },
+          card1: {
+            text: "",
+          },
+          card1: {
+            text: "",
+          },
+          card1: {
+            text: "",
+          },
+          card1: {
+            text: "",
+          },
+          card1: {
+            text: "",
+          },
+          card1: {
+            text: "",
+          },
+          card1: {
+            text: "",
+          },
+        },
+      },
+    },
   },
   //
   //
@@ -440,6 +572,14 @@ const translations = {
       readmore: "Baca Selengkapnya",
       sendmessage: "Kirim Pesan",
       divein: "Jelajahi Utilitas Kami",
+    },
+    flags: {
+      flag1: "Jepang",
+      flag2: "Amerika Serikat",
+      flag3: "Hongkong",
+      flag4: "Tiongkok",
+      flag5: "Arab Saudi",
+      flag6: "Meksiko",
     },
     breadCrumb: {
       home: 'Home <i class="fa fa-chevron-right"></i>',
@@ -843,6 +983,65 @@ const translations = {
         subheader: "Tetap Terhubung",
         title: "Ikuti Kami untuk Pembaruan & Wawasan",
         text: "Tetap terhubung dengan pembaruan terbaru kami, wawasan industri, dan momen di balik layar. Ikuti kami di media sosial dan jadilah bagian dari perjalanan kami!",
+      },
+    },
+
+    //id.storagesystempage translations
+
+    storagesystempage: {
+      section1: {
+        subheader: "Sistem Refrigerasi",
+        title: "Penyimpanan Dingin Canggih untuk Kesegaran Maksimal",
+        text: "Kami menggunakan teknologi pembekuan mutakhir untuk memastikan kualitas dan kesegaran terbaik dari produk kami. Proton Freezer canggih kami, yang mampu menangani hingga 50 kg per jam, menjaga tekstur dan rasa alami ikan bahkan setelah pencairan. Selain itu, Air Blast Freezer (ABF) dan Semi-Contact Freezer (SCF) kami menyediakan solusi pembekuan yang efisien dan presisi untuk memenuhi berbagai kebutuhan, mulai dari produksi massal hingga pemrosesan khusus.",
+        subtitle: "List Pendingin Kami:",
+        slides: {
+          slide1: {
+            text: "Coming soon",
+          },
+          slide2: {
+            text: "Coming Soon",
+          },
+          slide3: {
+            text: "Coming Soon",
+          },
+        },
+      },
+      section2: {
+        subheader: "Solusi Penyimpanan Dingin",
+        title: "Bagaimana Kami Menyimpan Ikan Anda",
+        text: "Sejak bahan baku diterima hingga siap untuk dikirim, kami menjaga kontrol kualitas yang ketat.",
+        cards: {
+          card1: {
+            title: "Pembekuan Suhu Ultra-Rendah",
+            text: "Menjaga kesegaran ikan hingga 2 tahun.",
+          },
+          card2: {
+            title: "Sistem Penyimpanan Dingin Canggih",
+            text: "Menjaga suhu penyimpanan pada -45°C dan -25°C untuk preservasi optimal.",
+          },
+          card3: {
+            title: "Solusi Pembekuan yang Disesuaikan",
+            text: "Pembekuan cepat untuk produksi massal dan pembekuan presisi untuk batch yang lebih kecil.",
+          },
+        },
+      },
+      section3: {
+        title: "Mengapa Teknologi Pembekuan Kami Penting untuk Anda",
+        text1:
+          "Teknologi pembekuan canggih kami bukan hanya tentang mengawetkan ikan, tetapi juga menghadirkan kualitas dan keandalan terbaik bagi pelanggan kami. Baik Anda distributor seafood, pemilik restoran, atau pemasok ritel, inilah alasan mengapa solusi penyimpanan dingin kami memberi Anda keunggulan kompetitif:",
+        lists: {
+          list1:
+            "<strong>Kesegaran Tanpa Kompromi:</strong> Penyimpanan dingin kami memastikan ikan tetap memiliki tekstur alami, rasa, dan nilai gizi bahkan setelah dicairkan, menjadikannya tetap segar seperti saat pertama kali ditangkap.",
+          list2:
+            "<strong>Dukungan Rantai Pasokan yang Andal:</strong> Kami menjaga kontrol suhu yang ketat dari penyimpanan hingga pengiriman, memastikan bisnis menerima seafood yang segar dan aman di mana pun mereka berada.",
+          list3:
+            "<strong>Efisiensi & Penghematan Biaya:</strong> Dengan teknologi kami, Anda dapat mengurangi kehilangan produk, menekan limbah, dan mengoptimalkan biaya penyimpanan, menjadikan solusi kami bukan hanya tentang kualitas, tetapi juga strategi bisnis yang lebih cerdas.",
+        },
+        text2:
+          "Dengan memilih kami, Anda tidak hanya menyimpan ikan dalam penyimpanan dingin modern, tetapi juga mendapatkan mitra terpercaya dalam kesegaran, kualitas, dan keandalan.",
+      },
+      section4: {
+        title: "Galeri Penyimpanan Dingin",
       },
     },
   },
