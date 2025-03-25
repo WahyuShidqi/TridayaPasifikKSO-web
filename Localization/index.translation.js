@@ -521,33 +521,70 @@ const translations = {
       },
 
       section4: {
-        subheader: "",
-        title: "",
+        subheader: "Our Client Opinion",
+        title: "What Our Clients Say About Us",
         cards: {
           card1: {
-            text: "",
+            text: "Amazing company",
           },
-          card1: {
-            text: "",
+          card2: {
+            text: "Hygienic fish processing factory that has gone international",
           },
-          card1: {
-            text: "",
+          card3: {
+            text: "When I return from Bitung, Manado, I will invest in this company so that it can becomes even more famous",
           },
-          card1: {
-            text: "",
+          card4: {
+            text: "International Scale Tuna Fish Processing Factory",
           },
-          card1: {
-            text: "",
+          card5: {
+            text: "Clean and comfortable",
           },
-          card1: {
-            text: "",
+          card6: {
+            text: "Processed fish exporter",
           },
-          card1: {
-            text: "",
+          card7: {
+            text: "MSMEs driving the Aceh economy",
           },
-          card1: {
-            text: "",
+          card8: {
+            text: "International standards",
           },
+        },
+      },
+
+      section5: {
+        title: "Be Part of Our Supply Chain",
+        text: "Join our supply network and bring your products to customers both locally and internationally. With Tridaya Pasifik KSO, we can grow your business together and expand your reach to a wider market.",
+        mail: {
+          title01: "Come Join Us!",
+          text: "We will try to reach you as soon as possible!",
+          title02: "Contact us",
+          address:
+            "<span>Address:</span> Lampulo, Kuta Alam District, Banda Aceh City, Aceh, Indonesia",
+          phone:
+            '<span>Phone:</span > <a href="tel:+626513612327">(+62) 651 3612 327</a>',
+        },
+      },
+    },
+
+    //en.contactpage translations
+    contactpage: {
+      section1: {
+        subheader: "Location",
+        title: "Our Factory Location",
+        text: "Location:",
+      },
+
+      section2: {
+        title: "We're Here for You",
+        text: "We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out. We're here to help!",
+        mail: {
+          title01: "Get in touch!",
+          text: "Our team will try to reach you as soon as possible!",
+          title02: "Contact us",
+          address:
+            "<span>Address:</span> Lampulo, Kuta Alam District, Banda Aceh City, Aceh, Indonesia",
+          phone:
+            '<span>Phone:</span > <a href="tel:+626513612327">(+62) 651 3612 327</a>',
         },
       },
     },
@@ -572,6 +609,7 @@ const translations = {
       readmore: "Baca Selengkapnya",
       sendmessage: "Kirim Pesan",
       divein: "Jelajahi Utilitas Kami",
+      joinus: "Gabung Bersama Kami",
     },
     flags: {
       flag1: "Jepang",
@@ -1042,6 +1080,107 @@ const translations = {
       },
       section4: {
         title: "Galeri Penyimpanan Dingin",
+      },
+    },
+
+    //id.supplychainpage translations
+    supplychainpage: {
+      section1: {
+        subheader: "Mitra Rantai Pasokan Kami",
+        title: "Dari Nelayan Lokal ke Pasar Internasional",
+        text1:
+          "Dari pelabuhan perikanan yang ramai di Aceh hingga pasar internasional, hasil laut kami diperoleh dengan hati-hati dan keahlian. Setiap tangkapan segar mencerminkan warisan maritim kami yang kaya dan komitmen terhadap kualitas, menghadirkan cita rasa laut yang autentik ke meja Anda.",
+        subtitle: "Lokasi sumber kami:",
+        lists: {
+          list1: "Sabang",
+          list2: "Bireuen",
+          list3: "Ulee Lheue",
+          list4: "Lampulo",
+        },
+        text2:
+          "Kami bangga menghadirkan hasil laut terbaik dari nelayan lokal kami, memastikan kualitas dan kesegaran di setiap gigitan.",
+      },
+
+      section2: {
+        subheader: "Peta Rantai Pasokan",
+        title: "Pemasok Kami Berasal dari Seluruh Aceh, Indonesia",
+        text: "Kami bekerja sama dengan nelayan dan pemasok lokal untuk membantu mereka memperluas pasar mereka. Tidak hanya bisa menjual produk ikan mereka secara lokal, mereka juga dapat menjualnya ke pasar internasional bersama kami! Anda juga bisa menjadi bagian dari jaringan kami jika bergabung sebagai pemasok.",
+      },
+
+      section3: {
+        subheader: "Pengalaman Pasar Tridaya",
+        title:
+          "Keahlian Kami dalam Mengekspor Produk Berkualitas ke Seluruh Dunia",
+        text: "Dengan pengalaman bertahun-tahun di pasar global, kami mengkhususkan diri dalam mengekspor produk berkualitas tinggi, memastikan produk kami memenuhi standar internasional. Tim kami yang berdedikasi bekerja sama dengan mitra untuk menjamin pengiriman tepat waktu, layanan luar biasa, dan produk yang melampaui ekspektasi.",
+        subtitle: "Berpengalaman mengekspor ke:",
+      },
+
+      section4: {
+        subheader: "Pendapat Klien Kami",
+        title: "Apa Kata Klien Kami Tentang Kami",
+        cards: {
+          card1: {
+            text: "Perusahaan luar biasa",
+          },
+          card2: {
+            text: "Pabrik pengolahan ikan higienis yang telah go internasional",
+          },
+          card3: {
+            text: "Ketika saya kembali dari Bitung, Manado, saya akan berinvestasi di perusahaan ini agar semakin terkenal",
+          },
+          card4: {
+            text: "Pabrik Pengolahan Ikan Tuna Berskala Internasional",
+          },
+          card5: {
+            text: "Bersih dan nyaman",
+          },
+          card6: {
+            text: "Eksportir ikan olahan",
+          },
+          card7: {
+            text: "UMKM yang mendorong perekonomian Aceh",
+          },
+          card8: {
+            text: "Standar internasional",
+          },
+        },
+      },
+
+      section5: {
+        title: "Jadilah Bagian dari Rantai Pasokan Kami",
+        text: "Bergabunglah dengan jaringan pasokan kami dan bawalah produk Anda kepada pelanggan baik secara lokal maupun internasional. Dengan Tridaya Pasifik KSO, kita dapat mengembangkan bisnis bersama dan memperluas jangkauan Anda ke pasar yang lebih luas.",
+        mail: {
+          title01: "Bergabunglah Bersama Kami!",
+          text: "Kami akan berusaha menghubungi Anda secepat mungkin!",
+          title02: "Hubungi Kami",
+          address:
+            "<span>Alamat:</span> Lampulo, Kecamatan Kuta Alam, Kota Banda Aceh, Aceh, Indonesia",
+          phone:
+            '<span>Telepon:</span > <a href="tel:+626513612327">(+62) 651 3612 327</a>',
+        },
+      },
+    },
+
+    //id.contactpage translations
+    contactpage: {
+      section1: {
+        subheader: "Lokasi",
+        title: "Lokasi Pabrik Kami",
+        text: "Lokasi:",
+      },
+
+      section2: {
+        title: "Kami ada untuk anda!",
+        text: "Kami ingin sekali mendengar dari Anda! Jika Anda memiliki pertanyaan, masukan, atau sekadar ingin menyapa, jangan ragu untuk menghubungi kami. Kami siap membantu!",
+        mail: {
+          title01: "Sapa Kami!",
+          text: "Kami akan berusaha menghubungi Anda secepat mungkin!",
+          title02: "Hubungi Kami",
+          address:
+            "<span>Alamat:</span> Lampulo, Kecamatan Kuta Alam, Kota Banda Aceh, Aceh, Indonesia",
+          phone:
+            '<span>Telepon:</span > <a href="tel:+626513612327">(+62) 651 3612 327</a>',
+        },
       },
     },
   },
