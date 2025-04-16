@@ -2,6 +2,14 @@
   scroll-margin-top: 20vh;
 }
 
+.scroll-20vh {
+  scroll-margin-top: 20vh !important;
+}
+
+.scroll-5vh {
+  scroll-margin-bottom: 5vh !important;
+}
+
 .myoverlay {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
@@ -1543,6 +1551,10 @@ figcaption {
 }
 
 @media only screen and (max-width: 500px) {
+  .problem-container {
+    text-align: center;
+  }
+
   .map-image {
     width: 90vw;
     height: auto;
