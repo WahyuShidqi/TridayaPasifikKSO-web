@@ -158,7 +158,7 @@ const translations = {
         text3:
           "PT. Yakin Pasifik Tuna: Experts in fish processing with cutting-edge technology and international standards.",
         text4:
-          "PT. Laot Aceh Marina Indonesia (LAMI): Specialists in fish capture and supply with decades of experience.",
+          "PT. Laot Aceh Marina Indonesia (LAMI): Specialists in fish capture and supply with years of experience.",
         text5:
           "Together, we combine expertise to deliver high-quality fish products, support local fishermen, and meet both domestic and international market demands.",
       },
@@ -171,15 +171,15 @@ const translations = {
         },
         slide1: {
           title: "Pema Global Servis (PGS)",
-          text: "Coming soon",
+          text: "PT Pembangunan Aceh (PEMA) is an Aceh Regionally Owned Enterprise (BUMD/BUMA) whose shares are 100% owned by the Government of Aceh, which aims to improve development, economy and Aceh Original Revenue. This website is a media facility for data and information services to bridge PT PEMA’s desire to be better known and recognized by the public.",
         },
         slide2: {
           title: "Yakin Pasifik Tuna (YPT)",
-          text: "Coming soon",
+          text: "PT Yakin Pasifik Tuna (YPT) is a fish processing company based in Banda Aceh, Indonesia, specializing in the production and export of Yellowfin Tuna and Skipjack Tuna. Established in 2013, the company operates a modern processing facility located within the Pelabuhan Perikanan Samudera (PPS) Lampulo area. This strategic location allows YPT to source fresh fish directly from local fishermen, ensuring high-quality raw materials for its operations",
         },
         slide3: {
           title: "PT. Laot Aceh Marina Indonesia (LAMI)",
-          text: "Coming soon",
+          text: "PT Laot Aceh Marina Indonesia (LAMI) is a fisheries company based in Aceh that collaborates with PT Pembangunan Aceh (PEMA) through a joint operation (KSO). Focused on the export of high-value seafood like tuna and lobster, LAMI supports local fishermen and strengthens Aceh’s position in the global seafood market. With cold storage facilities in Banda Aceh and plans for expansion, the company is committed to sustainable growth and regional economic development.",
         },
       },
       section3: {
@@ -750,7 +750,7 @@ const translations = {
         text3:
           "PT. Yakin Pasifik Tuna: Ahli dalam pengolahan ikan dengan teknologi mutakhir dan standar internasional.",
         text4:
-          "PT. Laot Aceh Marina Indonesia (LAMI): Spesialis dalam penangkapan dan penyediaan ikan dengan pengalaman puluhan tahun.",
+          "PT. Laot Aceh Marina Indonesia (LAMI): Spesialis dalam penangkapan dan penyediaan ikan berpengalaman.",
         text5:
           "Bersama-sama, kami menggabungkan keahlian untuk menghadirkan produk ikan berkualitas tinggi, mendukung nelayan lokal, dan memenuhi permintaan pasar domestik maupun internasional.",
       },
@@ -763,15 +763,15 @@ const translations = {
         },
         slide1: {
           title: "Pema Global Servis (PGS)",
-          text: "Coming soon",
+          text: "PT Pembangunan Aceh (PEMA) adalah Badan Usaha Milik Daerah (BUMD/BUMA) Aceh yang sahamnya 100% dimiliki oleh Pemerintah Aceh, yang bertujuan untuk meningkatkan pembangunan, perekonomian, dan Pendapatan Asli Aceh. Website ini merupakan fasilitas media untuk layanan data dan informasi guna menjembatani keinginan PT PEMA agar lebih dikenal dan diakui oleh masyarakat.",
         },
         slide2: {
           title: "Yakin Pasifik Tuna (YPT)",
-          text: "Coming soon",
+          text: "PT Yakin Pasifik Tuna (YPT) adalah perusahaan pengolahan ikan yang berbasis di Banda Aceh, Indonesia, yang mengkhususkan diri dalam produksi dan ekspor Tuna Sirip Kuning dan Tuna Skipjack. Didirikan pada tahun 2013, perusahaan ini mengoperasikan fasilitas pengolahan modern yang terletak di kawasan Pelabuhan Perikanan Samudera (PPS) Lampulo. Lokasi strategis ini memungkinkan YPT untuk memperoleh ikan segar langsung dari nelayan lokal, memastikan bahan baku berkualitas tinggi untuk operasionalnya.",
         },
         slide3: {
           title: "PT. Laot Aceh Marina Indonesia (LAMI)",
-          text: "Coming soon",
+          text: "PT Laot Aceh Marina Indonesia (LAMI) adalah perusahaan perikanan yang berbasis di Aceh dan bekerja sama dengan PT Pembangunan Aceh (PEMA) melalui operasi bersama (KSO). Fokus pada ekspor produk laut bernilai tinggi seperti tuna dan lobster, LAMI mendukung nelayan lokal dan memperkuat posisi Aceh di pasar seafood global. Dengan fasilitas penyimpanan dingin di Banda Aceh dan rencana ekspansi, perusahaan ini berkomitmen pada pertumbuhan berkelanjutan dan pengembangan ekonomi regional.",
         },
       },
       section3: {

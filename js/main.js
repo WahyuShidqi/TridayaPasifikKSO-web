@@ -266,3 +266,8 @@
 
   //   $(".appointment_time").timepicker();
 })(jQuery);
+
+function websiteAlert(e) {
+  e.preventDefault();
+  alert("Website Not found!");
+}

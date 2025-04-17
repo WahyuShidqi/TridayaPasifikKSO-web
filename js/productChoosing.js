@@ -4,6 +4,7 @@ const goBackBtn = document.querySelector("#gobackbutton");
 const body = document.querySelector("body");
 const staticOptions = selector.querySelectorAll("option");
 
+//global variable
 let selectedProductId = "";
 
 products.forEach((product) => {
