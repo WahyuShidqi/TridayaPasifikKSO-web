@@ -28,8 +28,6 @@ products.forEach((product) => {
     //storing unique product text id so goback btn can use it universally
     selectedProductId = this.id;
 
-    //passing value to selector when product clicked
-
     //comparing if the value coming from the product is available in the options
     const isValueAvailable = Array.from(staticOptions).some((staticOption) => {
       return staticOption.value === this.dataset.value;
