@@ -971,7 +971,7 @@ figcaption {
   height: 16rem;
 }
 
-.bookshelf {
+.parallax-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/gambar-nelayan.webp);
   background-repeat: no-repeat;
@@ -979,9 +979,9 @@ figcaption {
   background-size: cover;
 }
 
-.price-catalog {
+.parallax-bg-product {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/perahu-nelayan.webp);
+    url(../images/Slice-product-parallax.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
