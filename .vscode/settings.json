@@ -7,32 +7,5 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "background.editor": {
-    "useFront": true,
-    "style": {
-      "background-position": "100% 100%",
-      "background-size": "auto",
-      "opacity": 0.6
-    },
-    "styles": [{}, {}, {}],
-    // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
-    "images": ["https://pathtoimage.png", "file:///path/to/local/file"],
-    "interval": 0,
-    "random": false
-  },
-  "background.fullscreen": {
-    // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
-    "images": [
-      "file:///C:/Users/wahyu/OneDrive/Pictures/myPicture/wutheringwaves_galley1697430014438.jpeg"
-    ],
-    "opacity": 0.1,
-    "size": "cover",
-    "position": "center",
-    "interval": 0,
-    "random": false
-  },
-  // `sidebar` and `panel` have the same config as `fullscreen`
-  "background.sidebar": {},
-  "background.panel": {}
+  }
 }
