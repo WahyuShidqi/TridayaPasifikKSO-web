@@ -7,7 +7,6 @@ const translations = {
       contactus: "Contact Us",
       learnmore: "Learn More",
       visitsite: "Visit Site",
-      readmore: "Read More",
       seecertifications: "See Certifications",
       downloadcatalog: "Download Catalog",
       viewcatalog: "View Catalog",
@@ -97,7 +96,8 @@ const translations = {
           button: "See Products",
         },
         slide2: {
-          title: "Exceptional Service for Your Needs",
+          subheader: "Exceptional Services",
+          title: "Reliable Fish Processing with Care and Precision",
           description:
             "We are committed to providing professional service and the best solutions tailored to your needs. Trust us and experience the difference!",
         },
@@ -105,7 +105,7 @@ const translations = {
       section1: {
         subheader: "Your Trusted Source for Fresh Fish",
         title: "We offer you quality and fresh fish product",
-        text: "We offer you premium quality, fresh fish products that arecarefully sourced and handled with the utmost care. Ourcommitment to freshness ensures that every product meets thehighest standards, providing you with a taste that’s bothdelicious and fresh",
+        text: "We offer you premium quality, fresh fish products that are carefully sourced and handled with the utmost care. Our commitment to freshness ensures that every product meets thehighest standards, providing you with a taste that’s both delicious and fresh",
       },
       section2: {
         title: "Why us?",
@@ -119,11 +119,11 @@ const translations = {
         },
         card3: {
           title: "Export Expertise",
-          text: "With our experience in international trade, we handle thelogistics to deliver your products worldwide",
+          text: "With our experience in international trade, we handle the logistics to deliver your products worldwide",
         },
         card4: {
           title: "Fish Processing",
-          text: "From cleaning to packaging, we provide comprehensive fishprocessing services tailored to your needs",
+          text: "From cleaning to packaging, we provide comprehensive fish processing services tailored to your needs",
         },
         card5: {
           title: "Sustainable Practices",
@@ -131,18 +131,18 @@ const translations = {
         },
         card6: {
           title: "Customer Support",
-          text: "Our dedicated team is always ready to assist you, ensuringsmooth operations and excellent service",
+          text: "Our dedicated team is always ready to assist you, ensuring smooth operations and excellent service",
         },
       },
       section3: {
         subheader: "Who Are We",
         title: "Get to Know Us Better",
-        text: "We are Tridaya Pasifik KSO, a reliable and trusted fish processingfactory dedicated to quality and efficiency. With a strongfoundation in precision and performance, we ensure smooth operationsat every stage. Our commitment to excellence drives us to maintainthe highest standards in processing, safety, and sustainability,delivering the best to our customers with consistency and care.",
+        text: "We are Tridaya Pasifik KSO, a reliable and trusted fish processing factory dedicated to quality and efficiency. With a strong foundation in precision and performance, we ensure smooth operations at every stage. Our commitment to excellence drives us to maintain the highest standards in processing, safety, and sustainability, delivering the best to our customers with consistency and care.",
       },
       section4: {
         subheader: "Stay Connected",
         title: "Follow Us for Updates & Insights",
-        text: "Stay in the loop with our latest updates, industry insights, and behind-the-scenes moments. Follow us on social media and be part ofour journey!",
+        text: "Stay in the loop with our latest updates, industry insights, and behind-the-scenes moments. Follow us on social media and be part of our journey!",
       },
     },
 
@@ -184,17 +184,17 @@ const translations = {
       },
       section3: {
         title: "We Are Expert In Fish Processing",
-        text: "From ocean to plate, we specialize in processing and delivering the freshest seafood with precision and care. Our dedicated team ensures top-quality seafood supply for businesses across the world. With advanced processing and strict quality control, we provide reliability, freshness, and excellence in every order.",
+        text: "From ocean to the market, we specialize in processing and delivering the freshest seafood with precision and care. Our dedicated team ensures top-quality seafood supply for businesses and regular costumers across the world. With advanced processing and strict quality control, we provide reliability, freshness, and excellence in every order.",
         subtitle: "Our Client:",
       },
       section4: {
         ourmission: {
           title: "Our Mission",
-          text1: "Enhancing Sustainable Fisheries Production",
-          text2: "Innovating in Fisheries Technology",
-          text3: "Empowering Coastal Communities",
-          text4: "Ensuring Product Quality and Safety",
-          text5: "Promoting Education and Environmental Awareness",
+          text1: "Enhancing sustainable fisheries production",
+          text2: "Innovating in fisheries technology",
+          text3: "Empowering coastal communities",
+          text4: "Ensuring product quality and freshness",
+          text5: "Promoting education and environmental awareness",
         },
         ourvision: {
           title: "Our Vision",
@@ -666,16 +666,17 @@ const translations = {
           subheader: "Tridaya Pasifik KSO",
           title: "Menyediakan ikan segar dan berkualitas untuk kebutuhan anda",
           description:
-            "Pabrik kami selalu mengutamakan kualitas dari kuantitas, agar anda dapat menikmati ikan yang segar dan berkualitas setiap saat",
+            "Kami selalu mengutamakan kualitas dari produk kami, agar anda dapat menikmati ikan yang segar dan berkualitas setiap saat",
         },
         slide2: {
-          title: "Layanan Terbaik untuk Kebutuhan Anda",
+          subheader: "Layanan terbaik",
+          title: "Layanan pemrosesan ikan yang andal dan teliti",
           description:
-            "Kami siap memberikan layanan profesional dan solusi terbaik yang sesuai dengan kebutuhan Anda. Percayakan pada kami, dan rasakan pengalaman yang berbeda!",
+            "Kami siap memberikan layanan profesional dan solusi terbaik yang sesuai dengan kebutuhan produk ikan Anda. Percayakan pada kami, dan rasakan pengalaman yang berbeda!",
         },
       },
       section1: {
-        subheader: "Sumber Tepercaya untuk Ikan Anda",
+        subheader: "Sumber Tepercaya untuk Ikan Segar",
         title: "Kami Menyediakan Produk Ikan Berkualitas dan Segar",
         text: "Kami menawarkan produk ikan segar berkualitas premium yang dipilih dengan cermat dan ditangani secara profesional. Komitmen kami terhadap kesegaran memastikan setiap produk memenuhi standar tertinggi, memberikan cita rasa yang lezat dan segar.",
       },
@@ -683,10 +684,10 @@ const translations = {
         title: "Mengapa Kami?",
         card1: {
           title: "Produk Ikan Segar",
-          text: "Kami menjamin ikan paling segar untuk pasar lokal dan ekspor, dengan standar kualitas internasional.",
+          text: "Kami menjamin ikan paling segar untuk pasar lokal dan luar negeri, dengan standar kualitas internasional.",
         },
         card2: {
-          title: "Solusi Penyimpanan Beku",
+          title: "Solusi Penyimpanan dingin",
           text: "Fasilitas modern kami memastikan ikan tetap segar dan terjaga lebih lama.",
         },
         card3: {
@@ -699,7 +700,7 @@ const translations = {
         },
         card5: {
           title: "Ramah Lingkungan",
-          text: "Kami berkomitmen pada metode ramah lingkungan, memastikan dampak minimal terhadap alam sambil memaksimalkan produktivitas.",
+          text: "Kami berkomitmen pada metode yang ramah lingkungan, memastikan dampak minimal terhadap alam sambil memaksimalkan produktivitas.",
         },
         card6: {
           title: "Dukungan Pelanggan",
@@ -714,7 +715,7 @@ const translations = {
       section4: {
         subheader: "Tetap Terhubung",
         title: "Ikuti Kami untuk Update Terkini",
-        text: "Dapatkan informasi terbaru, wawasan industri, dan momen di balik layar kami. Ikuti kami di media sosial dan jadilah bagian dari perjalanan kami!",
+        text: "Dapatkan informasi terbaru, wawasan industri perikanan, dan momen di balik layar kami. Ikuti kami di media sosial dan jadilah bagian dari perjalanan kami!",
       },
     },
 
@@ -755,18 +756,18 @@ const translations = {
         },
       },
       section3: {
-        title: "Kami Ahli dalam Pengolahan Ikan",
-        text: "Dari laut hingga ke piring anda, kami ahli dalam mengolah dan menyajikan seafood segar dengan presisi dan perhatian. Tim kami yang berdedikasi memastikan produk seafood berkualitas tinggi untuk bisnis di seluruh dunia. Dengan teknik pemrosesan ikan yang profesional dan  quality control yang ketat, kami memberikan keandalan, kesegaran, dan keunggulan dalam setiap pesanan.",
+        title: "Kami Ahli di bidang Pengolahan Ikan",
+        text: "Dari laut hingga ke pasar, kami ahli dalam mengolah dan menyajikan seafood segar dengan penuh ketelitian. Tim kami yang berdedikasi untuk memastikan produk seafood berkualitas tinggi untuk bisnis dan konsumen di seluruh dunia. Dengan teknik pemrosesan ikan yang profesional dan quality control yang ketat, kami dapat dipercaya untuk menghasilkan produk dengan kesegaran dan kualitas internasional.",
         subtitle: "Klien Kami:",
       },
       section4: {
         ourmission: {
           title: "Misi Kami",
-          text1: "Meningkatkan Produksi Perikanan Berkelanjutan",
-          text2: "Berinovasi dalam Teknologi Perikanan",
-          text3: "Memberdayakan Masyarakat Pesisir",
-          text4: "Menjaga Kualitas dan Keamanan Produk",
-          text5: "Mendorong Edukasi dan Kesadaran Lingkungan",
+          text1: "Meningkatkan produksi perikanan yang ramah lingkungan",
+          text2: "Berinovasi dalam teknologi perikanan",
+          text3: "Memberdayakan masyarakat pesisir",
+          text4: "Menjaga kualitas dan kesegaran produk",
+          text5: "Mendorong edukasi dan kesadaran lingkungan",
         },
         ourvision: {
           title: "Visi Kami",
@@ -812,12 +813,12 @@ const translations = {
       section6: {
         subheader: "Sertifikat",
         title: "Kualitas teruji yang dapat anda percaya",
-        text: "Kami bangga menghadirkan makanan laut premium yang aman dan diproses secara berkelanjutan. Kami memastikan setiap produk memenuhi standar industri internasional. Percayakan kepada kami untuk produk yang berkualitas, segar, dan terpercaya.",
+        text: "Kami bangga menghadirkan makanan laut premium yang aman dan diproses secara ramah lingkungan. Kami memastikan setiap produk kami diproses dengan memenuhi standar industri internasional. Percayakan kepada kami untuk produk yang berkualitas, segar, dan terpercaya.",
       },
       section7: {
         subheader: "Katalog KSO",
         title: "Jelajahi Pilihan Produk Seafood Premium Kami",
-        text: "Temukan beragam produk seafood berkualitas tinggi yang diproses secara berkelanjutan. Dari hasil tangkapan segar hingga opsi beku yang diproses dengan ahli, katalog kami menghadirkan yang terbaik untuk Anda. Telusuri sekarang dan temukan solusi seafood yang sempurna untuk bisnis Anda.",
+        text: "Temukan beragam produk seafood berkualitas milik kami. Dari hasil tangkapan segar hingga opsi beku yang diproses secara profesional, katalog kami menghadirkan yang terbaik untuk anda. Telusuri sekarang dan temukan solusi produk seafood berkualitas.",
       },
     },
 
