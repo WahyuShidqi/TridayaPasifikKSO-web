@@ -212,27 +212,27 @@ const translations = {
           text: "Hygienic fish processing factory that has gone international",
           name: "—Black Nada",
         },
-        comment1: {
+        comment3: {
           text: "When I return from Bitung, Manado, I will invest in this company so that it can becomes even more famous",
           name: "—Republik Investoraceh",
         },
-        comment1: {
+        comment4: {
           text: "International Scale Tuna Fish Processing Factory",
           name: "—Ramadhan",
         },
-        comment1: {
+        comment5: {
           text: "Clean and comfortable",
           name: "—Riski Saputra, Local guide",
         },
-        comment1: {
+        comment6: {
           text: "Processed fish exporter",
           name: "—Muhammad Ridha Irham",
         },
-        comment1: {
+        comment7: {
           text: "MSMEs driving the Aceh economy",
           name: "—Bilal Vote, Local guide",
         },
-        comment1: {
+        comment8: {
           text: "International standards",
           name: "—Muhammad Alva Roby",
         },
@@ -290,8 +290,8 @@ const translations = {
       },
       section3: {
         subheader: "Product List",
-        title: "High-Quality, Fresh Seafood Delivered to Your Door",
-        text: "Whether you’re a seafood lover or a home chef, our premium products are designed to meet your highest expectations. Delivered fresh and frozen, each piece is guaranteed to be packed with flavor. Explore our collection and bring restaurant-quality seafood to your home.",
+        title: "A Selection of Our Finest Seafood",
+        text: "Our seafood products are carefully selected to ensure top quality in every package. Perfect for a variety of needs, from home cooking to culinary businesses. All items are delivered fresh-frozen and ready to be prepared at your convenience.",
         producttitle1: "TUNA PRODUCT",
         producttitle2: "SKIPJACK TUNA PRODUCT",
         producttitle3: "OCTOPUS PRODUCT",
@@ -317,18 +317,18 @@ const translations = {
         subtitle: "Our services include:",
         slide1: {
           title: "Fish Processing Service",
-          text: "fish processing service is a form of useless thing that happened to this world because you need to eat the fish as a whole! The fisherman catched the fish and brought it to you as a whole fish yet you dare disrespect them and butcher their hardwork? How much a monster can a human be?!",
+          text: "With our expertise and latest technology, we offer high-quality fish processing services. We ensure that every seafood product we process remains fresh, healthy, and safe for consumption. Through a meticulous and careful process, we guarantee that our fish products retain their natural taste and texture.",
         },
         slide2: {
           title: "Cold Storage Service",
-          text: "So after you butcher the fish, you need a place to preserve them so the useless thing that you do don't acutally go to waste but preserved in its current state so you can still eat it even tho its not as good as normal unbutchered fishes that you cook immediately as a whole that can feed an stomach for a day!",
+          text: "We have a modern and advanced cold storage facility designed to maintain the freshness and quality of our fish products. With precise temperature control and strict monitoring, we ensure that our fish products remain fresh and of high quality during storage. With our cold storage facility, we guarantee that our fish products retain their high quality.",
         },
       },
 
       section2: {
         subheader: "Fish Processing",
         title: "Quality Seafood At Every Step",
-        text: "We collect fresh fish directly from our supplier, sorting and grading them by size and quality. After processing to meet customer specifications, we use advanced freezing technologies to preserve freshness. The products are carefully packed and stored at low temperatures. Export products are stored at -45°C, and local products at -25°C, ensuring they arrive in peak condition.",
+        text: "We collect fresh fish directly from our supplier, sorting and grading them by size and quality. After processing, we use advanced freezing technologies to preserve freshness. The products are carefully packed and stored at low temperatures. Export products are stored at -45°C/-25°C ensuring they stay in perfect condition.",
       },
 
       section3: {
@@ -396,13 +396,13 @@ const translations = {
       },
       section3: {
         subheader: "Our Utility",
-        title: "The Foundation of Our Smooth Operations",
-        text: "Every operation depends on a strong and reliable foundation. Our advanced utilities ensure seamless workflows, from precise monitoring in our control room to the efficient performance of our machinery. A stable power supply keeps everything running without interruption, while our water installations maintain cleanliness and sanitation. These essential systems work together to support efficiency, safety, and quality at every step.",
+        title: "The Essential System of Our Factory",
+        text: "Every process depends on a strong and reliable foundation. Our advanced utilities ensure seamless workflows, from precise monitoring in our control room to the efficient performance of our machinery. A stable power supply keeps everything running without interruption, while our water installations maintain cleanliness and sanitation. These essential systems work together to support efficiency and quality of our product.",
       },
       section4: {
         subheader: "Utility Gallery",
-        title: "The Systems That Keep Us Running",
-        text: "Discover the essential utilities that power, sustain, and optimize our facility, ensuring efficiency at every step.",
+        title: "The Snapshots of our utility",
+        text: "Discover the essential utilities that power, sustain, and optimize our facility.",
       },
       section5: {
         subheader: "Stay Connected",
@@ -420,13 +420,13 @@ const translations = {
         subtitle: "Our Freezer List:",
         slides: {
           slide1: {
-            text: "Coming soon",
+            text: "To ensure our processed fish retains its fresh taste, texture, and nutritional value, we utilize Proton Freezer technology. This advanced freezing method combines cold air, magnetic fields, and electromagnetic waves to rapidly freeze the fish, forming tiny, uniform ice crystals. This process prevents damage to the fish's cellular structure, eliminating drip loss upon thawing and preserving its original quality. By using Proton Freezer technology, we deliver processed fish that offers the same freshness and flavor as when it was first caught, ensuring our customers receive the highest quality product.",
           },
           slide2: {
-            text: "Coming Soon",
+            text: "To preserve the highest quality of our processed fish, we use Air Blast Freezer (ABF) technology. ABF rapidly blows extremely cold air, typically between -30°C to -40°C, across the surface of the fish to freeze it quickly and evenly. This fast freezing process prevents the formation of large ice crystals, which helps maintain the natural texture, flavor, and appearance of the fish. By freezing the fish rapidly, ABF also inhibits bacterial growth and enzymatic activity, allowing the fish to retain its freshness and nutritional value for a longer time. Through this method, we ensure that our customers receive processed fish that stays fresh, delicious, and of consistently high quality.",
           },
           slide3: {
-            text: "Coming Soon",
+            text: "Utilizing the Semi-Contact Freezer (SCF) method, our processed fish undergoes rapid freezing that preserves its natural texture, flavor, and nutritional value. The SCF combines efficient air circulation with direct contact cooling, ensuring uniform freezing without forming large ice crystals that could damage the fish's cells. This process minimizes moisture loss and maintains the fish's quality throughout its shelf life. By employing SCF technology, we ensure that our customers receive processed fish that stays fresh, delicious, and of consistently high quality.​",
           },
         },
       },
@@ -813,7 +813,7 @@ const translations = {
       section6: {
         subheader: "Sertifikat",
         title: "Kualitas teruji yang dapat anda percaya",
-        text: "Kami bangga menghadirkan makanan laut premium yang aman dan diproses secara ramah lingkungan. Kami memastikan setiap produk kami diproses dengan memenuhi standar industri internasional. Percayakan kepada kami untuk produk yang berkualitas, segar, dan terpercaya.",
+        text: "Kami bangga menghadirkan makanan laut premium yang aman dan diproses secara ramah lingkungan. Kami memastikan setiap produk kami telah memenuhi standar industri internasional. Percayakan kepada kami untuk produk yang berkualitas, segar, dan terpercaya.",
       },
       section7: {
         subheader: "Katalog KSO",
@@ -869,7 +869,7 @@ const translations = {
       },
       section2: {
         title:
-          "Kami bangga telah mengekspor produk kami ke negara-negara ini, dan masih banyak lagi yang akan datang!",
+          "Kami dengan bangga telah mengekspor produk kami ke negara-negara ini, dan ke depannya, jangkauan kami akan terus bertambah!",
         flag1: "Jepang",
         flag2: "Amerika Serikat",
         flag3: "Hongkong",
@@ -879,8 +879,8 @@ const translations = {
       },
       section3: {
         subheader: "Daftar Produk",
-        title: "Makanan Laut Berkualitas Tinggi, Segar, Langsung ke Pintu Anda",
-        text: "Baik Anda pecinta seafood maupun koki rumahan, produk premium kami dirancang untuk memenuhi harapan tertinggi Anda. Dikirim dalam keadaan segar dan beku, setiap potongan dijamin penuh dengan cita rasa. Jelajahi koleksi kami dan bawa hidangan laut berkualitas restoran ke rumah Anda.",
+        title: "Ragam Produk Seafood Andalan Kami",
+        text: "Produk seafood kami dipilih dengan cermat untuk memastikan kualitas terbaik di setiap kemasan. Cocok untuk berbagai kebutuhan, mulai dari konsumsi rumah tangga hingga usaha kuliner. Semua produk dikirim dalam kondisi segar dan beku, siap diolah kapan saja.",
         producttitle1: "PRODUK TUNA",
         producttitle2: "PRODUK CAKALANG",
         producttitle3: "PRODUK GURITA",
@@ -888,7 +888,7 @@ const translations = {
       },
       section4: {
         subheader: "Email kami!",
-        title: "Pesan produk ikan mu sekarang!",
+        title: "Pesan produk ikanmu sekarang!",
         text: "Punya kendala di pesanan? Kami siap membantu!",
       },
       section5: {
@@ -902,25 +902,25 @@ const translations = {
       section1: {
         subheader: "Layanan Kami",
         title: "Lihat Layanan yang Kami Tawarkan",
-        text: "Kami sangat menjaga kualitas dalam menangani makanan laut di setiap tahap. Dengan layanan pengolahan ikan kami yang profesional, kami dengan cermat membersihkan, menyiapkan, dan mengemas seafood sesuai standar industri. Layanan penyimpanan dingin kami menjaga kesegaran ikan serta mempertahankan rasa dan teksturnya yang alami. Dengan menggabungkan ketelitian dan praktik berkelanjutan, kami menghadirkan seafood yang bisa Anda nikmati dengan percaya diri.",
+        text: "Kami sangat menjaga kualitas dalam menangani makanan laut di setiap tahapan proses. Dengan layanan pengolahan ikan kami yang profesional, kami dengan teliti membersihkan, menyiapkan, dan mengemas produk seafood sesuai standar industri. Layanan penyimpanan dingin kami menjaga kesegaran ikan serta mempertahankan rasa dan teksturnya yang alami. Kami bertekad untuk memberikan layanan yang yang anda harapkan.",
         subtitle: "Layanan kami meliputi:",
         slide1: {
           title: "Layanan Pengolahan Ikan",
-          text: "Layanan pengolahan ikan adalah hal yang tidak berguna yang terjadi di dunia ini karena kamu seharusnya makan ikan secara utuh! Nelayan menangkap ikan dan membawanya kepadamu dalam keadaan utuh, tapi kamu berani-beraninya tidak menghargai mereka dan malah memotong hasil kerja keras mereka? Seberapa monster manusia bisa jadi?!",
+          text: "Dengan pengalaman dan teknologi terbaru, kami menawarkan layanan pengolahan ikan yang berkualitas tinggi. Kami memastikan bahwa setiap produk seafood yang kami olah tetap segar, sehat, dan aman untuk dikonsumsi. Dengan proses yang teliti dan hati-hati, kami memastikan bahwa produk ikan kami tetap memiliki rasa dan tekstur yang alami.",
         },
         slide2: {
           title: "Layanan Penyimpanan Dingin",
-          text: "Jadi setelah kamu memotong ikan, kamu butuh tempat untuk mengawetkannya supaya hal tidak berguna yang kamu lakukan tidak benar-benar terbuang sia-sia, tetapi tetap terjaga dalam kondisi saat ini sehingga kamu masih bisa memakannya, meskipun tidak sebagus ikan utuh yang langsung dimasak dan bisa mengenyangkan perut seharian!",
+          text: "Kami memiliki fasilitas penyimpanan dingin yang canggih dan modern, dirancang untuk menjaga kesegaran dan kualitas produk ikan kami. Dengan suhu yang tepat dan kontrol yang ketat, kami memastikan bahwa produk ikan kami tetap segar dan berkualitas selama penyimpanan. Dengan fasilitas pendingin kami, kami memastikan bahwa produk ikan kami tetap memiliki kualitas yang tinggi.",
         },
       },
       section2: {
         subheader: "Pengolahan Ikan",
         title: "Seafood Berkualitas di Setiap Tahap",
-        text: "Kami mengumpulkan ikan segar langsung dari pemasok kami, menyortir dan mengklasifikasikannya berdasarkan ukuran dan kualitas. Setelah diproses sesuai spesifikasi pelanggan, kami menggunakan teknologi pembekuan canggih untuk menjaga kesegarannya. Produk dikemas dengan hati-hati dan disimpan pada suhu rendah. Produk ekspor disimpan pada -45°C, dan produk lokal pada -25°C, memastikan kualitas terbaik saat sampai ke tangan Anda.",
+        text: "Kami memasok ikan segar langsung dari supplier kami, kemudian menyortir dan mengklasifikasikannya berdasarkan ukuran dan kualitas. Setelah produk diproses, kami menggunakan teknologi pembekuan canggih untuk menjaga kesegarannya. Produk dikemas dengan hati-hati dan disimpan pada suhu rendah. Produk disimpan pada -45°C/-25°C agar kualitas produk terjaga dengan baik.",
       },
       section3: {
         subheader: "Penyimpanan Dingin",
-        title: "Refrigerasi Canggih untuk Produk Anda",
+        title: "Sistem Pendingin Canggih untuk Produk Anda",
         text1:
           "Di Tridaya Pasifik KSO, kami mengutamakan kualitas dan kesegaran di atas segalanya. Sistem refrigerasi canggih kami, termasuk Proton Freezer yang kuat serta Air Blast dan Semi-Contact Freezer khusus, bekerja secara optimal untuk menjaga tekstur dan rasa terbaik dari produk ikan kami. Dengan kemampuan menyimpan produk hingga dua tahun tanpa mengurangi kualitas, ruang penyimpanan dingin kami memastikan standar pengawetan yang tinggi.",
         text2:
@@ -929,7 +929,7 @@ const translations = {
 
       section4: {
         title: "Percayakan Produk Anda kepada Kami",
-        text: "Biarkan kami menangani seafood Anda dengan penuh perhatian, baik untuk pemrosesan ahli maupun penyimpanan dingin yang aman. Kami berkomitmen untuk memberikan layanan berkualitas tinggi agar produk Anda tetap segar dan terjaga dengan baik.",
+        text: "Kami menangani seafood Anda dengan penuh perhatian, baik itu pemrosesan ikan maupun penyimpanan dingin yang aman. Kami berkomitmen untuk memberikan layanan berkualitas tinggi agar produk Anda tetap segar dan terjaga dengan baik.",
         mail: {
           title: "Pilih layanan Anda!",
           text: "Kami akan berusaha menghubungi Anda secepat mungkin!",
@@ -957,24 +957,24 @@ const translations = {
     // id.facilitypage translations
     facilitypage: {
       section1: {
-        subheader: "FASILITAS KAMI",
-        title: "Dimana Kualitas Bermula",
+        subheader: "FASILITAS",
+        title: "Kualitas Produk Berawal Disini",
         text1:
-          "Kami bangga dengan fasilitas canggih kami, dirancang untuk menghadirkan makanan laut yang paling segar dan berkualitas tinggi dengan keamanan dan efisiensi terbaik. Berikut yang membuat kami menonjol:",
+          "Kami bangga dengan fasilitas canggih kami, dirancang untuk menghadirkan makanan laut yang segar dan berkualitas sesuai standar internasional. Berikut yang membuat fasilitas kami menonjol:",
         lists: {
           text1:
             "<strong>Kebersihan:</strong> Ruang laundry kami menjaga semua peralatan dan seragam dalam kondisi sempurna, memastikan lingkungan kerja yang higienis.",
           text2:
-            "<strong>Kontrol Kualitas Ketat:</strong> Laboratorium kami menguji bahan baku untuk memastikan semuanya memenuhi standar keamanan dan kualitas tertinggi.",
+            "<strong>Ketatnya Kontrol Kualitas:</strong> Laboratorium kami menguji bahan baku untuk memastikan semuanya memenuhi standar keamanan dan kualitas industri.",
           text3:
-            "<strong>Seleksi Teliti:</strong> Setiap tangkapan segar diperiksa secara menyeluruh di area penerimaan kami sebelum dilanjutkan untuk diproses.",
+            "<strong>Seleksi Produk:</strong> Setiap tangkapan segar diperiksa secara menyeluruh di area penerimaan kami sebelum dilanjutkan untuk diproses.",
           text4:
-            "<strong>Pemrosesan Ahli:</strong> Tim terampil kami mengubah makanan laut berkualitas tinggi menjadi produk premium, mengikuti protokol keamanan pangan yang ketat.",
+            "<strong>Pemrosesan Ahli:</strong> Tim kami memproses produk seafood secara cermat dengan mengikuti protokol keamanan pangan yang ketat.",
           text5:
-            "<strong>Pengiriman Cepat & Aman:</strong> Area pemuatan kami yang dioptimalkan memastikan pengiriman yang cepat dan aman, sehingga makanan laut Anda tiba dalam keadaan segar dan tepat waktu.",
+            "<strong>Pengiriman Cepat & Aman:</strong> Area pemuatan barang kami yang dioptimalkan untuk kegiatan ekspor-impor memastikan pengiriman yang cepat dan aman, sehingga produk pesanan tiba dalam keadaan segar dan tepat waktu.",
         },
         text2:
-          "Dari saat makanan laut tiba hingga saat mencapai Anda, kami menangani semuanya dengan hati-hati dan presisi. Itulah tujuan pabrik kami",
+          "Dari saat produk tiba di pabrik kami sampai pengiriman, kami menangani semuanya dengan hati-hati dan presisi. Itulah tujuan pabrik kami!",
       },
 
       section2: {
@@ -984,15 +984,15 @@ const translations = {
       },
 
       section3: {
-        subheader: "Utilitas Kami",
-        title: "Dasar dari Operasi Lancar Kami",
-        text: "Setiap operasi bergantung pada dasar yang kuat dan dapat diandalkan. Utilitas canggih kami memastikan alur kerja yang lancar, mulai dari pemantauan yang tepat di ruang kontrol kami hingga kinerja mesin yang efisien. Pasokan listrik yang stabil menjaga semua berjalan tanpa gangguan, sementara instalasi air kami menjaga kebersihan dan sanitasi. Sistem-sistem penting ini bekerja bersama untuk mendukung efisiensi, keselamatan, dan kualitas di setiap langkah.",
+        subheader: "Utilitas",
+        title: "Sistem Essensial Pabrik Kami",
+        text: "Setiap proses bergantung pada sistem pendukung yang kuat. Utilitas canggih kami memastikan alur kerja yang lancar, mulai dari pemantauan yang tepat di ruang kontrol kami hingga kinerja mesin yang efisien. Pasokan listrik yang stabil menjaga semua berjalan tanpa gangguan, sementara instalasi air kami menjaga kebersihan dan sanitasi. Sistem-sistem penting ini bekerja bersama untuk mendukung efisiensi dan kualitas produk kami.",
       },
 
       section4: {
         subheader: "Galeri Utilitas",
-        title: "Sistem yang Menjaga Kami Tetap Berjalan",
-        text: "Temukan utilitas penting yang memberi daya, mendukung, dan mengoptimalkan fasilitas kami, memastikan efisiensi di setiap langkah.",
+        title: "Cuplikan dari Sistem Pendukung Kami",
+        text: "Foto cuplikan yang menampilkan beberapa utilitas kami (sistem pendukung)",
       },
       section5: {
         subheader: "Tetap Terhubung",
@@ -1011,13 +1011,13 @@ const translations = {
         subtitle: "List Pendingin Kami:",
         slides: {
           slide1: {
-            text: "Coming soon",
+            text: "Untuk memastikan ikan olahan kami tetap memiliki cita rasa segar, tekstur, dan nilai gizi yang terjaga, kami menggunakan teknologi Proton Freezer. Metode pembekuan canggih ini menggabungkan udara dingin, medan magnet, dan gelombang elektromagnetik untuk membekukan ikan dengan cepat, membentuk kristal es yang sangat kecil dan merata. Proses ini mencegah kerusakan pada struktur sel ikan, menghilangkan cairan leleh saat dicairkan, dan menjaga kualitas aslinya. Dengan menggunakan teknologi Proton Freezer, kami menghadirkan ikan olahan yang tetap segar dan lezat seperti saat pertama kali ditangkap, demi memberikan produk berkualitas terbaik kepada pelanggan kami.",
           },
           slide2: {
-            text: "Coming Soon",
+            text: "Untuk menjaga kualitas terbaik dari ikan olahan kami, kami menggunakan teknologi Air Blast Freezer (ABF). ABF membekukan ikan secara cepat dan merata dengan meniupkan udara sangat dingin, biasanya antara -30°C hingga -40°C, ke permukaan ikan. Proses pembekuan cepat ini mencegah terbentuknya kristal es besar yang dapat merusak tekstur alami, rasa, dan tampilan ikan. Dengan pembekuan yang efisien, ABF juga menghambat pertumbuhan bakteri dan aktivitas enzim, sehingga ikan tetap segar dan bernutrisi lebih lama. Melalui metode ini, kami memastikan ikan olahan yang diterima pelanggan tetap segar, lezat, dan berkualitas tinggi secara konsisten.",
           },
           slide3: {
-            text: "Coming Soon",
+            text: "Dengan menggunakan metode Semi-Contact Freezer (SCF), ikan olahan kami dibekukan secara cepat untuk mempertahankan tekstur alami, cita rasa, dan nilai gizinya. SCF menggabungkan sirkulasi udara yang efisien dengan pendinginan kontak langsung, sehingga proses pembekuan berlangsung merata tanpa membentuk kristal es besar yang bisa merusak sel ikan. Proses ini meminimalkan kehilangan kadar air dan menjaga kualitas ikan sepanjang masa simpannya. Dengan menerapkan teknologi SCF, kami memastikan ikan olahan yang kami hasilkan tetap segar, lezat, dan konsisten dalam kualitasnya.",
           },
         },
       },
