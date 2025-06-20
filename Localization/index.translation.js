@@ -420,10 +420,10 @@ const translations = {
         subtitle: "Our Freezer List:",
         slides: {
           slide1: {
-            text: "To ensure our processed fish retains its fresh taste, texture, and nutritional value, we utilize Proton Freezer technology. This advanced freezing method combines cold air, magnetic fields, and electromagnetic waves to rapidly freeze the fish, forming tiny, uniform ice crystals. This process prevents damage to the fish's cellular structure, eliminating drip loss upon thawing and preserving its original quality. By using Proton Freezer technology, we deliver processed fish that offers the same freshness and flavor as when it was first caught, ensuring our customers receive the highest quality product.",
+            text: "This advanced freezing method combines cold air, magnetic fields, and electromagnetic waves to rapidly freeze the fish, forming tiny, uniform ice crystals. This process prevents damage to the fish's cellular structure, eliminating drip loss upon thawing and preserving its original quality. By using Proton Freezer technology, we deliver processed fish that offers the same freshness and flavor as when it was first caught, ensuring our customers receive the highest quality product.",
           },
           slide2: {
-            text: "To preserve the highest quality of our processed fish, we use Air Blast Freezer (ABF) technology. ABF rapidly blows extremely cold air, typically between -30°C to -40°C, across the surface of the fish to freeze it quickly and evenly. This fast freezing process prevents the formation of large ice crystals, which helps maintain the natural texture, flavor, and appearance of the fish. By freezing the fish rapidly, ABF also inhibits bacterial growth and enzymatic activity, allowing the fish to retain its freshness and nutritional value for a longer time. Through this method, we ensure that our customers receive processed fish that stays fresh, delicious, and of consistently high quality.",
+            text: "ABF rapidly blows extremely cold air, typically between -30°C to -40°C, across the surface of the fish to freeze it quickly and evenly. This fast freezing process prevents the formation of large ice crystals, which helps maintain the natural texture, flavor, and appearance of the fish. By freezing the fish rapidly, ABF also inhibits bacterial growth and enzymatic activity, allowing the fish to retain its freshness and nutritional value for a longer time. Through this method, we ensure that our customers receive processed fish that stays fresh, delicious, and of consistently high quality.",
           },
           slide3: {
             text: "Utilizing the Semi-Contact Freezer (SCF) method, our processed fish undergoes rapid freezing that preserves its natural texture, flavor, and nutritional value. The SCF combines efficient air circulation with direct contact cooling, ensuring uniform freezing without forming large ice crystals that could damage the fish's cells. This process minimizes moisture loss and maintains the fish's quality throughout its shelf life. By employing SCF technology, we ensure that our customers receive processed fish that stays fresh, delicious, and of consistently high quality.​",
@@ -439,11 +439,11 @@ const translations = {
             title: "Ultra-Low Temperature Freezing",
             text: "Keeps fish fresh for up to 2 years.",
           },
-          card1: {
+          card2: {
             title: "Advanced Cold Storage System",
             text: "Maintains storage at -45°C and -25°C for optimal preservation.",
           },
-          card1: {
+          card3: {
             title: "Tailored Freezing Solutions",
             text: "Rapid freezing for bulk production and precision freezing for smaller batches.",
           },
@@ -478,17 +478,17 @@ const translations = {
           "From Aceh’s bustling fishing ports to international markets, our seafood is sourced with care and expertise. Every fresh catch reflects our rich maritime heritage and commitment to quality, bringing the authentic taste of the sea to your table",
         subtitle: "Our sourcing location:",
         lists: {
-          list1: "Sabang",
-          list2: "Bireuen",
-          list3: "Ulee Lheue",
-          list4: "Lampulo",
+          list1: "Calang",
+          list2: "Lhokseumawe",
+          list3: "Lampulo",
+          list4: "And other regions",
         },
         text2:
-          "We’re proud to bring you the best seafood from our local fishermen, ensuring quality and freshness in every bite.",
+          "We’re proud to bring you the best seafood from our local fishermen, ensuring quality and freshness in every product.",
       },
 
       section2: {
-        subheader: "Supply Chain Map",
+        subheader: "",
         title: "Our Supplier Comes From All Around Aceh, Indonesia",
         text: "We work with local fishermen and suppliers to help them expand their market. Not only they can sell they fish product locally, they will also be able to sell it Internationally with us!. You too will be the same if you become our supplier",
       },
@@ -558,7 +558,7 @@ const translations = {
         title: "We're Here for You",
         text: "We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out. We're here to help!",
         mail: {
-          title01: "Get in touch!",
+          title01: "Get In Touch!",
           text: "Our team will try to reach you as soon as possible!",
           title02: "Contact us",
           address:
@@ -1027,11 +1027,11 @@ const translations = {
         text: "Sejak bahan baku diterima hingga siap untuk dikirim, kami menjaga kontrol kualitas yang ketat.",
         cards: {
           card1: {
-            title: "Pembekuan Suhu Ultra-Rendah",
+            title: "Pembekuan Dengan Suhu Sangat Rendah",
             text: "Menjaga kesegaran ikan hingga 2 tahun.",
           },
           card2: {
-            title: "Sistem Penyimpanan Dingin Canggih",
+            title: "Sistem Pendingin Canggih",
             text: "Menjaga suhu penyimpanan pada -45°C dan -25°C untuk preservasi optimal.",
           },
           card3: {
@@ -1041,19 +1041,19 @@ const translations = {
         },
       },
       section3: {
-        title: "Mengapa Teknologi Pembekuan Kami Penting untuk Anda",
+        title: "Mengapa Sistem Pendingin Kami Penting untuk Anda",
         text1:
-          "Teknologi pembekuan canggih kami bukan hanya tentang mengawetkan ikan, tetapi juga menghadirkan kualitas dan keandalan terbaik bagi pelanggan kami. Baik Anda distributor seafood, pemilik restoran, atau pemasok ritel, inilah alasan mengapa solusi penyimpanan dingin kami memberi Anda keunggulan kompetitif:",
+          "Sistem Pnedingin kami bukan hanya tentang mengawetkan ikan, tetapi juga menjaga kualitas dan kesegaran produk bagi pelanggan kami. Baik Anda distributor seafood, pemilik restoran, atau pemasok ritel, inilah alasan mengapa solusi penyimpanan dingin kami memberikan anda keunggulan kompetitif:",
         lists: {
           list1:
-            "<strong>Kesegaran Tanpa Kompromi:</strong> Penyimpanan dingin kami memastikan ikan tetap memiliki tekstur alami, rasa, dan nilai gizi bahkan setelah dicairkan, menjadikannya tetap segar seperti saat pertama kali ditangkap.",
+            "<strong>Kesegaran Produk:</strong> Penyimpanan dingin kami memastikan ikan tetap memiliki tekstur alami, rasa, dan nilai gizi bahkan setelah dicairkan, menjadikannya tetap segar seperti saat pertama kali ditangkap.",
           list2:
-            "<strong>Dukungan Rantai Pasokan yang Andal:</strong> Kami menjaga kontrol suhu yang ketat dari penyimpanan hingga pengiriman, memastikan bisnis menerima seafood yang segar dan aman di mana pun mereka berada.",
+            "<strong>Dukungan Supply Chain yang profesional:</strong> Kami menjaga kontrol suhu yang ketat dari penyimpanan hingga pengiriman, memastikan client kami menerima produk yang segar dan berkualitas di mana pun mereka berada.",
           list3:
-            "<strong>Efisiensi & Penghematan Biaya:</strong> Dengan teknologi kami, Anda dapat mengurangi kehilangan produk, menekan limbah, dan mengoptimalkan biaya penyimpanan, menjadikan solusi kami bukan hanya tentang kualitas, tetapi juga strategi bisnis yang lebih cerdas.",
+            "<strong>Efisiensi & Penghematan Biaya:</strong> Dengan sistem pendingin kami, Anda dapat menyimpan produk anda agar keawetannya terjaga dalam jangka waktu yang lama dan dapat mengurangi terjadinya pembusukan di produk anda sehingga anda dapat menghemat biaya dan meningkatkan efisiensi bisnis anda",
         },
         text2:
-          "Dengan memilih kami, Anda tidak hanya menyimpan ikan dalam penyimpanan dingin modern, tetapi juga mendapatkan mitra terpercaya dalam kesegaran, kualitas, dan keandalan.",
+          "Dengan memilih kami, Anda tidak hanya menyimpan produk anda dengan sistem pendingin canggih, tetapi juga mendapatkan mitra terpercaya untuk menjaga kualitas dan kesegaran produk anda.",
       },
       section4: {
         title: "Galeri Penyimpanan Dingin",
@@ -1064,37 +1064,36 @@ const translations = {
     supplychainpage: {
       section1: {
         subheader: "Mitra Rantai Pasokan Kami",
-        title: "Dari Nelayan Lokal ke Pasar Internasional",
+        title: "Dari Nelayan Lokal menuju Pasar Internasional",
         text1:
-          "Dari pelabuhan perikanan yang ramai di Aceh hingga pasar internasional, hasil laut kami diperoleh dengan hati-hati dan keahlian. Setiap tangkapan segar mencerminkan warisan maritim kami yang kaya dan komitmen terhadap kualitas, menghadirkan cita rasa laut yang autentik ke meja Anda.",
+          "Dari pelabuhan perikanan yang ramai di Aceh hingga menuju pasar internasional, setiap tangkapan segar yang kami dapatkan mencerminkan warisan maritim kami yang kaya dan berkualitas, menghadirkan cita rasa laut yang segar dan autentik.",
         subtitle: "Lokasi sumber kami:",
         lists: {
-          list1: "Sabang",
-          list2: "Bireuen",
-          list3: "Ulee Lheue",
-          list4: "Lampulo",
+          list1: "Calang",
+          list2: "Lhokseumawe",
+          list3: "Lampulo",
+          list4: "Dan daerah lainnya",
         },
         text2:
-          "Kami bangga menghadirkan hasil laut terbaik dari nelayan lokal kami, memastikan kualitas dan kesegaran di setiap gigitan.",
+          "Kami bangga menghadirkan hasil laut terbaik dari nelayan lokal kami, memastikan kualitas dan kesegaran di setiap produk kami.",
       },
 
       section2: {
-        subheader: "Peta Rantai Pasokan",
-        title: "Pemasok Kami Berasal dari Seluruh Aceh, Indonesia",
-        text: "Kami bekerja sama dengan nelayan dan pemasok lokal untuk membantu mereka memperluas pasar mereka. Tidak hanya bisa menjual produk ikan mereka secara lokal, mereka juga dapat menjualnya ke pasar internasional bersama kami! Anda juga bisa menjadi bagian dari jaringan kami jika bergabung sebagai pemasok.",
+        subheader: "",
+        title: "Supply Kami Berasal dari Seluruh Aceh, Indonesia",
+        text: "Kami bekerja sama dengan nelayan dan supplier lokal untuk membantu memperluas jangkauan pasar mereka. Tidak hanya bisa menjual produk ikan mereka secara lokal, mereka juga dapat menjualnya ke pasar internasional bersama kami! Anda juga bisa menjadi bagian dari kami dengan cara bergabung sebagai supplier.",
       },
 
       section3: {
         subheader: "Pengalaman Pasar Tridaya",
-        title:
-          "Keahlian Kami dalam Mengekspor Produk Berkualitas ke Seluruh Dunia",
-        text: "Dengan pengalaman bertahun-tahun di pasar global, kami mengkhususkan diri dalam mengekspor produk berkualitas tinggi, memastikan produk kami memenuhi standar internasional. Tim kami yang berdedikasi bekerja sama dengan mitra untuk menjamin pengiriman tepat waktu, layanan luar biasa, dan produk yang melampaui ekspektasi.",
+        title: "Kami Berpengalaman Mengekspor Produk ke Pasar Internasional",
+        text: "Dengan pengalaman kami dalam mengekspor produk seafood, kami dapat membawa produk anda ke pasar global dengan memastikan produk telah memenuhi standar internasional. Tim kami bekerja sama dengan mitra untuk menjamin pengiriman tepat waktu dengan kualitas dan kesegaran produk yang terjaga.",
         subtitle: "Berpengalaman mengekspor ke:",
       },
 
       section4: {
         subheader: "Pendapat Klien Kami",
-        title: "Apa Kata Klien Kami Tentang Kami",
+        title: "Apa Kata Klien Tentang Kami",
         cards: {
           card1: {
             text: "Perusahaan luar biasa",
@@ -1148,9 +1147,9 @@ const translations = {
 
       section2: {
         title: "Kami ada untuk anda!",
-        text: "Kami ingin sekali mendengar dari Anda! Jika Anda memiliki pertanyaan, masukan, atau sekadar ingin menyapa, jangan ragu untuk menghubungi kami. Kami siap membantu!",
+        text: "Jika Anda memiliki pertanyaan, masukan, atau sekadar ingin menyapa, jangan ragu untuk menghubungi kami. Kami siap membantu!",
         mail: {
-          title01: "Sapa Kami!",
+          title01: "Email Kami!",
           text: "Kami akan berusaha menghubungi Anda secepat mungkin!",
           title02: "Hubungi Kami",
           address:
