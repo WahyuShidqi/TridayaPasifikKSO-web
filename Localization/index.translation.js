@@ -985,7 +985,7 @@ const translations = {
 
       section3: {
         subheader: "Utilitas",
-        title: "Sistem Essensial Pabrik Kami",
+        title: "Sistem Esensial Pabrik Kami",
         text: "Setiap proses bergantung pada sistem pendukung yang kuat. Utilitas canggih kami memastikan alur kerja yang lancar, mulai dari pemantauan yang tepat di ruang kontrol kami hingga kinerja mesin yang efisien. Pasokan listrik yang stabil menjaga semua berjalan tanpa gangguan, sementara instalasi air kami menjaga kebersihan dan sanitasi. Sistem-sistem penting ini bekerja bersama untuk mendukung efisiensi dan kualitas produk kami.",
       },
 
@@ -996,8 +996,8 @@ const translations = {
       },
       section5: {
         subheader: "Tetap Terhubung",
-        title: "Ikuti Kami untuk Pembaruan & Wawasan",
-        text: "Tetap terhubung dengan pembaruan terbaru kami, wawasan industri, dan momen di balik layar. Ikuti kami di media sosial dan jadilah bagian dari perjalanan kami!",
+        title: "Ikuti Kami untuk info terbaru",
+        text: "Tetap terhubung dengan kami untuk mendapatkan info produk terbaru, wawasan industri perikanan, dan momen di balik layar kami. Ikuti kami di media sosial dan jadilah bagian dari perjalanan kami!",
       },
     },
 
